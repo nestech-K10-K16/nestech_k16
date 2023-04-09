@@ -7,6 +7,8 @@ body{
         position: fixed;
         padding-top:50px ;
         padding-left: 615px;
+        width: 600px;
+        height: 800px;  
     }
     h1{
         font-size: 22px;
@@ -35,5 +37,8 @@ body{
     display: block;
     width: 600px;
     height: 800px;  
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
