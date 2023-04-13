@@ -1,28 +1,146 @@
 /**/
 body{
-        padding-top: 60px;
-        padding-left: 50px;
+    display: block;
+    padding: 0% 0% 0% 0%;
+    border: none;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%
+}
+div{
+    display: block;
+    padding: 1% 1% 1% 1%;
+    border: none;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%
+}
+
+h1{
+    display: block;
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+    border: 0%;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    position: relative;
+    left: 35%;
+    top: 10%
+}
+h2{
+    display: block;
+    padding: 0% 0% 0% 0%;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: normal;
+    margin-block-start: 20px;
+    margin-block-end: 40px;
+    width: 60%;
+    position: relative;
+    top:10%;
+    left: 35%
+}
+
+.button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #ffffff; 
+    color: #000000; 
+    text-decoration: none; 
+    border: 2px solid #000000 ;
+    position: relative;
+    top:10%;
+    left: 35%
+  }
+
+.show-image{
+    display: block;
+    padding: 0% 0% 0% 0%;
+    border: none;
+    margin: 0%;
+    width: 30%;
+    height: 45%;
+    position: absolute;
+    top: 10%;
+    left: 5%
+}
+
+@media only screen and (max-width: 415px){
+    .show-image{
+        display: block;
+        padding: 0% 0% 0% 0%;
+        border: none;
+        margin: 0%;
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        top: 10%;
+        left: 5%
+    }
+    body{
+        display: block;
+        padding: 0% 0% 0% 0%;
+        border: none;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%
     }
     div{
-        position: fixed;
-        padding-top:50px ;
-        padding-left: 615px;
-        width: 600px;
-        height: 800px;  
+        display: block;
+        padding: 1% 1% 1% 1%;
+        border: none;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%
     }
     h1{
-        font-size: 22px;
+        display: block;
+        padding: 0% 0% 0% 0%;
+        margin: 0%;
+        border: 0%;
+        font-size: 20px;
         font-family: "Roboto", sans-serif;
         color: #000000;
+        position: relative;
+        width: 60%;
+        left: 35%;
+        top: 10%
     }
     h2{
-        font-size: 16px;
+        display: block;
+        padding: 0% 0% 0% 0%;
+        font-size: 12px;
         font-family: "Roboto", sans-serif;
         color: #000000;
         font-weight: normal;
-        margin-block-start: 50px;
-        margin-block-end: 50px;
+        margin-block-start: 10px;
+        margin-block-end: 20px;
+        width: 60%;
+        position: relative;
     }
+    
     .button {
         display: inline-block; 
         padding: 10px 20px; 
@@ -30,15 +148,6 @@ body{
         color: #000000; 
         text-decoration: none; 
         border: 2px solid #000000 ;
-        
+        position: relative;
       }
-
-.show-image{
-    display: block;
-    width: 600px;
-    height: 800px;  
-    position: fixed;
-    top: 0px;
-    left: 0px;
 }
-
