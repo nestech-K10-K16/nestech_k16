@@ -1,0 +1,39 @@
+
+body{
+        padding-top: 60px;
+        padding-left: 50px;
+    }
+    div{
+        position: fixed;
+        padding-top:50px ;
+        padding-left: 615px;
+    }
+    h1{
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+        color: #000000;
+    }
+    h2{
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        color: #000000;
+        font-weight: normal;
+        margin-block-start: 50px;
+        margin-block-end: 50px;
+    }
+    .button {
+        display: inline-block; 
+        padding: 10px 20px; 
+        background-color: #ffffff; 
+        color: #000000; 
+        text-decoration: none; 
+        border: 2px solid #000000 ;
+        
+      }
+
+.show-image{
+    display: block;
+    width: 600px;
+    height: 800px;  
+}
+
