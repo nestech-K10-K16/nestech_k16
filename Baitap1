@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>BaiTap1</title>
+  </head>
+  <body>
+    <header>
+      <div class="img">
+        <img src="gau_panda.png">
+      </div>
+      <div class="box">
+        <h1>Lorem Ipsum</h1>
+      </div>
+    </header>
+    <body>
+      <div class="box">
+        <h2>What is Lorem Ipsum?</h2>
+        <ul>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</ul>
+      </div>
+    </body>
+
+    <!--Bài tập
+      thực hiện code đoạn html theo hình
+      lưu ý:
+      _ hình ảnh thay thế dùng hình nào cũng được, không quá đen tối :3
+      - font size yêu cầu: 16 - 22,
+      - font family là Roboto
+      - Nút Detail khi nhấn sẽ trỏ về 1 trang web bất kì
+      - nột dung text lấy từ Lorem Ipsum,
+      - màu chữ là màu đen
+      ---- điểm cộng: phần responsive (không bắt buộc làm)
+    -->
+  
+  </body>
+</html>
