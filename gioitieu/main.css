@@ -1,0 +1,67 @@
+header {
+    height: 80px;
+    width: auto;
+    margin: 0%;
+    background: linear-gradient(to right, #060ae4, #dc5cff);
+    animation: gradient 5s ease infinite; /*hiệu ứng màu */
+    
+}
+body {
+    margin: 0%;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+  .logo img {
+    max-width: 200px;
+    height: 100px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 50px;
+  }
+  nav a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  nav li :hover {
+    color: darkorange;
+  }
+  
+  nav {
+    margin-right: 0px;
+  }
+  .navbar__btn {
+    background-color: rgba(255, 255, 255, 0.533);
+    border-radius: 10px;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.398);
+    color: rgb(18, 18, 18);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.7; /* Đặt độ trong suốt của nút */
+    box-shadow: 0px 0px 10px gray; /* Đặt độ dày của nút */
+  }
+  .navbar__btn:hover {
+    background-color: white; /* Đặt màu nền của nút khi hover */
+    color: rgb(0, 0, 0); /* Đặt màu chữ của nút khi hover */
+  }
+  
