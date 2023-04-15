@@ -18,12 +18,24 @@ img {
   max-width: 100%;
   width: 100%;
 }
+/*
+CSS Variable
+*/
+
+:root {
+  --polishedPine: #54b192;
+  --jacarta: #3f3d56;
+  --jet: #363636;
+  --opal: #a4cec0;
+  --smooth: all 0.3s ease-in;
+}
+
 
 button {
   text-align: center;
   color: white;
   background-color: var(--jacarta);
-  padding: 0.8rem 2.5rem;
+  padding: 0.8rem 2.5rem;   /* 1rem = 16px*/
   border: none;
   border-radius: 100px;
   cursor: pointer;
