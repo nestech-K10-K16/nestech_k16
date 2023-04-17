@@ -48,7 +48,7 @@ ul {
 	box-sizing: border-box;
 	list-style: none;
 	margin: 0 autu;
-	padding: 2em;
+	padding: 1em;
 }
 ul > li {
    
@@ -144,7 +144,8 @@ p {
 
         opacity: 0.5;
       }
-      h3{
-        color: red;
-    }
+
+  .clickhere :hover{
+    color: red;
+  }
      
