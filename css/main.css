@@ -1,5 +1,47 @@
 header{
     width: auto;
     height: 20px;
+    background-color: mediumturquoise;
     position: fixed;
+    top: 0;
+}
+
+header .header__navBar{
+    width: 50%;
+    height: auto;
+}
+
+header .header__navBar .ul .li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+contain{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+
+
+
+footer{
+    width: auto;
+    height: 36px;
+    background-color: mediumturquoise;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .footer__contactBox{
+    width: 50%;
+    position: relative;
+    right: 0;
+}
+
+footer .footer__socialContactBox{
+    width: 50%;
+    position: relative;
+    left: 0;
 }
