@@ -1,25 +1,34 @@
+body{
+    background-color: white;
+}
+
 header{
-    width: auto;
-    height: 20px;
+    width: 100%;
+    min-height: 58px;
     background-color: mediumturquoise;
     position: fixed;
     top: 0;
 }
 
-header .header__navBar{
-    width: 50%;
-    height: auto;
+.header__navBar{
+    min-height: 40px;
+    background-color: mediumturquoise;
+    display: flex;
 }
 
-header .header__navBar .ul .li{
-    list-style-type: none;
+li .header__nav{
     display: inline;
-    margin-left: 50px;
+    list-style-type: none;
+    margin-left: 20px;
+    color: red;
 }
 
-contain{
+
+
+
+.contain{
     width: 100%;
-    height: auto;
+    min-height: 8000px;
     background-color: white;
 }
 
@@ -27,20 +36,24 @@ contain{
 
 
 footer{
-    width: auto;
-    height: 36px;
+    width: 100%;
+    min-height: 36px;
     background-color: mediumturquoise;
     position: fixed;
     bottom: 0;
 }
 
-footer .footer__contactBox{
+footer__contain{
+    display: flex;
+}
+
+.footer__contactBox{
     width: 50%;
     position: relative;
     right: 0;
 }
 
-footer .footer__socialContactBox{
+.footer__socialContactBox{
     width: 50%;
     position: relative;
     left: 0;
