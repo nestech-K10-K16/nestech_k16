@@ -1,60 +1,102 @@
-body{
-    background-color: white;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    width: 100%;
-    min-height: 58px;
-    background-color: mediumturquoise;
-    position: fixed;
-    top: 0;
+body {
+  background-color: white;
+  min-height: 1500px;
+  position: relative;
 }
 
-.header__navBar{
-    min-height: 40px;
-    background-color: mediumturquoise;
-    display: flex;
+header {
+  width: 100%;
+  margin-top: 20px;
+  min-height: 58px;
+  background-color: mediumturquoise;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-li .header__nav{
-    display: inline;
-    list-style-type: none;
-    margin-left: 20px;
-    color: red;
+.header__navBar {
+  min-height: 40px;
+  background-color: mediumturquoise;
 }
 
-
-
-
-.contain{
-    width: 100%;
-    min-height: 8000px;
-    background-color: white;
+.header__navBar--ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-
-
-footer{
-    width: 100%;
-    min-height: 36px;
-    background-color: mediumturquoise;
-    position: fixed;
-    bottom: 0;
+.header__navBar--li {
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 90px;
+  font-size: 32px;
+  color: white;
 }
 
-footer__contain{
-    display: flex;
+.header__navBar--li:hover {
+  color: rgb(216, 39, 223);
 }
 
-.footer__contactBox{
-    width: 50%;
-    position: relative;
-    right: 0;
+.contain {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
 }
 
-.footer__socialContactBox{
-    width: 50%;
-    position: relative;
-    left: 0;
+.info {
+  width: 100%;
+}
+
+.thingIDo {
+  width: 100%;
+}
+
+.recentWork {
+  width: 100%;
+}
+
+.littleAboutHobbit {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  min-height: 36px;
+  background-color: mediumturquoise;
+  bottom: 0;
+  position: absolute;
+}
+
+.footer__contain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+p.footer__info {
+  font-size: 24px;
+}
+
+.footer__contactBox {
+  width: 33%;
+  margin-left: 30px;
+}
+
+.footer__socialContactBox {
+  width: 33%;
+  margin-left: 30px;
+}
+
+@media (min-width: 300px) {
 }
