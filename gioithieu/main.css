@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 12px SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@font-face {
+  font-family: 'MyFontScript';
+  src: url('path/to/MyFontScript.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  
+}
+h1 {
+  font-size: 34px;
+  font-family: 'MyFontScript', cursive;
+}
+
+header,
+body {
+  margin: 0;
+}
+
+header {
+  max-height: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #060ae4, #dc5cff);
+  animation: gradient 5s ease infinite;
+  /*hiệu ứng màu */
+  padding: 0 10px;
+  max-height: 80px;
+}
+
+.logo img {
+  max-height: 80px;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 50px;
+}
+
+nav a {
+  font: 12px SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+nav li:hover a {
+  color: darkorange;
+}
+
+.navbar__btn {
+  background-color: rgba(255, 255, 255, 0.533);
+  border-radius: 10px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.398);
+  color: rgb(18, 18, 18);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0.7;
+  /* Đặt độ trong suốt của nút /
+  box-shadow: 0px 0px 10px gray;
+  / Đặt độ dày của nút */
+}
+
+.navbar__btn:hover {
+  background-color: white;
+  /* Đặt màu nền của nút khi hover /
+  color: rgb(0, 0, 0);
+  / Đặt màu chữ của nút khi hover */
+}
+
+section:nth-of-type(2) {
+  margin-top: 0;
+  height: calc(100vh - 80px);
+}
+
+.container-body1 {
+  height: 100vh;
+}
+
+.container-conten {
+  display: inline;
+  justify-content: center;
+}
+
+.container-conten > h1,
+p {
+  text-align: center;
+  /* căn giữa theo chiều ngang của trình duyệt */
+  padding: 10px 100px;
+  /* cách hai bên lề là 100px */
+}
+
+.text>.text {
+  margin: 5px;
+}
+
+.danhmuc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 10px 70px 0 70px;
+  max-width: 80%;
+  border: 1px solid #616161; /* định dạng viền */
+  box-shadow: 0px 0px 5px 2px rgba(75, 75, 75, 0.5s); /* đổ bóng */
+  border-radius: 5px;
+  
+}
+.danhmuc h, p, a {
+  padding: 5px;
+}
+
+.item {
+  width: 400px;
+  height: 500px;
+  margin: 10px auto;
+}
+.item img{
+  max-width: 230px;
+  max-height: 230px;
+  margin: 5px;
+  border: 1px;
+  border-radius: 5px;
+}
+.dieuhuong {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.button {
+  padding: 10px 10px;
+  background-color: #ab3d2e;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100px;
+  text-align: center;
+}
+
+.button i {
+  font-size: 20px;
+  width: auto;
+  margin: 4px;
+}
+
+
+.order,
+.contribution,
+.sale {
+  width: 300px;
+  /* 63px = (200px - (2 x 5px)) / 3 /
+  height: 100%;
+  /* Chiếm toàn bộ chiều cao của section */
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.order {
+  background-color: #dc5cff;
+}
+
+.contribution {
+  background-color: aquamarine;
+}
+
+.sale {
+  background-color: burlywood;
+}
+
+.danhmuc .order h,
+.danhmuc .contribution h,
+.danhmuc .sale h {
+  font-weight: bold;
+  font-size: 25px;
+}
