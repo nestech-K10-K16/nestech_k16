@@ -1,60 +1,60 @@
-body{
-    background-color: white;
+*::after*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    width: 100%;
-    min-height: 58px;
-    background-color: mediumturquoise;
-    position: fixed;
-    top: 0;
+body {
+  background-color: white;
 }
 
-.header__navBar{
-    min-height: 40px;
-    background-color: mediumturquoise;
-    display: flex;
+header {
+  width: 100%;
+  min-height: 58px;
+  background-color: mediumturquoise;
+  position: fixed;
+  top: 0;
 }
 
-li .header__nav{
-    display: inline;
-    list-style-type: none;
-    margin-left: 20px;
-    color: red;
+.header__navBar {
+  min-height: 40px;
+  background-color: mediumturquoise;
+  display: flex;
 }
 
-
-
-
-.contain{
-    width: 100%;
-    min-height: 8000px;
-    background-color: white;
+li .header__nav {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+  color: red;
 }
 
-
-
-
-footer{
-    width: 100%;
-    min-height: 36px;
-    background-color: mediumturquoise;
-    position: fixed;
-    bottom: 0;
+.contain {
+  width: 100%;
+  min-height: 8000px;
+  background-color: white;
 }
 
-footer__contain{
-    display: flex;
+footer {
+  width: 100%;
+  min-height: 36px;
+  background-color: mediumturquoise;
+  position: fixed;
+  bottom: 0;
 }
 
-.footer__contactBox{
-    width: 50%;
-    position: relative;
-    right: 0;
+footer__contain {
+  display: flex;
 }
 
-.footer__socialContactBox{
-    width: 50%;
-    position: relative;
-    left: 0;
+.footer__contactBox {
+  width: 50%;
+  position: relative;
+  right: 0;
+}
+
+.footer__socialContactBox {
+  width: 50%;
+  position: relative;
+  left: 0;
 }
