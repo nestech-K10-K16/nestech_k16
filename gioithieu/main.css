@@ -123,6 +123,7 @@ p {
 
 .danhmuc {
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-around;
   margin: 0;
