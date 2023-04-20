@@ -5,13 +5,17 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   min-height: 1500px;
   position: relative;
 }
 
-header {
+#header {
   width: 100%;
   margin-top: 20px;
   min-height: 58px;
@@ -21,6 +25,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  z-index: 9999;
 }
 
 .header__navBar {
@@ -46,31 +51,39 @@ header {
   color: rgb(216, 39, 223);
 }
 
-.contain {
+#contain {
   width: 100%;
   background-color: white;
   position: absolute;
-  display: flex;
-  align-items: center;
+  margin-top: 150px;
+}
+
+#contain h1{
+  text-align: center;
 }
 
 .info {
   width: 100%;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
 .thingIDo {
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .recentWork {
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .littleAboutHobbit {
   width: 100%;
+  margin-bottom: 100px;
 }
 
-footer {
+#footer {
   width: 100%;
   min-height: 36px;
   background-color: mediumturquoise;
@@ -82,6 +95,10 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.footer p{
+  font-size: 60px;
 }
 
 p.footer__info {
