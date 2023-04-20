@@ -1,0 +1,16 @@
+.btn{
+  width: 232px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color3);
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 7.8vw;
+  margin-right: auto;
+  margin-left: auto;
+  @include pc{
+    margin-top: 60px;
+  }
+}

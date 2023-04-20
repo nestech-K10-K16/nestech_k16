@@ -1,0 +1,59 @@
+.footer{
+  &__nav{
+    height: 50px;
+    background-color: #ED9747;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .nav__item{
+      color: #fff;
+      font-weight: 600;
+      font-size: 28px;
+      width: 172px;
+      text-align: center;
+      text-decoration: none;
+      @media screen and (max-width: 768px){
+        font-size: 4.5vw;
+      }
+    }
+  }
+  &__contact{
+    background-color: #515151;
+    padding: 20px 20% 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    @media screen and (max-width: 768px){
+      align-items: center;
+      padding: 5%;
+    }
+    .contact__address{
+      color: #fff;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .contact__link{
+      color: #fff;
+      font-size: 28px;
+      font-weight: 600;
+      text-align: left;
+      display: block;
+      margin-top: 20px;
+    }
+  }
+  &__auth{
+    background-color: #A1C96F;
+    padding: 0 15%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @media screen and (max-width: 768px){
+      justify-content: center;
+      font-size: 4vw;
+    }
+  }
+}
