@@ -1,163 +1,279 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-  }
+  font-family: 'Roboto', sans-serif;
+}
 
 img {
-    max-width: 100%;
-    width: 100%;
-  }
+  max-width: 100%;
+  width: 100%;
+}
+
 /*
 CSS Variable
 */
 
 :root {
-    --polishedPine: #54b192;
-    --jacarta: #3f3d56;
-    --jet: #363636;
-    --opal: #a4cec0;
-    --smooth: all 0.3s ease-in;
-  }
+  --smooth: all 0.3s ease-in;
+  --text-color: #41E194;
+  --hover--color: #FF6104;
+}
 
-button {
-    text-align: center;
-    color: white;
-    background-color: var(--jacarta);
-    padding: 0.8rem 2.5rem; /* 1rem = 1em =16px*/
-    border: none;
-    border-radius: 100px;
-    cursor: pointer;
-    transition: var(--smooth);
-    }
+#Wrapper__home {
+  position: relative;
+  /*relative/absolute/fixed */
+  width: 96em;
+  height: 47.0625em;
+  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-size: cover;
+}
 
-button:hover {
-    background-color: var(--opal);
-    transition: var(--smooth);
-    }
+.img-home {
+  position: absolute;
+  width: 40.625em;
+  height: 46.875em;
+  background-image: url("E:/NesTech/BaiTap/assets/thanh.png");
+  background-size: cover;
+  opacity: 0.95;
+  top: 0em;
+  left: 28.125em;
+}
 
-header {
-    position: absolute;
-    width: 100%;
-    padding: 0 100px;
-    }
+ul {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 3.75em;
+  left: 3.125em;
+}
 
-#overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 4;
-    display: none;
-    }
+li {
+  display: block;
+  margin: 1.5em 1.5em;
+  padding: 0.75em;
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    }
+}
 
-.navbar__logo img {
-    width: 57px;
-    height: 57px;
-    object-fit: cover;
-    }
+a {
+  text-decoration: none;
+}
 
-.navbar__links {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 60%;
-    height: 100%;
-    background-color: var(--jacarta);
-    z-index: 9999999;
-    transition: var(--smooth);
-    transform: translateX(-100%);
-    opacity: 0;
-    }
-    
-.navbar__links button {
-    margin-top: 32px;
-    }
-    
-.navbar__links.navbar__open {
-    transform: translateX(0);
-    opacity: 1;
-    transition: var(--smooth);
-    }
+.text {
+  color: var(--text-color);
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  font-size: 1.75em;
+  cursor: pointer;
+  position: relative;
+}
 
-.navbar__link {
-    list-style: none;
-    margin: 55px;
-    color: var(--jet);
-    font-weight: 200;
-    }
-    
-.navbar__link a {
-    text-decoration: none;
-    color: white;
-    font-weight: 300;
-    transition: var(--smooth);
-    }
-    
-.navbar__link a:hover {
-    color: var(--polishedPine);
-    transition: var(--smooth);
-    }
+.text:after {
+  content: "";
+  height: 0.15em;
+  width: 0em;
+  background: var(--hover--color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: var(--smooth);
+}
 
-#works {
-    padding-top: 10em;
-    position: relative;
-    overflow-x: hidden;
-    }
-#things {
-    position: relative;
-    overflow-x: hidden;
-    margin-top: 15em;
-    }
-#footer {
-    overflow: hidden;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    }
-.navbar__btn {
-    font-size: 1rem;
-    /*1rem = 16px*/
-    background-color: var(--polishedPine);
-    margin-left: 45px;
-    }
+.text:hover {
+  color: var(--hover--color);
+}
+
+.text:hover::after {
+  width: 50%;
+  transform: translateX(100%);
+}
+
+.text--name {
+  color: var(--text-color);
+  width: 3.25em;
+  height: 675em;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 6.1875em;
+  position: relative;
+  top: 2.2em;
+  left: 1.2em;
+}
+
+.text--fullname {
+  color: var(--text-color);
+  width: 900px;
+  height: 100px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 7em;
+  font-weight: bold;
+  position: absolute;
+  top: 2.6em;
+  left: 0.85em;
+}
+
+.line--name {
+  height: 0.3em;
+  width: 20em;
+  background: var(--text-color);
+  position: absolute;
+  top: 26em;
+  left: 7em;
+}
+
+.box__content--intro {
+  position: absolute;
+  width: 21em;
+  height: 4em;
+  top: 22em;
+  left: 5em;
+  color: var(--text-color);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3em;
+  cursor: pointer;
+  border: none;
+
+}
+
+.box__content--intro:hover {
+  color: var(--hover--color);
+  border: solid 0.1em #FF6104;
+  text-align: center;
+}
+
+.box--service{
+  width: 6em;
+  height: 1em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  position: absolute;
+  top: 9.6em;
+  left: 30em;
+  font-weight: bold;
+  font-size: 2em;
+}
+.box__content--service{
+  position: absolute;
+  width: 21em;
+  height: 4em;
+  top: 18em;
+  left: 47em;
+  color: var(--text-color);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3em;
+  cursor: pointer;
+  border: none;
+}
+.box__content--service:hover{
+  color: var(--hover--color);
+  border: solid 0.1em #FF6104;
+  text-align: center;
+}
+.skype{
+  width: 4em;
+  height: 4em;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/skype.png");
+  position: absolute;
+  top:35em;
+  left:25em;
+  cursor: pointer;
+}
+.skype:hover{
+  width: 4.2em;
+  height: 4.2em;
+  background-color: rgb(56, 182, 255);
+  background-size: cover;
+}
 
 
-@media (min-width: 62em) { /* min-width:  */
-    .navbar__links {
-        position: initial;
-        transform: translateX(0);
-        opacity: 1;
-        background-color: transparent;
-        display: flex;
-    }
-    .navbar__link a {
-        color: var(--jet);
-    }
+.facebook{
+  width: 4em;
+  height: 4em;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/facebook.png");
+  position: absolute;
+  top:12em;
+  left:35em;
+  cursor: pointer;
+}
+.facebook:hover{
+  width: 4.2em;
+  height: 4.2em;
+  background-color: rgb(0, 89, 255);
+  background-size: cover;
+}
 
-    .navbar__btn {
-        background-color: var(--jacarta);
-      }
-    
+
+.github{
+  width: 4em;
+  height: 4em;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/github.png");
+  position: absolute;
+  top:7em;
+  left:55em;
+  cursor: pointer;
+}
+.github:hover{
+  width: 4.2em;
+  height: 4.2em;
+  background-color: rgb(209, 210, 210);
+  background-size: cover;
+}
+
+.viber{
+  width: 4em;
+  height: 4em;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/viber.png");
+  position: absolute;
+  top:12em;
+  left:70em;
+  cursor: pointer;
+}
+.viber:hover{
+  width: 4.2em;
+  height: 4.2em;
+  background-color: rgb(162, 24, 255);
+  background-size: cover;
+}
+
+.linkedin{
+  width: 4em;
+  height: 4em;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/linkedin.png");
+  position: absolute;
+  top:35em;
+  left:70em;
+  cursor: pointer;
+}
+.linkedin:hover{
+  width: 4.2em;
+  height: 4.2em;
+  background-color: rgb(17, 100, 255);
+  background-size: cover;
+}
+#Wrapper__about{
+  position: relative;
+  /*relative/absolute/fixed */
+  width: 96em;
+  height: 47.0625em;
+  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-size: cover;
 }
