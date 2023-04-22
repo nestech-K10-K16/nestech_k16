@@ -1,0 +1,17 @@
+.containerflex {
+    display: flex;                  /* Kích hoạt flexbox cho phần tử chứa */
+    flex-direction: column;            /* Thiết lập hướng chính */
+    justify-content: space-around;      /* Căn chỉnh nội dung bên trong container có flexbox*/
+    padding:    5px;
+    background: #9C27B0;
+    min-width:  555px;
+    min-height: 555px;
+    margin:     auto;
+}
+
+.flexitem {
+    padding: 20px;
+    background: lightblue;
+    margin: 1px;
+    font-weight: bold;
+}
