@@ -27,6 +27,7 @@ CSS Variable
   --smooth: all 0.3s ease-in;
   --text-color: #41E194;
   --hover--color: #FF6104;
+  --bar--skill:#00236a;
 }
 
 #Wrapper__home {
@@ -277,3 +278,807 @@ a {
   background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
   background-size: cover;
 }
+.box_about{
+  width: 6em;
+  height: 1em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+  font-weight: bold;
+  font-size: 3em;
+}
+.layer__abour--img{
+  position:absolute;
+  width: 470px;
+  height: 635px;
+  background-color: var(--text-color);
+  opacity: 0.25;
+  border-radius: 2em;
+  top: 4em;
+  left:60em;
+  cursor:pointer;
+}
+.layer__abour--img:hover{
+  border: solid 0.2em var(--hover--color);
+  opacity: 0.4;
+}
+.about--img{
+  position: absolute;
+  width: 385px;
+  height:515px;
+  border-radius: 2em;
+  top: 7.5em;
+  left: 62.7em;
+  cursor: pointer;
+}
+.about--img:hover{
+  border: solid 0.2em var(--hover--color);
+  opacity: 1;
+}
+.box__content--about{
+  position: absolute;
+  width: 71em;
+  height: 9em;
+  top: 12.5em;
+  left: 5.5em;
+  color: var(--text-color);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.75em;
+  cursor: pointer;
+  border: none;
+}
+
+.box__content--about:hover{
+  border: solid 0.2em var(--hover--color);
+  color: var(--hover--color);
+}
+
+.box__skill{
+  position: absolute;
+  width: 3.5em;
+  height: 3em;
+  top: 9em;
+  left: 2em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+.bar__skill--equipments{
+  position: absolute;
+  width: 25em;
+  height: 0.5em;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  top: 22em;
+  left: 4.1em;
+  cursor: pointer;
+}
+.bar__skill--equipments:hover{
+  background-color: var(--hover--color);
+}
+.bar__skill--equipment{
+  position: absolute;
+  width: 20em;
+  height: 0.5em;
+  background-color: var(--bar--skill);
+  border-radius: 5px;
+  top: 22em;
+  left: 4.1em;
+  opacity: 0.5;
+}
+.bar__skill--programmings{
+  position: absolute;
+  width: 25em;
+  height: 0.5em;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  top: 24em;
+  left: 4.1em;
+  cursor: pointer;
+}
+.bar__skill--programmings:hover{
+  background-color:var(--hover--color); 
+}
+.bar__skill--programming{
+  position: absolute;
+  width: 18em;
+  height: 0.5em;
+  background-color: var(--bar--skill);
+  border-radius: 5px;
+  top: 24em;
+  left: 4.1em;
+  opacity: 0.5;
+}
+
+.bar__skill--Microcontrollers{
+  position: absolute;
+  width: 25em;
+  height: 0.5em;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  top: 26em;
+  left: 4.1em;
+  cursor: pointer;
+}
+.bar__skill--Microcontrollers:hover{
+  background-color: var(--hover--color);
+}
+.bar__skill--Microcontroller{
+  position: absolute;
+  width: 19em;
+  height: 0.5em;
+  background-color: var(--bar--skill);
+  border-radius: 5px;
+  top: 26em;
+  left: 4.1em;
+  opacity: 0.5;
+}
+
+.bar__skill--linuxs{
+  position: absolute;
+  width: 25em;
+  height: 0.5em;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  top: 28em;
+  left: 4.1em;
+  cursor: pointer;
+}
+.bar__skill--linuxs:hover{
+  background-color: var(--hover--color);
+}
+.bar__skill--linux{
+  position: absolute;
+  width: 16em;
+  height: 0.5em;
+  background-color: var(--bar--skill);
+  border-radius: 5px;
+  top: 28em;
+  left: 4.1em;
+  opacity: 0.5;
+}
+
+.bar__skill--protocols{
+  position: absolute;
+  width: 25em;
+  height: 0.5em;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  top: 30em;
+  left: 4.1em;
+  cursor: pointer;
+}
+.bar__skill--protocols:hover{
+  background-color: var(--hover--color);
+}
+.bar__skill--protocol{
+  position: absolute;
+  width: 19em;
+  height: 0.5em;
+  background-color: var(--bar--skill);
+  border-radius: 5px;
+  top: 30em;
+  left: 4.1em;
+  opacity: 0.5;
+}
+
+.bar__skill--frontends{
+  position: absolute;
+  width: 25em;
+  height: 0.5em;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  top: 32em;
+  left: 4.1em;
+  cursor: pointer;
+}
+.bar__skill--frontends:hover{
+  background-color: var(--hover--color);
+}
+.bar__skill--frontend{
+  position: absolute;
+  width: 15em;
+  height: 0.5em;
+  background-color: var(--bar--skill);
+  border-radius: 5px;
+  top: 32em;
+  left: 4.1em;
+  opacity: 0.5;
+}
+
+
+.bar__skill--backends{
+  position: absolute;
+  width: 25em;
+  height: 0.5em;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  top: 34em;
+  left: 4.1em;
+  cursor: pointer;
+}
+.bar__skill--backends:hover{
+  background-color: var(--hover--color);
+  }
+.bar__skill--backend{
+  position: absolute;
+  width: 15em;
+  height: 0.5em;
+  background-color: var(--bar--skill);
+  border-radius: 5px;
+  top: 34em;
+  left: 4.1em;
+  opacity: 0.5;
+}
+
+.skill--equipment{
+  position: absolute;
+  width: 13em;
+  height: 1em;
+  top: 14em;
+  left: 20em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.skill--equipment:hover{
+  color: var(--hover--color);
+}
+.skill--programming{
+  position: absolute;
+  width: 13em;
+  height: 1em;
+  top: 15.5em;
+  left: 20em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.skill--programming:hover{
+  color: var(--hover--color);
+}
+.skill--microcontroller{
+  position: absolute;
+  width: 16em;
+  height: 1em;
+  top: 17em;
+  left: 20em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.skill--microcontroller:hover{
+  color: var(--hover--color);
+}
+.skill--linux{
+  position: absolute;
+  width: 13em;
+  height: 1em;
+  top: 18.2em;
+  left: 20em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.skill--linux:hover{
+  color: var(--hover--color);
+}
+.skill--protocol{
+  position: absolute;
+  width: 20em;
+  height: 1em;
+  top: 19.6em;
+  left: 20em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.skill--protocol:hover{
+  color: var(--hover--color);
+}
+.skill--frontend{
+  position: absolute;
+  width: 21.5em;
+  height: 1em;
+  top: 20.8em;
+  left: 20em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.skill--frontend:hover{
+  color: var(--hover--color);
+}
+.skill--backend{
+  position: absolute;
+  width: 21em;
+  height: 1em;
+  top: 22.2em;
+  left: 20em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.skill--backend:hover{
+  color: var(--hover--color);
+}
+#Wrapper__work{
+  position: relative;
+  /*relative/absolute/fixed */
+  width: 96em;
+  height: 47.0625em;
+  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-size: cover;
+}
+.box--work{
+  width: 6em;
+  height: 1em;
+  color: var(--text-color);
+  font-family: 'Cormorant Garamond', serif;
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+  font-weight: bold;
+  font-size: 3em;
+}
+.layer--ITS{
+  position: absolute;
+  width: 15em;
+  height: 20em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:20em;
+  border: solid 2px var(--hover--color);
+}
+.ITS--img{
+  position: absolute;
+  width: 10em;
+  height: 15em;
+  background-image :url("E:/NesTech/BaiTap/assets/its.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:22.5em;
+  left: 2.25em;
+  border: solid 2px var(--hover--color);
+}
+
+.layer--ISE{
+  position: absolute;
+  width: 15em;
+  height: 20em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:10em;
+  left:20em;
+  border: solid 2px var(--hover--color);
+}
+.ISE--img{
+  position: absolute;
+  width: 10em;
+  height: 15em;
+  background-image :url("E:/NesTech/BaiTap/assets/ise.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:12.5em;
+  left: 22.25em;
+  border: solid 2px var(--hover--color);
+}
+
+.layer--AQU{
+  position: absolute;
+  width: 15em;
+  height: 20em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:20em;
+  left:40em;
+  border: solid 2px var(--hover--color);
+}
+.AQU--img{
+  position: absolute;
+  width: 10em;
+  height: 15em;
+  background-image :url("E:/NesTech/BaiTap/assets/aqu.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:22.5em;
+  left: 42.25em;
+  border: solid 2px var(--hover--color);
+}
+
+
+.layer--ENV{
+  position: absolute;
+  width: 15em;
+  height: 20em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:10em;
+  left:60em;
+  border: solid 2px var(--hover--color);
+}
+.ENV--img{
+  position: absolute;
+  width: 10em;
+  height: 15em;
+  background-image :url("E:/NesTech/BaiTap/assets/env.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:12.5em;
+  left: 62.25em;
+  border: solid 2px var(--hover--color);
+}
+
+.layer--LOADCELL{
+  position: absolute;
+  width: 15em;
+  height: 20em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:20em;
+  left:80em;
+  border: solid 2px var(--hover--color);
+}
+.LOADCELL--img{
+  position: absolute;
+  width: 10em;
+  height: 15em;
+  background-image :url("E:/NesTech/BaiTap/assets/LOADCELL.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:22.5em;
+  left: 82.25em;
+  border: solid 2px var(--hover--color);
+}
+
+#Wrapper__active{
+  position: relative;
+  /*relative/absolute/fixed */
+  width: 96em;
+  height: 47.0625em;
+  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-size: cover;
+}
+
+.layer--f367{
+  position: absolute;
+  width: 20em;
+  height: 15em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:10em;
+  border: solid 2px var(--hover--color);
+}
+.f367--img{
+  position: absolute;
+  width: 18em;
+  height: 12em;
+  background-image :url("E:/NesTech/BaiTap/assets/f367.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:11.5em;
+  left: 1em;
+  border: solid 2px var(--hover--color);
+}
+
+.layer--vt{
+  position: absolute;
+  width: 20em;
+  height: 15em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:30em;
+  left:16em;
+  border: solid 2px var(--hover--color);
+}
+.vt--img{
+  position: absolute;
+  width: 18em;
+  height: 12em;
+  background-image :url("E:/NesTech/BaiTap/assets/vt.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:31.5em;
+  left: 17em;
+  border: solid 2px var(--hover--color);
+}
+
+.layer--tet{
+  position: absolute;
+  width: 20em;
+  height: 15em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:10em;
+  left: 37.5em;
+  border: solid 2px var(--hover--color);
+}
+.tet--img{
+  position: absolute;
+  width: 18em;
+  height: 12em;
+  background-image :url("E:/NesTech/BaiTap/assets/tet.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:11.5em;
+  left: 38.5em;
+  border: solid 2px var(--hover--color);
+}
+
+
+.layer--chaudoc{
+  position: absolute;
+  width: 20em;
+  height: 15em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:30em;
+  left:59em;
+  border: solid 2px var(--hover--color);
+}
+.chaudoc--img{
+  position: absolute;
+  width: 18em;
+  height: 12em;
+  background-image :url("E:/NesTech/BaiTap/assets/chaudoc.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:31.5em;
+  left: 60em;
+  border: solid 2px var(--hover--color);
+}
+
+.layer--cd{
+  position: absolute;
+  width: 20em;
+  height: 15em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  border-radius: 2em;
+  top:10em;
+  right: 1em;
+  border: solid 2px var(--hover--color);
+}
+.cd--img{
+  position: absolute;
+  width: 18em;
+  height: 12em;
+  background-image :url("E:/NesTech/BaiTap/assets/cd.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2em;
+  top:11.5em;
+  right: 2em;
+  border: solid 2px var(--hover--color);
+}
+#Wrapper__contact{
+  position: relative;
+  width: 96em;
+  height: 19.875em;
+  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.line--contact1{
+  position:absolute;
+  width: 8em;
+  height: 0.25em;
+  transform: rotate(90deg);
+  background-color: var(--text-color);
+  top:6em;
+  left:18em;
+}
+.line--contact2{
+  position:absolute;
+  width: 8em;
+  height: 0.25em;
+  transform: rotate(90deg);
+  background-color: var(--text-color);
+  top:6em;
+  left:19em;
+}
+.box--content__contact{
+  position: absolute;
+  width:  50em;
+  height: 8em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  top:2em;
+  left: 24em;
+  border-radius: 1em;
+}
+.address_icon{
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/home-address.png");
+  background-size: cover;
+  top: 2em;
+  left: 24.5em;
+}
+
+.gmail_icon{
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/gmail.png");
+  background-size: cover;
+  top: 4.8em;
+  left: 24.5em;
+}
+.phone_icon{
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-image: url("E:/NesTech/BaiTap/assets/phone-call.png");
+  background-size: cover;
+  top: 7.6em;
+  left: 24.5em;
+}
+.box-address{
+  width: 50em;
+  height: 3em;
+  position: absolute;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  color: black;
+  top: 1.7em;
+  left: 20em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.box-address:hover{
+  color: var(--hover--color);
+}
+.box-gmail{
+  width: 50em;
+  height: 3em;
+  position: absolute;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  color: black;
+  top: 3.2em;
+  left: 20em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.box-gmail:hover{
+  color: var(--hover--color);
+}
+.box-phone{
+  width: 50em;
+  height: 3em;
+  position: absolute;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  color: black;
+  top: 4.9em;
+  left: 20em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.box-phone:hover{
+  color: var(--hover--color);
+}
+
+.bar--icon__contact{
+  position: absolute;
+  width:  50em;
+  height: 4em;
+  background-color: var(--text-color);
+  opacity: 0.5;
+  top:12em;
+  left: 24em;
+  border-radius: 1em;
+}
+.icon--github{
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-image: url("E:/NesTech/BaiTap/assets/github.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  top:12em;
+  left: 24em;
+  border-radius: 50%;
+}
+.icon--github:hover{
+  background-color: bisque;
+}
+
+.icon--skype{
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-image: url("E:/NesTech/BaiTap/assets/skype.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  top:12em;
+  left: 34em;
+  border-radius: 50%;
+}
+.icon--skype:hover{
+  background-color: rgb(136, 194, 255);
+}
+
+.icon--facebook{
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-image: url("E:/NesTech/BaiTap/assets/facebook.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  top:12em;
+  left: 57em;
+  border-radius: 50%;
+}
+.icon--facebook:hover{
+  background-color: rgb(0, 29, 246);
+}
+
+.icon--viber{
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-image: url("E:/NesTech/BaiTap/assets/viber.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  top:12em;
+  left: 70em;
+  border-radius: 50%;
+}
+.icon--viber:hover{
+  background-color: rgb(162, 0, 255);
+}
+
+.icon--linkedin{
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-image: url("E:/NesTech/BaiTap/assets/linkedin.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  top:12em;
+  left: 45em;
+  border-radius: 50%;
+}
+.icon--linkedin:hover{
+  background-color: rgb(59, 63, 255);
+}
+
