@@ -45,6 +45,11 @@ ScrollReveal({
   delay: 200, // thời gian chờ trước khi bắt đầu hiệu ứng chuyển động
 });
 
-ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
-// vị trí bắt đầu của phần tử khi hiển thị, ở đây là từ trên xuống dưới.
+ScrollReveal().reveal(".home-content, .heading", { origin: "top" }); // vị trí bắt đầu của phần tử khi hiển thị, ở đây là từ trên xuống dưới.
 //các phần tử cần áp dụng hiệu ứng chuyển động, ở đây là các phần tử có class là "home-content" và "heading"
+ScrollReveal().reveal(
+  ".home-img, .services-container, .portfolio-box, .contact form, .about",
+  { origin: "bottom" }
+);
+ScrollReveal().reveal(".home-content h1, .about-img ", { origin: "left" });
+ScrollReveal().reveal(".home-content p, .about-content ", { origin: "right" });

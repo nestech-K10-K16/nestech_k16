@@ -7,7 +7,7 @@
   text-decoration: none; /* loại bỏ dấu gạch chân*/
   border: none;
   outline: none;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /*Tạo hiệu ứng trượt mượt mà trên phần tử có thể cuộn được */
   font-family: "Poppins", sans-serif;
 }
 
@@ -34,14 +34,14 @@ section {
 }
 
 .header {
-  position: fixed;
+  position: fixed; /*đặt phần tử trong vị trí tuyệt đối và không bị ảnh hưởng bởi scroll của trang web.*/
   top: 0;
   left: 0;
   width: 100%;
   padding: 2rem 9%;
   background: var(--bg-color);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /*căn chỉnh các phần tử con trong phần tử .header ở hai bên cùng của phần tử cha.*/
   align-items: center;
   z-index: 100;
 }
@@ -49,6 +49,7 @@ section {
 .header.sticky {
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2); /*áp dụng phần header đầu trang phân biệt giữa header với phần nội dung bên dưới khi người dùng cuộn trang xuống.*/
 }
+
 .logo {
   font-size: 2.5rem;
   color: var(--text-color);
@@ -83,6 +84,20 @@ section {
 
 .home-img img {
   width: 25vw;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  /* hình ản chuyển động lên xuống */
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .home-content h3 {
@@ -95,18 +110,19 @@ section {
 }
 
 span {
-  color: var(--main-color);
+  color: orangered;
 }
 
 .home-content h1 {
   font-size: 5rem;
   font-weight: 700;
   line-height: 1.3;
-  color: var(--main-color);
+  color: rgb(67, 249, 103);
 }
 
 .home-content p {
   font-size: 1.5rem;
+  color: rgb(9, 178, 152);
 }
 
 .social-media a {
@@ -168,9 +184,14 @@ span {
   color: orangered;
 }
 
-.about-centent p {
+.about-centent ol {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  color: rgb(73, 193, 212);
+}
+
+.about-centent ul li {
+  color: aquamarine;
 }
 
 .services h2 {
@@ -207,15 +228,17 @@ span {
 
 .services-box h3 {
   font-size: 2.6rem;
+  color: rgb(246, 80, 19);
 }
 
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+  color: rgb(55, 230, 230);
 }
 
 .portfolio {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
 }
 
 .portfolio h2 {
@@ -233,9 +256,9 @@ span {
 }
 
 .portfolio-container .portfolio-box {
-  position: relative;
+  position: relative; /*Đặt phần tử làm phần tử có vị trí tương đối so với vị trí mặc định, cho phép điều chỉnh vị trí của các phần tử con bên trong.*/
   border-radius: 2rem;
-  box-shadow: 0 0 1rem var(--bg-color);
+  box-shadow: 0 0 1rem var(--bg-color); /* Tạo bóng cho phần tử, với độ mờ 1rem*/
   overflow: hidden; /*Ẩn các phần tử con bên trong phần tử, khi các phần tử con vượt ra ngoài phạm vi của phần tử cha.*/
   display: flex;
 }
@@ -276,11 +299,13 @@ span {
 
 .portfolio-layer h4 {
   font-size: 3rem;
+  color: orangered;
 }
 
 .portfolio-layer p {
   font-size: 1.6rem;
   margin: 0.3rem 0 1rem;
+  color: rgb(64, 240, 240);
 }
 
 .portfolio-layer a {
@@ -296,6 +321,10 @@ span {
 .portfolio-layer a i {
   font-size: 2rem;
   color: var(--second-bg-color);
+}
+
+.portfolio-layer:hover a {
+  background: var(--main-color);
 }
 
 .contact h2 {
@@ -410,27 +439,27 @@ span {
 
 @media (max-width: 768px) {
   #menu-icon {
-    display: block;
+    display: block; /* hiện thanh menu khi trang bị cuộn nhỏ hơn 768px*/
   }
 
   .navbar {
     position: absolute;
-    top: 100%;
+    top: 100%; /* thiết lập pt nằm ở vị trí cuối cùng của pt cha*/
     left: 0;
     width: 100%;
     padding: 1rem 3%;
     background: var(--bg-color);
-    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    display: none;
+    border-top: 0.1rem solid rgba(31, 227, 54, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(17, 155, 19, 0.2);
+    display: none; /* ẩn phần tử trong thanh menu */
   }
 
   .navbar.active {
-    display: block;
+    display: block; /* hien thanh menu*/
   }
 
   .navbar a {
-    display: block;
+    display: block; /*hiển thị các phần tử a dưới dạng khối (block)*/
     font-size: 2rem;
     margin: 3rem 0;
   }
