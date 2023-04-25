@@ -1,15 +1,15 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 :root {
-    --black: var(--black)
-    --white: var
-
+    --bl: black;
+    --wh: white;
+    --gr: rgb(0, 255, 0);
 }
 
 @font-face {
@@ -23,44 +23,54 @@
 }
 
 body {
-    background-color: black;
+    position: relative;
+    background-color: var(--bl);
+    width: 1280px;
 }
 
-.container {
+.navbar {
+    position: absolute;
+    top: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
     padding-left: 39.59px;
     padding-right: 39.59px;
-    height: 100px;
-    margin-top: -85px;
+    width: 1280px;
+    height: 60px;
 }
 
 .navbar__link {
     font-family: WraithArcBlocks-5n0v;
-    font-size: 50pt;
-    color: white;
+    font-size: 49pt;
+    color: var(--wh);
     text-decoration: none;
 }
 
-.navbar__link:hover{
-    color: #72fc0a;
-
+.navbar__link:hover {
+    color: var(--gr);
 }
 
-.home {
-    padding-left: 39.59px;
+#home {
+    position: absolute;
+    top: 159px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home__bottom {
+    position: absolute;
+    top: 395px;
 }
 
 .home__paragraph {
+    position: absolute;
+    top: 400px;
+    left: 41px;
     font-family: Bartomes;
-    color: white;
-    padding-left: 39.59px;
-    padding-right: 39.59px;
-    font-size: 19px;
+    font-size: 20px;
+    color: var(--wh);
 }
 
-.home {
-    display: flex;
-}
+/* ĐÃ CHỐT CÁC CODE CSS TRÊN */
