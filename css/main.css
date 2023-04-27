@@ -253,6 +253,7 @@ header {
   position: relative;
   overflow-x: hidden;
   margin-top: 15em;
+  background-color: red;
 }
 
 #things h2 {

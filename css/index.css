@@ -9,7 +9,7 @@
 :root {
     --bl: black;
     --wh: white;
-    --gr: rgb(0, 255, 0);
+    --gr: grey;
 }
 
 @font-face {
@@ -40,15 +40,42 @@ body {
     height: 60px;
 }
 
-.navbar__link {
+.navbar__main {
+    position: relative;
+}
+
+.navbar__branch {
+    position: absolute;
+    background-color: var(--bl);
+    list-style: none;
+    z-index: 1;
+    display: none;
+}
+
+.navbar__main--link {
     font-family: WraithArcBlocks-5n0v;
     font-size: 49pt;
     color: var(--wh);
     text-decoration: none;
 }
 
-.navbar__link:hover {
+.navbar__branch--link {
+    font-family: WraithArcBlocks-5n0v;
+    font-size: 29pt;
+    color: var(--wh);
+    text-decoration: none;
+}
+
+.navbar__main--link:hover {
     color: var(--gr);
+}
+
+.navbar__branch--link:hover {
+    color: var(--gr);
+}
+
+.navbar__main:hover .navbar__branch {
+    display: block;
 }
 
 #home {
@@ -59,7 +86,7 @@ body {
     justify-content: space-between;
 }
 
-.home__bottom {
+.home__img--bottom {
     position: absolute;
     top: 395px;
 }
@@ -72,5 +99,3 @@ body {
     font-size: 20px;
     color: var(--wh);
 }
-
-/* OKAY */

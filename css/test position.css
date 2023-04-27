@@ -1,7 +1,30 @@
-.parent {
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.container-1 {
     display: flex;
-    justify-content: center;
-    /* position: absolute; */
-    background-color: red;
-    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(229, 8, 8);
+}
+
+/* .container-2 {
+  display: inline-block;
+  background-color: rgb(229, 8, 8);
+}
+
+.container-3 {
+  display: inline-block;
+  background-color: rgb(229, 8, 8);
+} */
+
+.container-1 .a {
+  /* display: inline-block; */
+  background-color: aqua;
 }
