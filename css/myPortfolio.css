@@ -25,9 +25,9 @@ CSS Variable
 
 :root {
   --smooth: all 0.3s ease-in;
-  --text-color: #41E194;
-  --hover--color: #FF6104;
-  --bar--skill:#00236a;
+  --text-color: #41e194;
+  --hover--color: #ff6104;
+  --bar--skill: #00236a;
 }
 
 #Wrapper__home {
@@ -35,7 +35,7 @@ CSS Variable
   /*relative/absolute/fixed */
   width: 96em;
   height: 47.0625em;
-  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/pxfuel.jpg');
   background-size: cover;
 }
 
@@ -43,7 +43,7 @@ CSS Variable
   position: absolute;
   width: 40.625em;
   height: 46.875em;
-  background-image: url("E:/NesTech/BaiTap/assets/thanh.png");
+  background-image: url('E:/NesTech/BaiTap/assets/thanh.png');
   background-size: cover;
   opacity: 0.95;
   top: 0em;
@@ -63,7 +63,6 @@ li {
   display: block;
   margin: 1.5em 1.5em;
   padding: 0.75em;
-
 }
 
 a {
@@ -80,7 +79,7 @@ a {
 }
 
 .text:after {
-  content: "";
+  content: '';
   height: 0.15em;
   width: 0em;
   background: var(--hover--color);
@@ -142,16 +141,15 @@ a {
   font-size: 1.3em;
   cursor: pointer;
   border: none;
-
 }
 
 .box__content--intro:hover {
   color: var(--hover--color);
-  border: solid 0.1em #FF6104;
+  border: solid 0.1em #ff6104;
   text-align: center;
 }
 
-.box--service{
+.box--service {
   width: 6em;
   height: 1em;
   color: var(--text-color);
@@ -162,7 +160,7 @@ a {
   font-weight: bold;
   font-size: 2em;
 }
-.box__content--service{
+.box__content--service {
   position: absolute;
   width: 21em;
   height: 4em;
@@ -174,111 +172,109 @@ a {
   cursor: pointer;
   border: none;
 }
-.box__content--service:hover{
+.box__content--service:hover {
   color: var(--hover--color);
-  border: solid 0.1em #FF6104;
+  border: solid 0.1em #ff6104;
   text-align: center;
 }
-.skype{
+.skype {
   width: 4em;
   height: 4em;
   background-color: var(--text-color);
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/skype.png");
+  background-image: url('E:/NesTech/BaiTap/assets/skype.png');
   position: absolute;
-  top:35em;
-  left:25em;
+  top: 35em;
+  left: 25em;
   cursor: pointer;
 }
-.skype:hover{
+.skype:hover {
   width: 4.2em;
   height: 4.2em;
   background-color: rgb(56, 182, 255);
   background-size: cover;
 }
 
-
-.facebook{
+.facebook {
   width: 4em;
   height: 4em;
   background-color: var(--text-color);
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/facebook.png");
+  background-image: url('E:/NesTech/BaiTap/assets/facebook.png');
   position: absolute;
-  top:12em;
-  left:35em;
+  top: 12em;
+  left: 35em;
   cursor: pointer;
 }
-.facebook:hover{
+.facebook:hover {
   width: 4.2em;
   height: 4.2em;
   background-color: rgb(0, 89, 255);
   background-size: cover;
 }
 
-
-.github{
+.github {
   width: 4em;
   height: 4em;
   background-color: var(--text-color);
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/github.png");
+  background-image: url('E:/NesTech/BaiTap/assets/github.png');
   position: absolute;
-  top:7em;
-  left:55em;
+  top: 7em;
+  left: 55em;
   cursor: pointer;
 }
-.github:hover{
+.github:hover {
   width: 4.2em;
   height: 4.2em;
   background-color: rgb(209, 210, 210);
   background-size: cover;
 }
 
-.viber{
+.viber {
   width: 4em;
   height: 4em;
   background-color: var(--text-color);
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/viber.png");
+  background-image: url('E:/NesTech/BaiTap/assets/viber.png');
   position: absolute;
-  top:12em;
-  left:70em;
+  top: 12em;
+  left: 70em;
   cursor: pointer;
 }
-.viber:hover{
+.viber:hover {
   width: 4.2em;
   height: 4.2em;
   background-color: rgb(162, 24, 255);
   background-size: cover;
 }
 
-.linkedin{
+.linkedin {
   width: 4em;
   height: 4em;
   background-color: var(--text-color);
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/linkedin.png");
+  background-image: url('E:/NesTech/BaiTap/assets/linkedin.png');
   position: absolute;
-  top:35em;
-  left:70em;
+  top: 35em;
+  left: 70em;
   cursor: pointer;
 }
-.linkedin:hover{
+.linkedin:hover {
   width: 4.2em;
   height: 4.2em;
   background-color: rgb(17, 100, 255);
   background-size: cover;
 }
-#Wrapper__about{
+#Wrapper__about {
   position: relative;
   /*relative/absolute/fixed */
   width: 96em;
   height: 47.0625em;
-  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/pxfuel.jpg');
   background-size: cover;
 }
-.box_about{
+.box_about {
   width: 6em;
   height: 1em;
   color: var(--text-color);
@@ -289,35 +285,35 @@ a {
   font-weight: bold;
   font-size: 3em;
 }
-.layer__abour--img{
-  position:absolute;
+.layer__abour--img {
+  position: absolute;
   width: 470px;
   height: 635px;
   background-color: var(--text-color);
   opacity: 0.25;
   border-radius: 2em;
   top: 4em;
-  left:60em;
-  cursor:pointer;
+  left: 60em;
+  cursor: pointer;
 }
-.layer__abour--img:hover{
+.layer__abour--img:hover {
   border: solid 0.2em var(--hover--color);
   opacity: 0.4;
 }
-.about--img{
+.about--img {
   position: absolute;
   width: 385px;
-  height:515px;
+  height: 515px;
   border-radius: 2em;
   top: 7.5em;
   left: 62.7em;
   cursor: pointer;
 }
-.about--img:hover{
+.about--img:hover {
   border: solid 0.2em var(--hover--color);
   opacity: 1;
 }
-.box__content--about{
+.box__content--about {
   position: absolute;
   width: 71em;
   height: 9em;
@@ -330,12 +326,12 @@ a {
   border: none;
 }
 
-.box__content--about:hover{
+.box__content--about:hover {
   border: solid 0.2em var(--hover--color);
   color: var(--hover--color);
 }
 
-.box__skill{
+.box__skill {
   position: absolute;
   width: 3.5em;
   height: 3em;
@@ -346,7 +342,7 @@ a {
   font-size: 2em;
   font-weight: bold;
 }
-.bar__skill--equipments{
+.bar__skill--equipments {
   position: absolute;
   width: 25em;
   height: 0.5em;
@@ -356,10 +352,10 @@ a {
   left: 4.1em;
   cursor: pointer;
 }
-.bar__skill--equipments:hover{
+.bar__skill--equipments:hover {
   background-color: var(--hover--color);
 }
-.bar__skill--equipment{
+.bar__skill--equipment {
   position: absolute;
   width: 20em;
   height: 0.5em;
@@ -369,7 +365,7 @@ a {
   left: 4.1em;
   opacity: 0.5;
 }
-.bar__skill--programmings{
+.bar__skill--programmings {
   position: absolute;
   width: 25em;
   height: 0.5em;
@@ -379,10 +375,10 @@ a {
   left: 4.1em;
   cursor: pointer;
 }
-.bar__skill--programmings:hover{
-  background-color:var(--hover--color); 
+.bar__skill--programmings:hover {
+  background-color: var(--hover--color);
 }
-.bar__skill--programming{
+.bar__skill--programming {
   position: absolute;
   width: 18em;
   height: 0.5em;
@@ -393,7 +389,7 @@ a {
   opacity: 0.5;
 }
 
-.bar__skill--Microcontrollers{
+.bar__skill--Microcontrollers {
   position: absolute;
   width: 25em;
   height: 0.5em;
@@ -403,10 +399,10 @@ a {
   left: 4.1em;
   cursor: pointer;
 }
-.bar__skill--Microcontrollers:hover{
+.bar__skill--Microcontrollers:hover {
   background-color: var(--hover--color);
 }
-.bar__skill--Microcontroller{
+.bar__skill--Microcontroller {
   position: absolute;
   width: 19em;
   height: 0.5em;
@@ -417,7 +413,7 @@ a {
   opacity: 0.5;
 }
 
-.bar__skill--linuxs{
+.bar__skill--linuxs {
   position: absolute;
   width: 25em;
   height: 0.5em;
@@ -427,10 +423,10 @@ a {
   left: 4.1em;
   cursor: pointer;
 }
-.bar__skill--linuxs:hover{
+.bar__skill--linuxs:hover {
   background-color: var(--hover--color);
 }
-.bar__skill--linux{
+.bar__skill--linux {
   position: absolute;
   width: 16em;
   height: 0.5em;
@@ -441,7 +437,7 @@ a {
   opacity: 0.5;
 }
 
-.bar__skill--protocols{
+.bar__skill--protocols {
   position: absolute;
   width: 25em;
   height: 0.5em;
@@ -451,10 +447,10 @@ a {
   left: 4.1em;
   cursor: pointer;
 }
-.bar__skill--protocols:hover{
+.bar__skill--protocols:hover {
   background-color: var(--hover--color);
 }
-.bar__skill--protocol{
+.bar__skill--protocol {
   position: absolute;
   width: 19em;
   height: 0.5em;
@@ -465,7 +461,7 @@ a {
   opacity: 0.5;
 }
 
-.bar__skill--frontends{
+.bar__skill--frontends {
   position: absolute;
   width: 25em;
   height: 0.5em;
@@ -475,10 +471,10 @@ a {
   left: 4.1em;
   cursor: pointer;
 }
-.bar__skill--frontends:hover{
+.bar__skill--frontends:hover {
   background-color: var(--hover--color);
 }
-.bar__skill--frontend{
+.bar__skill--frontend {
   position: absolute;
   width: 15em;
   height: 0.5em;
@@ -489,8 +485,7 @@ a {
   opacity: 0.5;
 }
 
-
-.bar__skill--backends{
+.bar__skill--backends {
   position: absolute;
   width: 25em;
   height: 0.5em;
@@ -500,10 +495,10 @@ a {
   left: 4.1em;
   cursor: pointer;
 }
-.bar__skill--backends:hover{
+.bar__skill--backends:hover {
   background-color: var(--hover--color);
-  }
-.bar__skill--backend{
+}
+.bar__skill--backend {
   position: absolute;
   width: 15em;
   height: 0.5em;
@@ -514,7 +509,7 @@ a {
   opacity: 0.5;
 }
 
-.skill--equipment{
+.skill--equipment {
   position: absolute;
   width: 13em;
   height: 1em;
@@ -525,10 +520,10 @@ a {
   font-size: 1.5em;
   cursor: pointer;
 }
-.skill--equipment:hover{
+.skill--equipment:hover {
   color: var(--hover--color);
 }
-.skill--programming{
+.skill--programming {
   position: absolute;
   width: 13em;
   height: 1em;
@@ -539,10 +534,10 @@ a {
   font-size: 1.5em;
   cursor: pointer;
 }
-.skill--programming:hover{
+.skill--programming:hover {
   color: var(--hover--color);
 }
-.skill--microcontroller{
+.skill--microcontroller {
   position: absolute;
   width: 16em;
   height: 1em;
@@ -553,10 +548,10 @@ a {
   font-size: 1.5em;
   cursor: pointer;
 }
-.skill--microcontroller:hover{
+.skill--microcontroller:hover {
   color: var(--hover--color);
 }
-.skill--linux{
+.skill--linux {
   position: absolute;
   width: 13em;
   height: 1em;
@@ -567,10 +562,10 @@ a {
   font-size: 1.5em;
   cursor: pointer;
 }
-.skill--linux:hover{
+.skill--linux:hover {
   color: var(--hover--color);
 }
-.skill--protocol{
+.skill--protocol {
   position: absolute;
   width: 20em;
   height: 1em;
@@ -581,10 +576,10 @@ a {
   font-size: 1.5em;
   cursor: pointer;
 }
-.skill--protocol:hover{
+.skill--protocol:hover {
   color: var(--hover--color);
 }
-.skill--frontend{
+.skill--frontend {
   position: absolute;
   width: 21.5em;
   height: 1em;
@@ -595,10 +590,10 @@ a {
   font-size: 1.5em;
   cursor: pointer;
 }
-.skill--frontend:hover{
+.skill--frontend:hover {
   color: var(--hover--color);
 }
-.skill--backend{
+.skill--backend {
   position: absolute;
   width: 21em;
   height: 1em;
@@ -609,18 +604,18 @@ a {
   font-size: 1.5em;
   cursor: pointer;
 }
-.skill--backend:hover{
+.skill--backend:hover {
   color: var(--hover--color);
 }
-#Wrapper__work{
+#Wrapper__work {
   position: relative;
   /*relative/absolute/fixed */
   width: 96em;
   height: 47.0625em;
-  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/pxfuel.jpg');
   background-size: cover;
 }
-.box--work{
+.box--work {
   width: 6em;
   height: 1em;
   color: var(--text-color);
@@ -631,322 +626,320 @@ a {
   font-weight: bold;
   font-size: 3em;
 }
-.layer--ITS{
+.layer--ITS {
   position: absolute;
   width: 15em;
   height: 20em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:20em;
+  top: 20em;
   border: solid 2px var(--hover--color);
 }
-.ITS--img{
+.ITS--img {
   position: absolute;
   width: 10em;
   height: 15em;
-  background-image :url("E:/NesTech/BaiTap/assets/its.png");
+  background-image: url('E:/NesTech/BaiTap/assets/its.png');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:22.5em;
+  top: 22.5em;
   left: 2.25em;
   border: solid 2px var(--hover--color);
 }
 
-.layer--ISE{
+.layer--ISE {
   position: absolute;
   width: 15em;
   height: 20em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:10em;
-  left:20em;
+  top: 10em;
+  left: 20em;
   border: solid 2px var(--hover--color);
 }
-.ISE--img{
+.ISE--img {
   position: absolute;
   width: 10em;
   height: 15em;
-  background-image :url("E:/NesTech/BaiTap/assets/ise.png");
+  background-image: url('E:/NesTech/BaiTap/assets/ise.png');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:12.5em;
+  top: 12.5em;
   left: 22.25em;
   border: solid 2px var(--hover--color);
 }
 
-.layer--AQU{
+.layer--AQU {
   position: absolute;
   width: 15em;
   height: 20em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:20em;
-  left:40em;
+  top: 20em;
+  left: 40em;
   border: solid 2px var(--hover--color);
 }
-.AQU--img{
+.AQU--img {
   position: absolute;
   width: 10em;
   height: 15em;
-  background-image :url("E:/NesTech/BaiTap/assets/aqu.png");
+  background-image: url('E:/NesTech/BaiTap/assets/aqu.png');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:22.5em;
+  top: 22.5em;
   left: 42.25em;
   border: solid 2px var(--hover--color);
 }
 
-
-.layer--ENV{
+.layer--ENV {
   position: absolute;
   width: 15em;
   height: 20em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:10em;
-  left:60em;
+  top: 10em;
+  left: 60em;
   border: solid 2px var(--hover--color);
 }
-.ENV--img{
+.ENV--img {
   position: absolute;
   width: 10em;
   height: 15em;
-  background-image :url("E:/NesTech/BaiTap/assets/env.png");
+  background-image: url('E:/NesTech/BaiTap/assets/env.png');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:12.5em;
+  top: 12.5em;
   left: 62.25em;
   border: solid 2px var(--hover--color);
 }
 
-.layer--LOADCELL{
+.layer--LOADCELL {
   position: absolute;
   width: 15em;
   height: 20em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:20em;
-  left:80em;
+  top: 20em;
+  left: 80em;
   border: solid 2px var(--hover--color);
 }
-.LOADCELL--img{
+.LOADCELL--img {
   position: absolute;
   width: 10em;
   height: 15em;
-  background-image :url("E:/NesTech/BaiTap/assets/LOADCELL.png");
+  background-image: url('E:/NesTech/BaiTap/assets/LOADCELL.png');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:22.5em;
+  top: 22.5em;
   left: 82.25em;
   border: solid 2px var(--hover--color);
 }
 
-#Wrapper__active{
+#Wrapper__active {
   position: relative;
   /*relative/absolute/fixed */
   width: 96em;
   height: 47.0625em;
-  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/pxfuel.jpg');
   background-size: cover;
 }
 
-.layer--f367{
+.layer--f367 {
   position: absolute;
   width: 20em;
   height: 15em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:10em;
+  top: 10em;
   border: solid 2px var(--hover--color);
 }
-.f367--img{
+.f367--img {
   position: absolute;
   width: 18em;
   height: 12em;
-  background-image :url("E:/NesTech/BaiTap/assets/f367.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/f367.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:11.5em;
+  top: 11.5em;
   left: 1em;
   border: solid 2px var(--hover--color);
 }
 
-.layer--vt{
+.layer--vt {
   position: absolute;
   width: 20em;
   height: 15em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:30em;
-  left:16em;
+  top: 30em;
+  left: 16em;
   border: solid 2px var(--hover--color);
 }
-.vt--img{
+.vt--img {
   position: absolute;
   width: 18em;
   height: 12em;
-  background-image :url("E:/NesTech/BaiTap/assets/vt.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/vt.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:31.5em;
+  top: 31.5em;
   left: 17em;
   border: solid 2px var(--hover--color);
 }
 
-.layer--tet{
+.layer--tet {
   position: absolute;
   width: 20em;
   height: 15em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:10em;
+  top: 10em;
   left: 37.5em;
   border: solid 2px var(--hover--color);
 }
-.tet--img{
+.tet--img {
   position: absolute;
   width: 18em;
   height: 12em;
-  background-image :url("E:/NesTech/BaiTap/assets/tet.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/tet.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:11.5em;
+  top: 11.5em;
   left: 38.5em;
   border: solid 2px var(--hover--color);
 }
 
-
-.layer--chaudoc{
+.layer--chaudoc {
   position: absolute;
   width: 20em;
   height: 15em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:30em;
-  left:59em;
+  top: 30em;
+  left: 59em;
   border: solid 2px var(--hover--color);
 }
-.chaudoc--img{
+.chaudoc--img {
   position: absolute;
   width: 18em;
   height: 12em;
-  background-image :url("E:/NesTech/BaiTap/assets/chaudoc.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/chaudoc.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:31.5em;
+  top: 31.5em;
   left: 60em;
   border: solid 2px var(--hover--color);
 }
 
-.layer--cd{
+.layer--cd {
   position: absolute;
   width: 20em;
   height: 15em;
   background-color: var(--text-color);
   opacity: 0.5;
   border-radius: 2em;
-  top:10em;
+  top: 10em;
   right: 1em;
   border: solid 2px var(--hover--color);
 }
-.cd--img{
+.cd--img {
   position: absolute;
   width: 18em;
   height: 12em;
-  background-image :url("E:/NesTech/BaiTap/assets/cd.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/cd.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 2em;
-  top:11.5em;
+  top: 11.5em;
   right: 2em;
   border: solid 2px var(--hover--color);
 }
-#Wrapper__contact{
+#Wrapper__contact {
   position: relative;
   width: 96em;
   height: 19.875em;
-  background-image: url("E:/NesTech/BaiTap/assets/pxfuel.jpg");
+  background-image: url('E:/NesTech/BaiTap/assets/pxfuel.jpg');
   background-size: cover;
   background-position: center;
 }
-.line--contact1{
-  position:absolute;
-  width: 8em;
-  height: 0.25em;
-  transform: rotate(90deg);
-  background-color: var(--text-color);
-  top:6em;
-  left:18em;
-}
-.line--contact2{
-  position:absolute;
-  width: 8em;
-  height: 0.25em;
-  transform: rotate(90deg);
-  background-color: var(--text-color);
-  top:6em;
-  left:19em;
-}
-.box--content__contact{
+.line--contact1 {
   position: absolute;
-  width:  50em;
+  width: 8em;
+  height: 0.25em;
+  transform: rotate(90deg);
+  background-color: var(--text-color);
+  top: 6em;
+  left: 18em;
+}
+.line--contact2 {
+  position: absolute;
+  width: 8em;
+  height: 0.25em;
+  transform: rotate(90deg);
+  background-color: var(--text-color);
+  top: 6em;
+  left: 19em;
+}
+.box--content__contact {
+  position: absolute;
+  width: 50em;
   height: 8em;
   background-color: var(--text-color);
   opacity: 0.5;
-  top:2em;
+  top: 2em;
   left: 24em;
   border-radius: 1em;
 }
-.address_icon{
+.address_icon {
   position: absolute;
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/home-address.png");
+  background-image: url('E:/NesTech/BaiTap/assets/home-address.png');
   background-size: cover;
   top: 2em;
   left: 24.5em;
 }
 
-.gmail_icon{
+.gmail_icon {
   position: absolute;
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/gmail.png");
+  background-image: url('E:/NesTech/BaiTap/assets/gmail.png');
   background-size: cover;
   top: 4.8em;
   left: 24.5em;
 }
-.phone_icon{
+.phone_icon {
   position: absolute;
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  background-image: url("E:/NesTech/BaiTap/assets/phone-call.png");
+  background-image: url('E:/NesTech/BaiTap/assets/phone-call.png');
   background-size: cover;
   top: 7.6em;
   left: 24.5em;
 }
-.box-address{
+.box-address {
   width: 50em;
   height: 3em;
   position: absolute;
@@ -958,10 +951,10 @@ a {
   font-weight: bold;
   cursor: pointer;
 }
-.box-address:hover{
+.box-address:hover {
   color: var(--hover--color);
 }
-.box-gmail{
+.box-gmail {
   width: 50em;
   height: 3em;
   position: absolute;
@@ -973,10 +966,10 @@ a {
   font-weight: bold;
   cursor: pointer;
 }
-.box-gmail:hover{
+.box-gmail:hover {
   color: var(--hover--color);
 }
-.box-phone{
+.box-phone {
   width: 50em;
   height: 3em;
   position: absolute;
@@ -988,97 +981,96 @@ a {
   font-weight: bold;
   cursor: pointer;
 }
-.box-phone:hover{
+.box-phone:hover {
   color: var(--hover--color);
 }
 
-.bar--icon__contact{
+.bar--icon__contact {
   position: absolute;
-  width:  50em;
+  width: 50em;
   height: 4em;
   background-color: var(--text-color);
   opacity: 0.5;
-  top:12em;
+  top: 12em;
   left: 24em;
   border-radius: 1em;
 }
-.icon--github{
+.icon--github {
   position: absolute;
   width: 4em;
   height: 4em;
-  background-image: url("E:/NesTech/BaiTap/assets/github.png");
+  background-image: url('E:/NesTech/BaiTap/assets/github.png');
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  top:12em;
+  top: 12em;
   left: 24em;
   border-radius: 50%;
 }
-.icon--github:hover{
+.icon--github:hover {
   background-color: bisque;
 }
 
-.icon--skype{
+.icon--skype {
   position: absolute;
   width: 4em;
   height: 4em;
-  background-image: url("E:/NesTech/BaiTap/assets/skype.png");
+  background-image: url('E:/NesTech/BaiTap/assets/skype.png');
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  top:12em;
+  top: 12em;
   left: 34em;
   border-radius: 50%;
 }
-.icon--skype:hover{
+.icon--skype:hover {
   background-color: rgb(136, 194, 255);
 }
 
-.icon--facebook{
+.icon--facebook {
   position: absolute;
   width: 4em;
   height: 4em;
-  background-image: url("E:/NesTech/BaiTap/assets/facebook.png");
+  background-image: url('E:/NesTech/BaiTap/assets/facebook.png');
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  top:12em;
+  top: 12em;
   left: 57em;
   border-radius: 50%;
 }
-.icon--facebook:hover{
+.icon--facebook:hover {
   background-color: rgb(0, 29, 246);
 }
 
-.icon--viber{
+.icon--viber {
   position: absolute;
   width: 4em;
   height: 4em;
-  background-image: url("E:/NesTech/BaiTap/assets/viber.png");
+  background-image: url('E:/NesTech/BaiTap/assets/viber.png');
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  top:12em;
+  top: 12em;
   left: 70em;
   border-radius: 50%;
 }
-.icon--viber:hover{
+.icon--viber:hover {
   background-color: rgb(162, 0, 255);
 }
 
-.icon--linkedin{
+.icon--linkedin {
   position: absolute;
   width: 4em;
   height: 4em;
-  background-image: url("E:/NesTech/BaiTap/assets/linkedin.png");
+  background-image: url('E:/NesTech/BaiTap/assets/linkedin.png');
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  top:12em;
+  top: 12em;
   left: 45em;
   border-radius: 50%;
 }
-.icon--linkedin:hover{
+.icon--linkedin:hover {
   background-color: rgb(59, 63, 255);
 }
-
