@@ -348,13 +348,32 @@ span{
     padding-left: .2rem;
 }
 
+
 .WORK-CONTENT .CONTENT{
     position: relative;
     padding: 1.5rem;
     border: 2rem solid #000000;
     border-radius: .6rem;
     margin-bottom: 2rem;
+    overflow: hidden;
 }
+
+.WORK-CONTENT .CONTENT::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #F08080;
+    z-index: -1;
+    transition: .5s;
+}
+
+.WORK-CONTENT .CONTENT:hover::before{
+    width: 100%;
+}
+
 
 .WORK-CONTENT .CONTENT .YEAR{
     font-size: 4rem;
@@ -374,3 +393,4 @@ span{
     font-size: 1.6rem;
     padding-top: .5rem;
 }
+
