@@ -12,11 +12,12 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  display: inline;
 }
 
 img {
   max-width: 100%;
-  width: 100%;
+  height: 100%;
 }
 
 /*
@@ -33,10 +34,11 @@ CSS Variable
 #Wrapper__home {
   position: relative;
   /*relative/absolute/fixed */
-  width: 96em;
+  width: 100%;
   height: 47.0625em;
   background-image: url('E:/NesTech/BaiTap/assets/pxfuel.jpg');
   background-size: cover;
+  background-color: transparent;
 }
 
 .img-home {
@@ -287,27 +289,25 @@ a {
 }
 .layer__abour--img {
   position: absolute;
+  top: 4em;
+  left: 60em;
   width: 470px;
   height: 635px;
   background-color: var(--text-color);
-  opacity: 0.25;
   border-radius: 2em;
-  top: 4em;
-  left: 60em;
   cursor: pointer;
 }
+
 .layer__abour--img:hover {
   border: solid 0.2em var(--hover--color);
   opacity: 0.4;
 }
+
 .about--img {
-  position: absolute;
-  width: 385px;
-  height: 515px;
+  width: 470px;
+  height: 635px;
   border-radius: 2em;
-  top: 7.5em;
-  left: 62.7em;
-  cursor: pointer;
+  z-index: 1;
 }
 .about--img:hover {
   border: solid 0.2em var(--hover--color);
