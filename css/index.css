@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth; /*Tạo hiệu ứng trượt mượt mà trên phần tử có thể cuộn được */
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -419,7 +419,7 @@ span {
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
   html {
-    /*nếu kích thước màn hình nhỏ hơn hoặc bằng 1200px, 
+    /*nếu kích thước màn hình nhỏ hơn hoặc bằng 1200px,
     thì kích thước font chữ trên trang web sẽ được thiết lập thành 55% của kích thước font chữ mặc định.*/
     font-size: 55%;
   }
@@ -427,7 +427,7 @@ span {
 
 @media (max-width: 991px) {
   /*điều chỉnh về padding (
-  khoảng cách giữa nội dung và biên của phần tử) cho header, 
+  khoảng cách giữa nội dung và biên của phần tử) cho header,
   section và footer trên trang web */
   .header {
     padding: 2rem 3%;
