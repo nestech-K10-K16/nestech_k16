@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth; /*Tạo hiệu ứng trượt mượt mà trên phần tử có thể cuộn được */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -244,7 +244,7 @@ span {
   color: rgb(246, 80, 19);
 }
 
-.services-box p {
+.services-box ol {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
   color: rgb(55, 230, 230);
@@ -417,111 +417,114 @@ span {
 }
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
+
+@media (min-width: 1201px) {
   html {
-    /*nếu kích thước màn hình nhỏ hơn hoặc bằng 1200px,
-    thì kích thước font chữ trên trang web sẽ được thiết lập thành 55% của kích thước font chữ mặc định.*/
-    font-size: 55%;
+    font-size: 62.5%;
   }
 }
 
-@media (max-width: 991px) {
-  /*điều chỉnh về padding (
-  khoảng cách giữa nội dung và biên của phần tử) cho header,
-  section và footer trên trang web */
+@media (min-width: 992px) {
   .header {
-    padding: 2rem 3%;
+    padding: 3rem 3%;
   }
 
   section {
-    padding: 10rem 3% 2rem;
+    padding: 20rem 3% 2rem;
   }
 
   .services {
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
   }
 
   .portfolio {
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
   }
 
   .contact {
-    min-height: auto;
+    min-height: 50rem;
   }
 
   .footer {
-    padding: 2rem 3%;
+    padding: 3rem 3%;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   #menu-icon {
-    display: block; /* hiện thanh menu khi trang bị cuộn nhỏ hơn 768px*/
+    display: none;
   }
 
   .navbar {
-    position: absolute;
-    top: 100%; /* thiết lập pt nằm ở vị trí cuối cùng của pt cha*/
-    left: 0;
-    width: 100%;
-    padding: 1rem 3%;
-    background: var(--bg-color);
-    border-top: 0.1rem solid rgba(31, 227, 54, 0.2);
-    box-shadow: 0 0.5rem 1rem rgba(17, 155, 19, 0.2);
-    display: none; /* ẩn phần tử trong thanh menu */
-  }
-
-  .navbar.active {
-    display: block; /* hien thanh menu*/
+    position: static;
+    top: auto;
+    left: auto;
+    width: auto;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex !important;
   }
 
   .navbar a {
-    display: block; /*hiển thị các phần tử a dưới dạng khối (block)*/
-    font-size: 2rem;
-    margin: 3rem 0;
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 0 2rem;
   }
 
   .home {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .home-content h3 {
-    font-size: 2.6rem;
+    font-size: 3.2rem;
   }
+
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 7.2rem;
   }
 
   .home-img {
-    width: 70vw;
-    margin-top: 4rem;
+    width: 50%;
+    margin-top: 0;
   }
 
   .about {
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
 
   .about img {
-    width: 70vw;
-    margin-top: 4rem;
+    width: 50%;
+    margin-top: 0;
   }
 
   .services h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .portfolio h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .portfolio-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 617px) {
-  .portfolio-container {
-    grid-template-columns: 1fr;
+@media (min-width: 618px) and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 769px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .contact form .input-box input {
+    width: 70%;
   }
 }
 
@@ -537,11 +540,11 @@ span {
 
 @media (max-width: 400px) {
   .home-img img {
-    width: 90vw;
+    width: 90%;
   }
 
   .about-img img {
-    width: 90vw;
+    width: 90%;
   }
 
   .footer {
