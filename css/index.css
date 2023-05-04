@@ -6,12 +6,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --bl: black;
-    --wh: white;
-    --gr: grey;
-}
-
 @font-face {
     font-family: WraithArcBlocks-5n0v;
     src: url('../fonts/WraithArcBlocks-5n0v.otf');
@@ -20,6 +14,12 @@
 @font-face {
     font-family: Bartomes;
     src: url('../fonts/Bartomes.otf');
+}
+
+:root {
+    --bl: black;
+    --wh: white;
+    --gr: grey;
 }
 
 body {
@@ -32,7 +32,6 @@ body {
     position: absolute;
     top: 90px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding-left: 39.59px;
     padding-right: 39.59px;
@@ -46,8 +45,9 @@ body {
 
 .navbar__branch {
     position: absolute;
-    background-color: var(--bl);
+    background-color: rgba(0,0,0,0.3);
     list-style: none;
+    min-width: 100%;
     z-index: 1;
     display: none;
 }
@@ -66,12 +66,60 @@ body {
     text-decoration: none;
 }
 
+.media__facebook--link i {
+    background-color: #1877F2;
+    color: var(--wh);
+    font-size: 14pt;
+    width: 44.59px;
+    height: 33.59px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.media__youtube--link i {
+    background-color: #CD201F;
+    color: var(--wh);
+    font-size: 15pt;
+    width: 44.59px;
+    height: 33.59px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.media__tiktok--link i {
+    background-color: #000000;
+    color: var(--wh);
+    font-size: 13pt;
+    width: 44.59px;
+    height: 33.59px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
 .navbar__main--link:hover {
     color: var(--gr);
 }
 
 .navbar__branch--link:hover {
     color: var(--gr);
+}
+
+.media__facebook--link i:hover {
+    opacity: 0.8;
+}
+
+.media__youtube--link i:hover {
+    opacity: 0.8;
+}
+
+.media__tiktok--link i:hover {
+    opacity: 0.8;
 }
 
 .navbar__main:hover .navbar__branch {
@@ -82,7 +130,6 @@ body {
     position: absolute;
     top: 159px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -99,3 +146,8 @@ body {
     font-size: 20px;
     color: var(--wh);
 }
+
+/* OK */
+
+
+
