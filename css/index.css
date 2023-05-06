@@ -12,8 +12,8 @@
 }
 
 @font-face {
-    font-family: Bartomes;
-    src: url('../fonts/Bartomes.otf');
+    font-family: Reboot Crush;
+    src: url('../fonts/Reboot Crush.ttf');
 }
 
 :root {
@@ -127,8 +127,8 @@ body {
 }
 
 #home {
-    position: absolute;
-    top: 159px;
+    position: relative;
+    top: -5px;
     display: flex;
     justify-content: space-between;
 }
@@ -140,14 +140,11 @@ body {
 
 .home__paragraph {
     position: absolute;
-    top: 400px;
+    top: 395px;
     left: 41px;
-    font-family: Bartomes;
-    font-size: 20px;
+    font-family: Reboot Crush;
+    font-size: 12pt;
     color: var(--wh);
 }
 
 /* OK */
-
-
-

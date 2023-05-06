@@ -18,3 +18,4 @@ overlay.addEventListener('click', () => {
 logo.addEventListener('click', () => {
   alert('reload');
 });
+
