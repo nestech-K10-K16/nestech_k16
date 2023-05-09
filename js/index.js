@@ -96,4 +96,3 @@ function ghepChuoiInHoa(string a){
 
 console.log('thao tac chuoi', );
 
-//123
