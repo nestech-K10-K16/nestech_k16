@@ -72,7 +72,7 @@ body {
     text-decoration: none;
 }
 
-.media__facebook--link .fa-facebook-f {
+.navbar__media--link .fa-facebook-f {
     background-color: #1877F2;
     color: var(--wh);
     font-size: 13pt;
@@ -84,7 +84,7 @@ body {
     margin: 9px 5px 9px 0px;
 }
 
-.media__youtube--link .fa-youtube {
+.navbar__media--link .fa-youtube {
     background-color: #CD201F;
     color: var(--wh);
     font-size: 13pt;
@@ -96,7 +96,7 @@ body {
     margin: 9px 5px 9px 0px;
 }
 
-.media__tiktok--link .fa-tiktok {
+.navbar__media--link .fa-tiktok {
     background-color: #000000;
     color: var(--wh);
     font-size: 13pt;
@@ -121,7 +121,7 @@ body {
     color: var(--gr);
 }
 
-.fa-brands:hover {
+.navbar__media--link .fa-brands:hover {
     opacity: 0.8;
 }
 
