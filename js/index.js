@@ -1,97 +1,45 @@
-// var a = null;
-// let b = 'a';
+/**
+ * <!--
+cho chuỗi A = ‘Học Javascript Front    End tại Nestech   ,Quận 10’
+  Bài 1
+  tìm vị trí chuỗi “Javascript”
+  thay vị trí chuỗi “Javascript” thành “ReactJS”
 
-// console.log('bien a >>>', typeof a);
+  Bài 2
+    hiển thị chuỗi A với việc bỏ khoảng trắng
+  cắt chuỗi A tại thành dấu phẩy và hiển thị cụm sau của chuỗi sau khi cắt
+-->
+ */
+var A = "Học Javascript Front    End tại Nestech   ,Quận 10";
+console.log("Vị trí chuỗi “Javascript là: ", A.search("Javascript"));
+console.log("Chuỗi sau khi thay thế là: ", A.replace("Javascript", "ReactJS"));
+console.log("chuỗi A với việc bỏ khoảng trắng cắt chuỗi A tại thành dấu phẩy và hiển thị cụm sau của chuỗi sau khi cắt là: ", A.split(",")[1]);
+/**
+ * <!--
+  Bài 3
+  cho 1 mảng A = [2,3,4,5,6,7,8,-10,30].
+  tìm số lớn nhất , số nhỏ nhất
 
-// //number
-// //string
-// //boolean
-// //object
-// //undefined
+  Bài 4
+    cho 1 chuỗi string = ‘Học Javascript Front End’.
+  _ hiển thị độ dài chuổi
 
-// // function cong2So(a, b) {
-// //   return a + b;
-// // }
+  _ nối chuỗi string với chuỗi B = ‘’ở Nesteh
+-->
+ */
+var A = [2, 3, 4, 5, 6, 7, 8, -10, 30];
+let max_val = A.reduce(function (accumulator, element) {
+  return (accumulator > element) ? accumulator : element
+});
+console.log("số lớn nhất: ", max_val);
+let min_val = A.reduce(function (accumulator, element) {
+  return (accumulator < element) ? accumulator : element
+});
+console.log("số nhỏ nhất: ", min_val);
 
-// // console.log('Ket qua: ', cong2So(2, 3));
+var string = "Học Javascript Front End";
+console.log("độ dài chuổi là: ", string.length);
+var B = "ở Nesteh";
+console.log("nối chuỗi string với chuỗi B = ‘’ở Nesteh là : ", string + B);
 
-// function cong() {
-//   let _b = '_a';
-//   console.log('b >>>', b);
-// }
 
-// // console.log('_b >>>', _b);
-
-// var a = 1;
-
-// var a = [];
-
-// let a = 2;
-
-// // console.log('a', a);
-
-// cong();
-
-// console.log('a >>>>', a);
-
-// // let openImg = false
-
-// // onclick event
-
-// /, %, +, -, *
-// >, ==,===, <, &&, ||, ??, !, >=, <=
-
-//== : không so sánh kiểu dữ liệu
-// === : so sánh kiểu dữ liệu
-
-// !: not, != , khác
-
-//&& : true && false
-
-// let a = 'abc';
-
-// let b = 'abc';
-
-// console.log('ket qua >>>', a);
-
-//||: true || false
-
-//let a = new Object()
-// let a = {};
-
-// a = { _a: 1, _b: '1', _c: [], _d: false };
-// _f = a._b;
-// console.log('a._b', a._b);
-
-// //let b = new Array()
-// let b = [];
-// b = [{ a: 1 }, { n: 10 }, { c: 3 }];
-// console.log(b[2]);
-
-// for (let i = 0; i < b.length; i++) {}
-
-// b.forEach((item, index) => {
-//   console.log('item', item, index);
-// });
-
-// for (const key in object) {
-//   if (Object.hasOwnProperty.call(object, key)) {
-//     const element = object[key];
-
-//   }
-// }
-
-// console.log(first)
-
-let chuoi_a = 'nguyen van A';
-let chuoi_b = 'chuoi def';
-let chuoi_c = '1';
-
-function ghepChuoiInHoa(string a){
-  let a = 'nguyen van A';
-
-}
-
-//output : Nguyen Van A
-
-console.log('thao tac chuoi', );
