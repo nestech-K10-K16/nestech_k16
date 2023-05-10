@@ -1,0 +1,58 @@
+<script>
+  var a = "Học Javascript Front    End tại Nestech   ,Quận 10";
+  console.log("Chuỗi: ", a);
+
+  // Bài 1
+  // Tìm vị trí chuỗi
+  console.log("Vị trí chuỗi: ", a.indexOf("Javascript"));
+
+  // Thay thế chuỗi
+  console.log("Thay thế chuỗi: ", a.replace("Javascript", "ReactJS"));
+
+  // Bài 2
+  // Loại bỏ khoảng trắng
+  console.log("Bỏ khoảng trắng chuỗi: ", a.replace(/\s+/g, ''));
+
+  // Cắt chuỗi và hiển thị chuỗi đã cắt
+  console.log("Cắt chuỗi và hiển thị chuỗi đã cắt: ", a.substring(42));
+
+  // Bài 3
+  var array = [2, 3, 4, 5, 6, 7, 8, -10, 30];
+  console.log("Mảng: ", array);
+
+  // Tìm số lớn nhất
+  console.log("Số lớn nhất: ", Math.max.apply(Math, array));
+
+  // Tìm số bé nhất
+  console.log("Số lớn nhất: ", Math.min.apply(Math, array));
+
+  // Bài 4
+  var b = "Học Javascript Front End";
+  var c = "ở Nesteh";
+
+  console.log("Chuỗi 1: ", b);
+  console.log("Chuỗi 2:", c);
+
+  console.log("Độ dài chuỗi 1: ", length_string = b.length);
+
+  console.log("Nối 2 chuỗi: ", b.concat(" ", c));
+
+  // Bài 5
+  // Tìm số nguyên tố
+  for (let i = 0; i < array.length; i++) {
+    if (check_primes(array[i]) == true) {
+      console.log("Số nguyên tố là: ", array[i]);
+    }
+  }
+
+  function check_primes(n) {
+    if (n < 2) return false;
+    else if (n == 2) return true;
+    else {
+      for (var i = 2; i < n; i++) {
+        if (n % i == 0) return false;
+        else return true;
+      }
+    }
+  }
+</script>
