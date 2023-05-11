@@ -98,44 +98,7 @@
 
 // **
 //  * <!--
-// cho chuỗi A = ‘Học Javascript Front    End tại Nestech   ,Quận 10’
-//   Bài 1
-// 	tìm vị trí chuỗi “Javascript”
-// 	thay vị trí chuỗi “Javascript” thành “ReactJS”
-
-//   Bài 2
-//   	hiển thị chuỗi A với việc bỏ khoảng trắng
-// 	cắt chuỗi A tại thành dấu phẩy và hiển thị cụm sau của chuỗi sau khi cắt
-// -->
-//  */
-
-// /**
-//  * <!--
-//   Bài 3
-// 	cho 1 mảng A = [2,3,4,5,6,7,8,-10,30].
-// 	tìm số lớn nhất , số nhỏ nhất
-
-//   Bài 4
-//   	cho 1 chuỗi string = ‘Học Javascript Front End’.
-// 	_ hiển thị độ dài chuổi
-
-// 	_ nối chuỗi string với chuỗi B = ‘’ở Nesteh
-// -->
-//  */
-
-// /**
-//  * <!--
-//   Bài 5
-// 	cho 1 mảng A = [2,3,4,5,6,7,8,-10,30].
-// 	tìm số lớn nhất , số nhỏ nhất
-
-//   Bài 6
-//   	cho 1 chuỗi string = ‘Học Javascript Front End’.
-// 	_ hiển thị độ dài chuổi
-
-// 	_ nối chuỗi string với chuỗi B = ‘’ở Nesteh
-// -->
-//  */
+//
 
 // let object01 = {
 //   // Tạo các thuộc tính
@@ -162,17 +125,83 @@
 // // object01['hoTen'];
 // console.log('num >>>', typeof object02);
 
-let array01 = ['Trần Văn A', 'Nguyễn Văn B', 'Ngô Minh C', '1'];
+// let array01 = ['Trần Văn A', 'Nguyễn Văn B', 'Ngô Minh C', '1'];
 
-let array02 = new Array('Trần Văn A', 'Nguyễn Văn B', 'Ngô Minh C');
+// let array02 = new Array('Trần Văn A', 'Nguyễn Văn B', 'Ngô Minh C');
 
-// console.log('array01 >>>', typeof array01);
-// console.log('array01 >>>', array01[array01.length - 1]);
-// array01[array01.length - 1] = 'Nguyễn Hồ Văn D';
-// console.log('array01 >>>', array01[array01.length - 1]);
-// console.log('array01 >>>', array01.join());
-// console.log('array01 >>>', array02.pop());
-console.log('array01 >>>', array01.push('Nguyễn Hồ Văn E'));
-//đầu tiên: array01.length - array.length
-//cuối cùng: array01.length - 1
-// console.log('array02 >>>', typeof array02);
+// // console.log('array01 >>>', typeof array01);
+// // console.log('array01 >>>', array01[array01.length - 1]);
+// // array01[array01.length - 1] = 'Nguyễn Hồ Văn D';
+// // console.log('array01 >>>', array01[array01.length - 1]);
+// // console.log('array01 >>>', array01.join());
+// // console.log('array01 >>>', array02.pop());
+// console.log('array01 >>>', array01.push('Nguyễn Hồ Văn E'));
+// //đầu tiên: array01.length - array.length
+// //cuối cùng: array01.length - 1
+// // console.log('array02 >>>', typeof array02);
+
+// cho chuỗi A =
+//   Bài 1
+// 	tìm vị trí chuỗi “Javascript”
+// 	thay vị trí chuỗi “Javascript” thành “ReactJS”
+
+let A = 'Học Javascript Front    End tại Nestech   ,Quận 10';
+console.log('vị trí chuỗi Javascrip >>>', A.indexOf('Javascript'));
+console.log(
+  'thay thế chuỗi Javascript >>>',
+  A.replace('Javascript', 'ReactJS')
+);
+
+//   Bài 2
+//   	hiển thị chuỗi A với việc bỏ khoảng trắng
+// 	cắt chuỗi A tại thành dấu phẩy và hiển thị cụm sau của chuỗi sau khi cắt
+// -->
+console.log('loại bỏ khoảng trắng >>>', A.trim());
+console.log('cắt chuối A >>>', A.split(','));
+
+//   Bài 3
+// 	cho 1 mảng A = [2,3,4,5,6,7,8,-10,30].
+// 	tìm số lớn nhất , số nhỏ nhất
+
+//cách 1
+//for, if
+let B = [2, 3, 4, 5, 6, 7, 8, -10, 30];
+let Max = B[0];
+for (let i = 0; i < B.length; i++) {
+  if (Max > B[i]) Max = Max;
+  else Max = B[i];
+}
+
+console.log('tìm Max', Max);
+//cach 2
+console.log('tìm Max', Math.max(...B));
+
+//cách 1
+//for, if
+
+let Min = B[0];
+for (let i = 0; i < B.length; i++) {
+  if (Min > B[i]) {
+    Min = B[i];
+  } else {
+    Min = Min;
+  }
+}
+
+console.log('tìm Min', Min);
+//cach 2
+console.log('tìm Min', Math.min(...B));
+
+//   Bài 4
+//   	cho 1 chuỗi string = ‘Học Javascript Front End’.
+// 	_ hiển thị độ dài chuổi
+
+// 	_ nối chuỗi string với chuỗi B = ‘’ở Nestech
+let string = 'Học Javascript Front End';
+console.log('hien thij do dai chuoi >>', string.length);
+console.log('hien thij do dai chuoi >>', string + ' ' + 'ở Nestech');
+console.log('hien thij do dai chuoi >>', string.concat(' ', 'ở Nestech'));
+
+//   Bài 5
+// 	cho 1 mảng A = [2,3,4,5,6,7,8,-10,30].
+// 	tìm số nguyên tố, kiểu tra xem mảng đó có là dãy fibonannci không ?
