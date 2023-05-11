@@ -6,178 +6,34 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: WraithArcBlocks-5n0v;
-    src: url('../fonts/WraithArcBlocks-5n0v.otf');
-}
-
-@font-face {
-    font-family: Reboot Crush;
-    src: url('../fonts/Reboot Crush.ttf');
-}
-
-:root {
-    --bl: black;
-    --wh: white;
-    --gr: grey;
-}
-
-body {
+.home__sub {
     position: relative;
-    background-color: var(--bl);
-    width: 1280px;
+    top: -7px;
+    display: grid;
+    /* grid-template-columns: 1.03125% 48.453125% 1.03125% 48.453125% 1.03125%; */
+    grid-template-columns: 4vw 44vw 4vw 44vw 4vw;
+    grid-template-rows: 10vh 10vh;
 }
 
-.navbar__main {
-    position: absolute;
-    top: 90px;
+
+
+.item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.item6 {
+    grid-column: 2 / 5;
+}
+
+.item5 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 3;
+}
+
+
+.item {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding-left: 39.59px;
-    padding-right: 39.59px;
-    width: 1280px;
-}
-
-.navbar__main--list {
-    position: relative;
-}
-
-.navbar__main--link {
-    font-family: WraithArcBlocks-5n0v;
-    font-size: 49pt;
-    color: var(--wh);
-    text-decoration: none;
-}
-
-.navbar__branch {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
-    list-style: none;
-    min-width: 100%;
-    z-index: 1;
-    transition: 0.7s;
-    opacity: 0;
-    top: 55px;
-
-}
-
-.navbar__main--list:hover .navbar__branch {
-    opacity: 1;
-    top: 69px;
-
-}
-
-.navbar__branch--list {
-    position: relative;
-}
-
-.navbar__branch--link {
-    font-family: WraithArcBlocks-5n0v;
-    font-size: 29pt;
-    color: var(--wh);
-    text-decoration: none;
-}
-
-.media__facebook--link i {
-    background-color: #1877F2;
-    color: var(--wh);
-    font-size: 14pt;
-    width: 44.59px;
-    height: 33.59px;
-    display: inline-flex !important;
     justify-content: center;
     align-items: center;
-    margin-right: 5px;
 }
-
-.media__youtube--link i {
-    background-color: #CD201F;
-    color: var(--wh);
-    font-size: 15pt;
-    width: 44.59px;
-    height: 33.59px;
-    display: inline-flex !important;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-}
-
-.media__tiktok--link i {
-    background-color: #000000;
-    color: var(--wh);
-    font-size: 13pt;
-    width: 44.59px;
-    height: 33.59px;
-    display: inline-flex !important;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-}
-
-.navbar__main--link:hover {
-    color: var(--gr);
-}
-
-.navbar__branch--link:hover {
-    color: var(--gr);
-}
-
-.media__facebook--link i:hover {
-    opacity: 0.8;
-}
-
-.media__youtube--link i:hover {
-    opacity: 0.8;
-}
-
-.media__tiktok--link i:hover {
-    opacity: 0.8;
-}
-
-#home {
-    position: relative;
-    top: -5px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.home__img--bottom {
-    position: absolute;
-    top: 395px;
-}
-
-.home__paragraph {
-    position: absolute;
-    top: 395px;
-    left: 41px;
-    font-family: Reboot Crush;
-    font-size: 12pt;
-    color: var(--wh);
-}
-
-/* OK */
-
-/* .navbar__main {
-    background-color: green;
-}
-
-.navbar__main--list {
-    background-color: yellow;
-}
-
-.navbar__main--link {
-    background-color: red;
-}
-
-.navbar__branch {
-    background-color: green;
-}
-
-.navbar__branch--list {
-    background-color: yellow;
-}
-
-.navbar__branch--link {
-    background-color: red;
-} */
