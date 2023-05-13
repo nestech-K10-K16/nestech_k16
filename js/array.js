@@ -86,3 +86,42 @@ console.log('update >>', [
     gender: 'male',
   },
 ]);
+
+let new_object = {
+  1: {
+    name: 'Luke Skywalker',
+    height: '172',
+    mass: '77',
+    eye_color: 'blue',
+    gender: 'male',
+  },
+  2: {
+    name: 'Darth Vader',
+    height: '202',
+    mass: '136',
+    eye_color: 'yellow',
+    gender: 'male',
+  },
+};
+
+Object.keys(new_object).map((key) => {
+  console.log('item - index', new_object[key]);
+});
+
+let a = 10;
+
+var b = 10;
+
+const hamA = () => {
+  console.log('log hàm A');
+};
+
+hamA();
+hamB();
+
+function hamB() {
+  console.log('log hàm B');
+}
+
+//arrow function - không có hoisting
+//default function - hoisting
