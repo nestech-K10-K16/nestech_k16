@@ -5,60 +5,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <title>My Portfolio</title>
 </head>
 
 <body>
     <section id="header">
-        <div>
-            <img src="./assets 2/header.png" />
+        <div class="header__banner">
+            <img src="./assets/header__banner.png" />
         </div>
-        <div class="navbar">
-            <div class="navbar__main"><a class="navbar__main--link" href="#">HOME</a></div>
-            <div class="navbar__main"><a class="navbar__main--link" href="#">ABOUT</a></div>
-            <div class="navbar__main"><a class="navbar__main--link" href="#">PRODUCTS</a>
+        <ul class="navbar__main">
+            <li class="navbar__main--list"><a class="navbar__main--link" href="#home">HOME</a></li>
+            <li class="navbar__main--list"><a class="navbar__main--link" href="#about">ABOUT</a></li>
+            <li class="navbar__main--list"><a class="navbar__main--link" href="#">MODELS</a>
                 <ul class="navbar__branch">
-                    <li><a class="navbar__branch--link" href="#">URUS</a></li>
-                    <li><a class="navbar__branch--link" href="#">CAYENNE</a></li>
-                    <li><a class="navbar__branch--link" href="#">SORENTO</a></li>
+                    <li class="navbar__branch--list"><a class="navbar__branch--link" href="#">URUS</a></li>
+                    <li class="navbar__branch--list"><a class="navbar__branch--link" href="#">CAYENNE</a></li>
+                    <li class="navbar__branch--list"><a class="navbar__branch--link" href="#">SORENTO</a></li>
                 </ul>
-            </div>
-            <div class="navbar__main"><a class="navbar__main--link" href="#">CONTACT</a>
+            </li>
+            <li class="navbar__main--list"><a class="navbar__main--link" href="#">CONTACT</a>
                 <ul class="navbar__branch">
-                    <li><a class="navbar__branch--link" href="#">SHOWROOMS</a></li>
-                    <li><a class="navbar__branch--link" href="#">INFO</a></li>
+                    <li class="navbar__branch--list"><a class="navbar__branch--link" href="#">SHOWROOMS</a></li>
+                    <li class="navbar__branch--list"><a class="navbar__branch--link" href="#footer">INFO</a></li>
                     <li>
-                        <a class="media__facebook--link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a class="media__youtube--link" href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a class="media__tiktok--link" href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a class="navbar__media--link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="navbar__media--link" href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="navbar__media--link" href="#"><i class="fa-brands fa-tiktok"></i></a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <section id="home">
-        <div class="home__img--left">
-            <img src="./assets 2/home__img--left.png" />
+        <div class="home__main">
+            <div class="home__block--left">
+                <img class="home__main--left" src="./assets/home__main--left.png" />
+            </div>
+            <div class="home__block--center">
+                <div>
+                    <img class="home__banner--central" src="./assets/home__banner--central.png" />
+                </div>
+                <div>
+                    <img class="home__main--bottom" src="./assets/home__main--bottom.png" />
+                </div>
+            </div>
+            <div class="home__block--right">
+                <img class="home__main--right" src="./assets/home__main--right.png" />
+            </div>
         </div>
-        <div class="home__img--center">
-            <div class="home__img--top">
-                <img src="./assets 2/home__img--top.png" />
-            </div>
-            <div class="home__img--bottom">
-                <img src="./assets 2/home__img--bottom.png" />
-            </div>
-            <div class="home__paragraph">
-                LAMBORGHINI URUS
-            </div>
-        </div>
-        <div class="home__img--right">
-            <img src="./assets 2/home__img--right.png" />
+        <div class="home__sub">
+            <img class="home__sub--left" src="./assets/home__sub--left.png" />
+            <img class="home__banner--left" src="./assets/home__banner--left.png" />
+            <img class="home__sub--center" src="./assets/home__sub--center.png" />
+            <img class="home__banner--right" src="./assets/home__banner--right.png" />
+            <img class="home__sub--right" src="./assets/home__sub--right.png" />
+            <img class="home__sub--bottom" src="./assets/home__sub--bottom.png" />
         </div>
     </section>
-    
+
+    <section id="about">
+        <div class="about__content">
+            <p class="title">AMAZING EXPERIENCE</p>
+            <p class="word">ON THE ROAD STRAIGHT TO THE END OF THE WAY</p>
+        </div>
+            <div class="about__picture--first"></div>
+            <div class="about__picture--second"></div>
+            <div class="about__picture--third"></div>
+            <div class="about__picture--fourth"></div>
+    </section>
+
+    <section id="footer">
+        <div class="footer__banner">
+            <img src="./assets/footer__banner.png" />
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

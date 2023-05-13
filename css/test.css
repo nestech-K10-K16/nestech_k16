@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;                         /* định dạng xóa bỏ text-decoration của thẻ <a> */ 
+}
+
+ul {                                               /* định dạng xóa bỏ list-style của các thẻ <li> trong <ul> */ 
+    list-style: none;
+}
+
+.nav-area {                                          /* định dạng nền của container navbar */ 
+    height: 50px;
+    width: 962px;
+    margin: 0 auto;
+    background: deepskyblue
+}
+
+.nav-area ul li {                      /* định dạng cho các navbar__main float từ trái sang trong cùng 1 hàng */
+    float: left;
+    position: relative;
+}
+
+.nav-area ul li a {                                  /* định dạng chữ của thẻ a của navbar__main */     
+    padding: 16px 65px;
+    display: block;
+    transition: .7s;                                 /* transition định dang 0.7s cho việc đổi qua nền màu đen */   
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.nav-area > ul > li > a {
+    border-right: 1px solid #fff;              /* định dạng đường kẻ trắng bên phải mỗi thẻ a của navbar__main */
+}
+
+.nav-area > ul > li:last-child > a {          /* xóa đường kẻ trắng bên phải của thẻ a cuối cùng của navbar__main */
+    border-right: none;
+}
+
+.nav-area ul li:hover > a {                      /* định dạng màu nền của thẻ a của navbar__main khi HOVER */
+    background: #333;
+}
+
+.nav-area ul li a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background: deepskyblue;
+    transition: .7s;
+}
+
+.nav-area ul li a:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 4px;
+    width: 0;
+    background: deepskyblue;
+    transition: .7s;
+}
+
+.nav-area ul li a:hover:before,                 /* định dạng hover có 2 đường ngang chạy dài 100% */          
+.nav-area ul li a:hover:after {
+    width: 100%;
+}
+
+.nav-area ul li ul {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    transition: .7s;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -25px;
+}
+
+.nav-area ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.nav-area ul li ul li {
+    width: 100%;
+}
+
+.nav-area ul li ul li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+/* OK */
+
+body {
+    background-color: red;
+}
