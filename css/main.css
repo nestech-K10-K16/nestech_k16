@@ -234,14 +234,14 @@ img {
     padding-top: 33.75%;
 }
 
-/* .about__block--first {
+.about__block--first {
     position: absolute;
     top: 22.35%;
     right: 76.25%;
     bottom: 3.75%;
     left: 1.25%;
-    transition: 0.7s;
-} */
+    overflow: hidden;
+}
 
 .about__block--second {
     position: absolute;
@@ -249,6 +249,7 @@ img {
     right: 51.25%;
     bottom: 3.75%;
     left: 26.25%;
+    overflow: hidden;
 }
 
 .about__block--third {
@@ -257,6 +258,7 @@ img {
     right: 26.25%;
     bottom: 3.75%;
     left: 51.25%;
+    overflow: hidden;
 }
 
 .about__block--fourth {
@@ -265,6 +267,11 @@ img {
     right: 1.25%;
     bottom: 3.75%;
     left: 76.25%;
+    overflow: hidden;
+}
+
+.about__picture {
+    transition: 0.7s;
 }
 
 .about__content--first {
@@ -285,18 +292,15 @@ img {
     color: var(--wh);
 }
 
-/* OK */
-
-.about__block--first {
-    position: absolute;
-    top: 22.35%;
-    right: 76.25%;
-    bottom: 3.75%;
-    left: 1.25%;
-    transition: 0.7s;
-}
-
-.about__picture--first:hover {
+.about__block:hover .about__picture {
     transform: scale(1.1);
 }
+
+/* OK */
+
+.about__block {
+    cursor: pointer;
+}
+
+
 
