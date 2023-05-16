@@ -27,15 +27,13 @@ body {
   color: var(--text-color);
 }
 
-img {
-}
-
+/* header */
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 16px 220px;
+  padding: 22px 200px;
   background: transparent;
   display: flex;
   flex-direction: row;
@@ -44,11 +42,11 @@ img {
   z-index: 100;
 }
 
+/* navbar */
 .navbar a {
   position: relative;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: var(--text-color);
-  font-weight: 500;
   margin-right: 3.5rem;
 }
 
@@ -58,5 +56,14 @@ img {
   padding: 16px 40px;
   gap: 10px;
   background: var(--bg-login);
+  border-radius: 8px;
+}
+
+.navbar .whitespace {
+  width: 227px;
+  height: 60px;
+  padding: 16px 24px;
+  gap: 10px;
+  background: #4f9cf9;
   border-radius: 8px;
 }
