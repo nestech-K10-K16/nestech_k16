@@ -234,14 +234,14 @@ img {
     padding-top: 33.75%;
 }
 
-.about__block--first {
+/* .about__block--first {
     position: absolute;
     top: 22.35%;
     right: 76.25%;
     bottom: 3.75%;
     left: 1.25%;
     transition: 0.7s;
-}
+} */
 
 .about__block--second {
     position: absolute;
@@ -287,12 +287,16 @@ img {
 
 /* OK */
 
-/* .about__picture--first:hover {
-    transform: scale(1.1);
-} */
-
-.about__block--first:before {
-    content: "";
-    background-color: red;
-    z-index: 2;
+.about__block--first {
+    position: absolute;
+    top: 22.35%;
+    right: 76.25%;
+    bottom: 3.75%;
+    left: 1.25%;
+    transition: 0.7s;
 }
+
+.about__picture--first:hover {
+    transform: scale(1.1);
+}
+
