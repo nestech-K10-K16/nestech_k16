@@ -10,10 +10,10 @@ html {
 
 :root {
   /* color */
-  --blue: #043873;
-  --white: white;
-  --black: black;
-  --button--color: #4f9cf9;
+  --color-blue: #043873;
+  --color-white: white;
+  --color-black: black;
+  --color-button: #4f9cf9;
 
   /* font-size */
   --bigger-font-size: 64px;
@@ -21,7 +21,7 @@ html {
 
 /* HEADER */
 .header {
-  background-color: var(--blue);
+  background-color: var(--color-blue);
 }
 
 .nav__container {
