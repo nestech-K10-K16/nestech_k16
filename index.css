@@ -8,12 +8,19 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  width: 100%;
+}
+a {
+  color: var(--color-white);
+}
 :root {
   /* color */
   --color-blue: #043873;
   --color-white: white;
   --color-black: black;
   --color-button: #4f9cf9;
+  --color-button-login: #ffe492;
 
   /* font-size */
   --bigger-font-size: 64px;
@@ -24,6 +31,36 @@ html {
   background-color: var(--color-blue);
 }
 
-.nav__container {
+.nav__container,
+.nav__list,
+.nav__button {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav__item {
+  width: 100px;
+  list-style: none;
+}
+.nav__button {
+  width: 250px;
+  list-style: none;
+}
+
+.nav__login {
+  border-radius: 10%;
+  background-color: var(--color-button-login);
+  padding: 10px 15px;
+}
+
+.nav__try {
+  border-radius: 10%;
+  background-color: var(--color-button);
+  padding: 10px 15px;
 }
