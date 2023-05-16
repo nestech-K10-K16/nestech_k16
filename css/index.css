@@ -201,7 +201,7 @@ span {
   color: rgb(73, 193, 212);
 }
 
-.about-centent ul li {
+.about-centent ol li {
   color: aquamarine;
 }
 
@@ -217,6 +217,7 @@ span {
   align-items: center;
   gap: 2rem; /*Thiết lập khoảng cách giữa các phần tử con là 2 rem, tạo ra một khoảng cách giữa các mục dịch vụ.*/
   flex-wrap: wrap; /*ho phép các phần tử con được bọc vào nhiều dòng nếu chúng vượt quá chiều rộng của phần tử chứa.*/
+  padding-left: 16px;
 }
 
 .services-container .services-box {
