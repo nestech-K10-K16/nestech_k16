@@ -15,6 +15,7 @@
   --bg-color: #043873;
   --text-color: #ffffff;
   --bg-login: #ffe492;
+  --bg-whitespace: #4f9cf9;
 }
 
 html {
@@ -33,7 +34,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 22px 200px;
+  padding: 22px 190px;
   background: transparent;
   display: flex;
   flex-direction: row;
@@ -57,6 +58,7 @@ body {
   gap: 10px;
   background: var(--bg-login);
   border-radius: 8px;
+  margin-right: 24px;
 }
 
 .navbar .whitespace {
@@ -64,6 +66,66 @@ body {
   height: 60px;
   padding: 16px 24px;
   gap: 10px;
-  background: #4f9cf9;
+  background: var(--bg-whitespace);
+  border-radius: 8px;
+}
+
+#down-icon {
+  width: 9px;
+  height: 4px;
+  padding-left: 20px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 12% 4rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.home .home-content {
+  max-width: 44rem;
+}
+
+.home-content h2 {
+  width: 656px;
+  height: 154px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 0.3;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+}
+
+.home .home-content p {
+  width: 656px;
+  height: 60px;
+  font-size: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+}
+
+.btn {
+  display: flex;
+  background: var(--bg-whitespace);
+  color: var(--text-color);
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  width: 219px;
+  height: 63px;
   border-radius: 8px;
 }
