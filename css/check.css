@@ -4,19 +4,20 @@
     margin: 0;
 }
 
-html {
-    scroll-behavior: smooth;
+body {
+    display: flex;
+    justify-content: center;
 }
 
-
-.about__picture {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, minmax(13.8rem, auto));
-    column-gap: 1rem;
-
+div {
+    overflow: hidden;
 }
 
-.about__picture div {
-    background-color: red;
+img {
+    width: 100%;
+    transition: 0.7s;
+}
+
+img:hover {
+    transform: scale(110%);
 }
