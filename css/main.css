@@ -167,10 +167,6 @@ img {
     bottom: 2.15rem;
 }
 
-.home__image--banner-first {
-    transition: 5s;
-}
-
 .home__paragraph--content-first {
     font-family: WraithArcBlocks-5n0v;
     font-size: 4.88rem;
@@ -227,14 +223,6 @@ img {
     bottom: 2.75rem;
 }
 
-.home__image--banner-second {
-    transition: 5s;
-}
-
-.home__image--banner-third {
-    transition: 5s;
-}
-
 .home__paragraph--content-second {
     font-family: WraithArcBlocks-5n0v;
     font-size: 2.88rem;
@@ -249,17 +237,29 @@ img {
     cursor: pointer;
 }
 
-.home__image--banner-first:hover {
-    transform: scale(110%);
-}
+/* .home__block--banner:after {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    transition: 5s cubic-bezier(.23,1,.32,1);
+    opacity: 0;
+} */
 
-.home__image--banner-second:hover {
-    transform: scale(110%);
-}
+/* .home__image--banner {
+    transition: 5s cubic-bezier(.23,1,.32,1);
+} */
 
-.home__image--banner-third:hover {
+/* .home__block--banner:hover:after {
+    opacity: 1;
+} */
+
+/* .home__block--banner:hover .home__image--banner {
     transform: scale(110%);
-}
+} */
 
 .home__paragraph--content-first:hover {
     color: var(--gr);
@@ -318,10 +318,6 @@ img {
     overflow: hidden;
 }
 
-.about__image--banner {
-    transition: 5s;
-}
-
 .about__block--content-first {
     position: absolute;
     top: 0.45rem;
@@ -346,7 +342,27 @@ img {
     color: var(--wh);
 }
 
-.about__image--banner:hover {
+.about__block--banner:after {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    transition: 5s cubic-bezier(.23,1,.32,1);
+    opacity: 0;
+}
+
+.about__image--banner {
+    transition: 5s cubic-bezier(.23,1,.32,1);
+}
+
+.about__block--banner:hover:after {
+    opacity: 1;
+}
+
+.about__block--banner:hover .about__image--banner {
     transform: scale(110%);
 }
 
@@ -356,4 +372,3 @@ img {
 }
 
 /* OK */
-
