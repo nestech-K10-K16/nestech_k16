@@ -129,3 +129,7 @@ section {
   height: 63px;
   border-radius: 8px;
 }
+
+.home-img img {
+  max-width: 100%;
+}
