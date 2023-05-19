@@ -40,7 +40,7 @@ p {
   --color-background-img: #c4defd;
 
   /* font-size */
-  --font-Inter: 'Inter', sans-serif;
+  --font-Inter: "Inter", sans-serif;
   --bigger-font-size: 64px;
   --small-font-size: 18px;
 }
@@ -118,7 +118,7 @@ p {
   background-color: #043873;
   height: 90vh;
   /* border-top: solid var(--color-button) 2px; */
-  background-image: url('./acssets/img/img_background_section1.png');
+  background-image: url(./acssets/img/img_background_section1.png);
 }
 
 .section1__title {
