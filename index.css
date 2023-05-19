@@ -40,7 +40,7 @@ p {
   --color-background-img: #c4defd;
 
   /* font-size */
-  --font-Inter: "Inter", sans-serif;
+  --font-Inter: 'Inter', sans-serif;
   --bigger-font-size: 64px;
   --small-font-size: 18px;
 }
@@ -117,8 +117,8 @@ p {
   padding-right: 13.75rem;
   background-color: #043873;
   height: 90vh;
-  border-top: solid var(--color-button) 2px;
-  background-image: url("./acssets/img/img_background_section1.png");
+  /* border-top: solid var(--color-button) 2px; */
+  background-image: url('./acssets/img/img_background_section1.png');
 }
 
 .section1__title {
@@ -149,9 +149,14 @@ p {
 .section1__button i {
   margin-left: 0.94rem;
 }
-
+/*
 .section1__button:hover {
-  transform: translateY(-0.2rem);
+  background-color: #ffe492;
+  transition: transform 0.5s;
+} */
+
+#section1 a:hover {
+  margin: 16px;
 }
 
 .section1__img {
