@@ -1,0 +1,377 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: WraithArcBlocks-5n0v;
+    src: url('../fonts/WraithArcBlocks-5n0v.otf');
+}
+
+@font-face {
+    font-family: Reboot Crush;
+    src: url('../fonts/Reboot Crush.ttf');
+}
+
+:root {
+    --bl: black;
+    --wh: white;
+    --gr: grey;
+}
+
+html {
+    position: relative;
+    background-color: var(--bl);
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar__main {
+    position: absolute;
+    top: 6.66rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.navbar__main--list {
+    position: relative;
+}
+
+.navbar__main--link {
+    font-family: WraithArcBlocks-5n0v;
+    font-size: 4.88rem;
+    color: var(--wh);
+    text-decoration: none;
+}
+
+.navbar__sub {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    list-style: none;
+    min-width: 100%;
+    z-index: 1;
+    transition: 0.7s;
+    opacity: 0;
+    top: 4.2rem;
+    visibility: hidden;
+}
+
+.navbar__sub--list {
+    position: relative;
+}
+
+.navbar__sub--link {
+    font-family: WraithArcBlocks-5n0v;
+    font-size: 2.88rem;
+    color: var(--wh);
+    text-decoration: none;
+}
+
+.navbar__media--link .fa-facebook-f {
+    background-color: #1877F2;
+    color: var(--wh);
+    font-size: 1.1rem;
+    width: 2.8rem;
+    height: 2.1rem;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0.3rem 0.7rem 0rem;
+}
+
+.navbar__media--link .fa-youtube {
+    background-color: #CD201F;
+    color: var(--wh);
+    font-size: 1.1rem;
+    width: 2.8rem;
+    height: 2.1rem;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0.3rem 0.7rem 0rem;
+}
+
+.navbar__media--link .fa-tiktok {
+    background-color: #000000;
+    color: var(--wh);
+    font-size: 1.1rem;
+    width: 2.8rem;
+    height: 2.1rem;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0.3rem 0.7rem 0rem;
+}
+
+.navbar__main--list:hover .navbar__sub {
+    opacity: 1;
+    top: 5.17rem;
+    visibility: visible;
+}
+
+.navbar__main--link:hover {
+    color: var(--gr);
+}
+
+.navbar__sub--link:hover {
+    color: var(--gr);
+}
+
+.navbar__media--link .fa-brands:hover {
+    opacity: 0.8;
+}
+
+.home__block--main {
+    position: relative;
+    top: -0.25rem;
+    display: flex;
+}
+
+.home__block--main-left {
+    width: 1.33%;
+    order: 1;
+}
+
+.home__block--main-right {
+    width: 1.33%;
+    order: 3;
+}
+
+.home__block--main-center {
+    width: 97.34%;
+    order: 2;
+}
+
+.home__block--banner-first {
+    position: relative;
+    overflow: hidden;
+}
+
+.home__block--main-bottom {
+    position: relative;
+    top: -0.20rem;
+}
+
+.home__block--content-first {
+    position: absolute;
+    right: 2.05rem;
+    bottom: 2.15rem;
+}
+
+.home__paragraph--content-first {
+    font-family: WraithArcBlocks-5n0v;
+    font-size: 4.88rem;
+    color: var(--wh);
+    cursor: pointer;
+}
+
+.home__block--sub {
+    position: relative;
+    top: -0.64rem;
+    display: grid;
+    grid-template-columns: 1.33% 47.38% 2.58% 47.38% 1.33%;
+}
+
+.home__block--sub-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.home__block--sub-right {
+    grid-column: 5 / 6;
+    grid-row: 1 / 3;
+}
+
+.home__block--sub-center {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.home__block--banner-second {
+    position: relative;
+    overflow: hidden;
+}
+
+.home__block--banner-third {
+    position: relative;
+    overflow: hidden;
+}
+
+.home__block--sub-bottom {
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+    position: relative;
+    top: -0.24rem;
+}
+
+.home__block--content-second {
+    position: absolute;
+    right: 41.41rem;
+    bottom: 2.75rem;
+}
+
+.home__block--content-third {
+    position: absolute;
+    right: 2.05rem;
+    bottom: 2.75rem;
+}
+
+.home__paragraph--content-second {
+    font-family: WraithArcBlocks-5n0v;
+    font-size: 2.88rem;
+    color: var(--wh);
+    cursor: pointer;
+}
+
+.home__paragraph--content-third {
+    font-family: WraithArcBlocks-5n0v;
+    font-size: 2.88rem;
+    color: var(--wh);
+    cursor: pointer;
+}
+
+.home__block--banner:after {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    transition: 3s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 0;
+}
+
+.home__image--banner {
+    transition: 12s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.home__block--banner:hover:after {
+    opacity: 1;
+}
+
+.home__block--banner:hover .home__image--banner {
+    transform: scale(110%);
+}
+
+.home__paragraph--content-first:hover {
+    color: var(--gr);
+}
+
+.home__paragraph--content-second:hover {
+    color: var(--gr);
+}
+
+.home__paragraph--content-third:hover {
+    color: var(--gr);
+}
+
+#about {
+    background-image: url("/assets/images/about__image--background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -1.2rem;
+    padding-top: 33.75%;
+}
+
+.about__block--banner-first {
+    position: absolute;
+    top: 22.35%;
+    right: 76.25%;
+    bottom: 3.75%;
+    left: 1.25%;
+    overflow: hidden;
+}
+
+.about__block--banner-second {
+    position: absolute;
+    top: 22.35%;
+    right: 51.25%;
+    bottom: 3.75%;
+    left: 26.25%;
+    overflow: hidden;
+}
+
+.about__block--banner-third {
+    position: absolute;
+    top: 22.35%;
+    right: 26.25%;
+    bottom: 3.75%;
+    left: 51.25%;
+    overflow: hidden;
+}
+
+.about__block--banner-fourth {
+    position: absolute;
+    top: 22.35%;
+    right: 1.25%;
+    bottom: 3.75%;
+    left: 76.25%;
+    overflow: hidden;
+}
+
+.about__block--content-first {
+    position: absolute;
+    top: 0.45rem;
+    left: 1rem;
+}
+
+.about__block--content-second {
+    position: absolute;
+    top: 3.75rem;
+    left: 1rem;
+}
+
+.about__paragraph--content-first {
+    font-family: Reboot Crush;
+    font-size: 1.77rem;
+    color: var(--wh);
+}
+
+.about__paragraph--content-second {
+    font-family: Reboot Crush;
+    font-size: 0.88rem;
+    color: var(--wh);
+}
+
+.about__block--banner:after {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    transition: 3s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 0;
+}
+
+.about__image--banner {
+    transition: 12s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.about__block--banner:hover:after {
+    opacity: 1;
+}
+
+.about__block--banner:hover .about__image--banner {
+    transform: scale(110%);
+}
+
+#footer {
+    position: absolute;
+    top: 84.8rem;
+}
+
+/* OK */
