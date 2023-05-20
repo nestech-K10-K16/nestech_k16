@@ -60,7 +60,8 @@ p {
 }
 
 .title {
-  font-size: var(--title-font-size);
+  /* font-size: var(--title-font-size); */
+  font-size: 64px;
   font-family: var(--font-Inter);
   font-weight: var(--title-font-weight);
   font-style: normal;
