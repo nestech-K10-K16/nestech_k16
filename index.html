@@ -14,7 +14,7 @@
     <title>bai tap html-css</title>
   </head>
   <body>
-    <header class="header" id="header">
+    <header class="header container" id="header">
       <nav class="nav__container">
         <a href="#" class="nav__logo">
           <img src="./acssets/img/img_logo.png" alt="logo" />
@@ -44,8 +44,8 @@
           </ul>
 
           <div class="nav__button">
-            <a href="#" class="nav__button-login">Login</a>
-            <a href="#" class="nav__button-try"
+            <a href="#" class="nav__button-login button">Login</a>
+            <a href="#" class="nav__button-try button"
               >Try Whitepace free
               <i class="fa-solid fa-arrow-right"></i>
             </a>
@@ -54,18 +54,19 @@
       </nav>
     </header>
 
-    <section id="section1" class="section1__container">
-      <div>
+    <!-- SECTION 1 -->
+    <section id="section1" class="section1__container title container">
+      <div class="secton1__data">
         <div>
           <h3 class="section1__title">Get More Done with whitepace</h3>
 
-          <p class="section1__content">
+          <p class="section1__content content">
             Project management software that enables your teams to collaborate,
             plan, analyze and manage everyday tasks
           </p>
         </div>
 
-        <a href="#" class="section1__button">
+        <a href="#" class="section1__button button">
           Try Whitepace free
           <i class="fa-solid fa-arrow-right"></i>
         </a>
@@ -75,6 +76,54 @@
         <img src="./acssets/img/img_image_section1.jpg" alt="..." />
       </div>
     </section>
+
+    <!-- SECTION 2 -->
+    <section id="section2" class="section2__container container">
+      <div class="section2__top">
+        <div class="section2__content-project">
+          <h3 class="section2__title">Project Management</h3>
+          <img src="./acssets/img/img_section2_element_project.png" alt="" />
+        </div>
+        <p class="section2__content">
+          images, videos, PDFs and audio files are supported. Create math
+          expression and diagrams directly from the app. Take photos with me
+          mobile app and save them to a note.
+        </p>
+        <a href="#" class="section2__button button">
+          Get Started
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <div class="section2__img">
+          <img src="./acssets/img/img_section2_image.png" alt="chèn ảnh vào" />
+        </div>
+      </div>
+
+      <div section2__bottom>
+        <div class="section2__content-work">
+          <h3 class="section2__title">Work together</h3>
+          <img
+            src="./acssets/img/img_secton2_element_worktogether.png"
+            alt=""
+          />
+        </div>
+        <p class="section2__content">
+          With whitepace, share your notes with your colleagues and collaborate
+          on them. You can also publish a note to the internet and share the ULR
+          with other.
+        </p>
+        <a href="#" class="section2__button button">
+          Try it now
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <div class="section2__img">
+          <img
+            src="./acssets/img/img_section2_background_worktogether.png"
+            alt="xxx"
+          />
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://kit.fontawesome.com/a2eca21ea1.js"
       crossorigin="anonymous"
