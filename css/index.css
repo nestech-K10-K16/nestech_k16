@@ -15,6 +15,14 @@ html {
     --bl3: #C4DEFD;
 }
 
+.section1 {
+    background-color: var(--bl1);
+}
+
+.section2 {
+    background-color: var(--wh);
+}
+
 .part {
     display: flex;
     justify-content: space-between;
@@ -165,10 +173,6 @@ html {
     background-color: var(--bl3);
 }
 
-.section-first {
-    background-color: var(--bl1);
-}
-
 .section-first__header {
     display: flex;
     justify-content: space-between;
@@ -254,16 +258,48 @@ html {
 }
 
 .section-second__Project-Management {
+    background-image: url("/assets/images/section-second__Project-Management--background-image.png");
+    background-repeat: no-repeat;
+    background-position: 0px 265px;
     padding: 140px 220px 100px 220px;
 }
 
 .section-second__Project-Management--block {
     width: 672px;
+    margin-right: 60px;
 }
 
 .section-second__Project-Management--container {
     width: 748px;
     height: 547px;
+}
+
+.section-second__Work-together {
+    padding: 0px 220px 140px 220px;
+}
+
+.section-second__Work-together--container {
+    width: 710px;
+    height: 661px;
+}
+
+.section-second__Work-together--block {
+    width: 670px;
+    margin-left: 100px;
+}
+
+.section-third__Use-as-Extension {
+    padding: 140px 220px 140px 220px;
+}
+
+.section-third__Use-as-Extension--block {
+    width: 697px;
+    margin-right: 98px;
+}
+
+.section-third__Use-as-Extension--container {
+    width: 686px;
+    height: 479px;
 }
 
 /* OK */
