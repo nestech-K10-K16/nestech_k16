@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,6 +30,16 @@ img {
   background-color: var(--ateneo-blue);
 }
 
+.font-color {
+  color: #ffe492;
+}
+
+.font-text {
+  color: white;
+  font-style: normal;
+  font-weight: 800;
+}
+
 .first-section__top-header {
   background-color: var(--ateneo-blue);
   width: 100%;
@@ -56,6 +64,11 @@ img {
 .first-section__top-header__right-side__list-function__child-function {
   display: flex;
   align-items: center;
+  width: fit-content;
+}
+
+.first-section__top-header__right-side__list-function__child-function img {
+  margin-left: 4px;
 }
 
 .first-section__top-header__right-side__list-function__child-function h3 {
