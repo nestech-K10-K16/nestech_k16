@@ -7,20 +7,20 @@
 }
 
 html {
-    --wh: #FFFFFF;
-    --bl: #212529;
-    --ye: #FFE492;
-    --bl1: #043873;
-    --bl2: #4F9CF9;
-    --bl3: #C4DEFD;
+    --white: #FFFFFF;
+    --black: #212529;
+    --yellow: #FFE492;
+    --blue1: #043873;
+    --blue2: #4F9CF9;
+    --blue3: #C4DEFD;
 }
 
-.section1 {
-    background-color: var(--bl1);
+.section__blue1 {
+    background-color: var(--blue1);
 }
 
-.section2 {
-    background-color: var(--wh);
+.section__white {
+    background-color: var(--white);
 }
 
 .part {
@@ -35,93 +35,93 @@ html {
     justify-content: center;
 }
 
-.font1 {
+.font__70072 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 72px;
 }
 
-.font2 {
+.font__70070 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 70px;
 }
 
-.font3 {
+.font__70064 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 64px;
 }
 
-.font4 {
+.font__70036 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
 
-.font5 {
+.font__70028 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 28px;
 }
 
-.font6 {
+.font__70018 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
 
-.font7 {
+.font__60024 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
 
-.font8 {
+.font__50018 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
 
-.font9 {
+.font__50016 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
-.font10 {
+.font__40018 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-.font11 {
+.font__40016 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
 
-.color1 {
-    color: var(--wh);
+.color__white {
+    color: var(--white);
 }
 
-.color2 {
-    color: var(--bl);
+.color__black {
+    color: var(--black);
 }
 
-.margin1 {
+.margin__24 {
     margin-bottom: 24px;
 }
 
-.margin2 {
+.margin__60 {
     margin-bottom: 60px;
 }
 
-.button1 {
+.button__202020208--50018 {
     padding: 20px;
     border-radius: 8px;
-    color: var(--wh);
-    background-color: var(--bl2);
+    color: var(--white);
+    background-color: var(--blue2);
     border: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -129,11 +129,11 @@ html {
     cursor: pointer;
 }
 
-.button2 {
+.button__204020406--50018 {
     padding: 20px 40px 20px 40px;
     border-radius: 6px;
-    color: var(--wh);
-    background-color: var(--bl2);
+    color: var(--white);
+    background-color: var(--blue2);
     border: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -141,11 +141,11 @@ html {
     cursor: pointer;
 }
 
-.button3 {
+.button__204020408--50018 {
     padding: 20px 40px 20px 40px;
     border-radius: 8px;
-    color: var(--wh);
-    background-color: var(--bl2);
+    color: var(--white);
+    background-color: var(--blue2);
     border: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -153,11 +153,11 @@ html {
     cursor: pointer;
 }
 
-.button4 {
+.button__2040204010--50016 {
     padding: 20px 40px 20px 40px;
     border-radius: 10px;
-    color: var(--wh);
-    background-color: var(--bl2);
+    color: var(--white);
+    background-color: var(--blue2);
     border: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -170,7 +170,7 @@ html {
 }
 
 .container {
-    background-color: var(--bl3);
+    background-color: var(--blue3);
 }
 
 .section-first__header {
@@ -200,7 +200,7 @@ html {
 }
 
 .section-first__header-navbar--left-link-main {
-    color: var(--wh);
+    color: var(--white);
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -215,8 +215,8 @@ html {
 .section-first__header-navbar--right-button-first {
     padding: 18.5px 40px 18.5px 40px;
     border-radius: 8px;
-    color: var(--bl1);
-    background-color: var(--ye);
+    color: var(--blue1);
+    background-color: var(--yellow);
     border: none;
     margin-right: 24px;
     font-family: 'Inter', sans-serif;
@@ -228,8 +228,8 @@ html {
 .section-first__header-navbar--right-button-second {
     padding: 18.5px 24px 18.5px 24px;
     border-radius: 8px;
-    color: var(--wh);
-    background-color: var(--bl2);
+    color: var(--white);
+    background-color: var(--blue2);
     border: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -302,4 +302,19 @@ html {
     height: 479px;
 }
 
+.section-fourth__Customise-it-to-your-needs {
+    padding: 140px 220px 140px 220px;
+}
+
+.section-fourth__Customise-it-to-your-needs--container {
+    width: 714px;
+    height: 532.09px;
+}
+
+.section-fourth__Customise-it-to-your-needs--block {
+    width: 669px;
+    margin-left: 98px;
+}
+
 /* OK */
+
