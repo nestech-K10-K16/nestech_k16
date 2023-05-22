@@ -15,87 +15,112 @@ html {
     --blue3: #C4DEFD;
 }
 
-.section__blue1 {
+.background-color__blue1 {
     background-color: var(--blue1);
 }
 
-.section__white {
+.background-color__white {
     background-color: var(--white);
 }
 
-.part {
+.background-color__blue3 {
+    background-color: var(--blue3);
+}
+
+.display__space-between {
     display: flex;
     justify-content: space-between;
 }
 
-.block {
+.display__column-flex-start-center {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-.font__70072 {
+.display__column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.position__relative-1 {
+    position: relative;
+    z-index: 1;
+}
+
+.position__relative-3 {
+    position: relative;
+    z-index: 3;
+}
+
+.position__absolute-2 {
+    position: absolute;
+    z-index: 2;
+}
+
+.font__700-72 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 72px;
 }
 
-.font__70070 {
+.font__700-70 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 70px;
 }
 
-.font__70064 {
+.font__700-64 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 64px;
 }
 
-.font__70036 {
+.font__700-36 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
 
-.font__70028 {
+.font__700-28 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 28px;
 }
 
-.font__70018 {
+.font__700-18 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
 
-.font__60024 {
+.font__600-24 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
 
-.font__50018 {
+.font__500-18 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
 
-.font__50016 {
+.font__500-16 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
-.font__40018 {
+.font__400-18 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-.font__40016 {
+.font__400-16 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -117,7 +142,11 @@ html {
     margin-bottom: 60px;
 }
 
-.button__202020208--50018 {
+.padding__10 {
+    padding-left: 10px;
+}
+
+.button__20202020-8-500-18 {
     padding: 20px;
     border-radius: 8px;
     color: var(--white);
@@ -129,7 +158,7 @@ html {
     cursor: pointer;
 }
 
-.button__204020406--50018 {
+.button__20402040-6-500-18 {
     padding: 20px 40px 20px 40px;
     border-radius: 6px;
     color: var(--white);
@@ -141,7 +170,7 @@ html {
     cursor: pointer;
 }
 
-.button__204020408--50018 {
+.button__20402040-8-500-18 {
     padding: 20px 40px 20px 40px;
     border-radius: 8px;
     color: var(--white);
@@ -153,7 +182,7 @@ html {
     cursor: pointer;
 }
 
-.button__2040204010--50016 {
+.button__20402040-10-500-16 {
     padding: 20px 40px 20px 40px;
     border-radius: 10px;
     color: var(--white);
@@ -163,14 +192,6 @@ html {
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
-}
-
-.image {
-    padding-left: 10px;
-}
-
-.container {
-    background-color: var(--blue3);
 }
 
 .section-first__header {
@@ -269,6 +290,11 @@ html {
     margin-right: 60px;
 }
 
+.section-second__Project-Management--highlight-image {
+    top: 235px;
+    left: 0px;
+}
+
 .section-second__Project-Management--container {
     width: 748px;
     height: 547px;
@@ -288,6 +314,11 @@ html {
     margin-left: 100px;
 }
 
+.section-second__Work-together--highlight-image {
+    top: 245px;
+    left: 218px;
+}
+
 .section-third__Use-as-Extension {
     padding: 140px 220px 140px 220px;
 }
@@ -295,6 +326,11 @@ html {
 .section-third__Use-as-Extension--block {
     width: 697px;
     margin-right: 98px;
+}
+
+.section-third__Use-as-Extension--highlight-image {
+    top: 168px;
+    left: 260px;
 }
 
 .section-third__Use-as-Extension--container {
@@ -316,5 +352,28 @@ html {
     margin-left: 98px;
 }
 
-/* OK */
+.section-fourth__Customise-it-to-your-needs--highlight-image {
+    top: 226px;
+    left: -10px;
+}
 
+.section-fourth__Choose-Your-Plan {
+    padding: 140px 220px 140px 220px;
+}
+
+.section-fourth__Choose-Your-Plan--block {
+    width: 1481px;
+    margin-bottom: 60px;
+}
+
+.section-fourth__Choose-Your-Plan--highlight-image {
+    top: 59px;
+    left: 735px;
+}
+
+.section-fourth__Choose-Your-Plan--container {
+    width: 1481px;
+    height: 479px;
+}
+
+/* OK */
