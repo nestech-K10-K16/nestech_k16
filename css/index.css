@@ -45,19 +45,28 @@ html {
     align-items: center;
 }
 
-.position__relative-1 {
+.position__relative {
     position: relative;
+}
+
+.position__absolute {
+    position: absolute;
+}
+
+.z-index__1 {
     z-index: 1;
 }
 
-.position__relative-3 {
-    position: relative;
+.z-index__2 {
+    z-index: 2;
+}
+
+.z-index__3 {
     z-index: 3;
 }
 
-.position__absolute-2 {
-    position: absolute;
-    z-index: 2;
+.text-align__center {
+    text-align: center;
 }
 
 .font__700-72 {
@@ -275,10 +284,13 @@ html {
 }
 
 .section-first__Get-More-Done-with-whitepace {
-    background-image: url("/assets/images/section-first__Get-More-Done-with-whitepace--background-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
     padding: 140px 220px 140px 220px;
+}
+
+.section-first__Get-More-Done-with-whitepace--background-image {
+    width: 100%;
+    top: 200px;
+    left: 0px;
 }
 
 .section-first__Get-More-Done-with-whitepace--block {
@@ -291,10 +303,12 @@ html {
 }
 
 .section-second__Project-Management {
-    background-image: url("/assets/images/section-second__Project-Management--background-image.png");
-    background-repeat: no-repeat;
-    background-position: 0px 265px;
     padding: 140px 220px 100px 220px;
+}
+
+.section-second__Project-Management--background-image {
+    top: 280px;
+    left: 0px;
 }
 
 .section-second__Project-Management--block {
@@ -383,27 +397,116 @@ html {
     left: 735px;
 }
 
-.section-fourth__Choose-Your-Plan--container {
+.section-fourth__Choose-Your-Plan--Free-Personal-Organization {
     width: 1481px;
-    height: 479px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.circle-check {
+    margin-right: 19px;
+}
 
+.section-fourth__Choose-Your-Plan--Free {
+    padding: 40px 44px 40px 44px;
+    border-radius: 10px;
+    width: 472.33px;
+    background-color: var(--white);
+    border-color: var(--yellow);
+    border-style: solid;
+}
 
+.section-fourth__Choose-Your-Plan--Free-button {
+    padding: 16px 40px 16px 40px;
+    border-radius: 8px;
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--yellow);
+    border-style: solid;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
 
+.section-fourth__Choose-Your-Plan--Personal {
+    padding: 80px 44px 80px 44px;
+    border-radius: 10px;
+    width: 472.33px;
+    background-color: var(--blue1);
+    border: none;
+}
 
+.section-fourth__Choose-Your-Plan--Personal-button {
+    padding: 16px 40px 16px 40px;
+    border-radius: 8px;
+    color: var(--white);
+    background-color: var(--blue2);
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.section-fourth__Choose-Your-Plan--Organization {
+    padding: 40px 44px 40px 44px;
+    border-radius: 10px;
+    width: 472.33px;
+    background-color: var(--white);
+    border-color: var(--yellow);
+    border-style: solid;
+}
+
+.section-fourth__Choose-Your-Plan--Organization-button {
+    padding: 16px 40px 16px 40px;
+    border-radius: 8px;
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--yellow);
+    border-style: solid;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
 
 .section-fifth__Your-work-everywhere-you-are {
     padding: 140px 220px 140px 220px;
 }
 
+.section-fifth__Your-work-everywhere-you-are--background-image {
+    left: 0px;
+    top: -200px;
+}
+
 .section-fifth__Your-work-everywhere-you-are--block {
-    width: 1481px;
+    width: 1094px;
 }
 
 .section-fifth__Your-work-everywhere-you-are--highlight-image {
     top: 62px;
-    left:  995px;
+    left: 803px;
+}
+
+.section-sixth__100-your-data {
+    padding: 140px 220px 140px 220px;
+}
+
+.section-sixth__100-your-data--block {
+    width: 800px;
+}
+
+.section-sixth__100-your-data--highlight-image {
+    top: 106px;
+    left: 218px;
+}
+
+.section-sixth__100-your-data--container {
+    width: 681px;
+    height: 381.13px;
 }
 
 /* OK */
+
