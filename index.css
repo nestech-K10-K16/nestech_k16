@@ -667,6 +667,10 @@ p {
   position: 2s;
 }
 
+.section6__button:hover {
+  color: var(--color-background-img);
+}
+
 .section6__button i {
   margin-left: 1.06rem;
   padding-right: 1.53rem;
@@ -687,9 +691,84 @@ p {
 }
 
 .section6__bottom {
+  width: 100%;
   margin-top: 12.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.section6__bottom_img {
-  margin-top: 6.25rem;
+.section6__bottom-img {
+  gap: 13.5rem;
+  margin-top: 6.315rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.section6__bottom-img--apple {
+  width: 3.47rem;
+  height: 5.25rem;
+}
+
+.section6__bottom-img--microsoft {
+  width: 17.94rem;
+  height: 3.875rem;
+}
+
+.section6__bottom-img--slack {
+  width: 17.5rem;
+  height: 4.4375rem;
+}
+
+.section6__bottom-img--google {
+  width: 13.1875rem;
+  height: 4.36rem;
+}
+
+/* SECTION 7 WORK WITH YOUR... */
+
+.section7__container {
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./acssets/img/img_section7_background.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  gap: 6.25rem;
+}
+
+.section7__img {
+  min-width: 36.375rem;
+  height: 29.425rem;
+}
+
+.section7__title {
+  color: var(--color-white);
+  font-size: var(--title-font-size-big);
+  font-weight: var(--font-weight-biggest);
+  line-height: 87.14px;
+  margin-bottom: 1.5rem;
+}
+
+.section7__content {
+  margin-bottom: 3.75rem;
+}
+
+.section7__button {
+  padding: 1.25rem 1.06rem 1.25rem 2.5rem;
+  position: 2s;
+}
+
+.section7__button:hover {
+  color: var(--color-background-img);
+}
+
+.section7__button i {
+  margin-left: 1.06rem;
+  padding-right: 1.53rem;
+}
+
+/* SECTION 8 WHAT OUR CLIENTS SAYS  */
