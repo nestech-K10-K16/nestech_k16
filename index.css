@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: blue;
+  transition-property: background-color, width;
+  transition-duration: 2s;
+  /* transition-delay: 2s; */
+  transition-timing-function: ease-in;
+}
+
+.box1:hover {
+  background-color: brown;
+  width: 300px;
+}
+
+.box2 {
+  /* background-color: yellow; */
+  animation-name: loadingDefault;
+  animation-duration: 2s;
+  /*loop animation - number or infinite*/
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+
+@keyframes loadingDefault {
+  /* from {
+    background-color: yellow;
+  }
+  to {
+    background-color: green;
+  } */
+
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: pink;
+  }
+  100% {
+    background-color: green;
+  }
+}
