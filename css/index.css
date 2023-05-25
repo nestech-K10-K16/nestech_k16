@@ -510,3 +510,21 @@ html {
 
 /* OK */
 
+.section-sixth__Our-sponsors {
+    padding: 140px 220px 140px 220px;
+}
+
+.section-sixth__Our-sponsors--block {
+    width: 1482px;
+    margin-bottom: 100px;
+}
+
+.section-sixth__Our-sponsors--highlight-image {
+    top: 56px;
+    left: 660px;
+}
+
+.section-sixth__Our-sponsors--container {
+    width: 1482px;
+    height: 71px;
+}
