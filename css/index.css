@@ -1,24 +1,36 @@
 
-.head-er{
+.logo-bt {
+    color: aliceblue;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    background-image: 100px;
+}
+
+
+
+.head-er {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 16px;
-    background-color: #043873;
+    padding: 0px;
     font-family:'Courier New', Courier, monospace ;
     position: absolute;
 
     width: 1920px;
     height: 92px;
-    
-
+    top: 0;
 }
 
 .logo-head{
-    background-color: rgb(0, 0, 0);
+    background-image: url(../accets/img/img_background.png);
+    min-width: 1080px;
+    min-height: 1920px;
 }
 
-.inf-head{
-    padding: 20px
-}
