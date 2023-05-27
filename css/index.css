@@ -27,6 +27,15 @@ img {
   max-width: 100%;
 }
 
+/* gap section */
+.first-section__content-top-section,
+.second-section__first-content,
+.second-section__second-content,
+.thirt-section__first-content,
+.four-section__first-content {
+  gap: 30px;
+}
+
 /* first section */
 #first-section {
   background-color: var(--ateneo-blue);
@@ -34,10 +43,9 @@ img {
 
 /* first section __ top header*/
 .first-section__top-header {
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 24px 60px;
+  padding: 6vh 8vw;
 }
 
 /* first section __ top header __ left side */
@@ -49,15 +57,17 @@ img {
 /* first section __ top header __ right side */
 .first-section__top-header__right-side {
   display: flex;
-  gap: 50px;
-}
-
-.first-section__top-header__right-side__list-function {
-  display: flex;
-  align-items: center;
   gap: 32px;
 }
 
+/* first section __ top header __ right side __ list function */
+.first-section__top-header__right-side__list-function {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* first section __ top header __ right side __ list function __ child function */
 .first-section__top-header__right-side__list-function__child-function {
   display: flex;
   gap: 10px;
@@ -67,11 +77,13 @@ img {
   color: var(--white);
 }
 
+/* first section __ top header __ right side __ list button */
 .first-section__top-header__right-side__list-button {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
+/* first section __ top header __ right side __ list button __ btn login*/
 .first-section__top-header__right-side__list-button__btn-login {
   background-color: var(--flavescent);
   text-decoration: none;
@@ -80,34 +92,30 @@ img {
   border-radius: 10px;
 }
 
+/* first section __ top header __ right side __ list button __ btn register*/
 .first-section__top-header__right-side__list-button__btn-register {
+  background-color: var(--lueberry);
   display: flex;
   align-items: center;
-  gap: 10px;
-  background-color: var(--lueberry);
   text-decoration: none;
   color: var(--white);
   padding: 16px 24px;
   border-radius: 10px;
+  gap: 10px;
 }
 
 /* first section __ content top section*/
 .first-section__content-top-section {
+  background-image: url(../Image/img_element.png);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../Image/img_element.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 11vh 10vw;
-  gap: 10px;
+  padding: 8vh 8vw;
 }
 
 /* first section __ content top section __ left side */
-.first-section__content-top-section__left-side {
-  display: inline;
-}
-
 .first-section__content-top-section__left-side h6 {
   color: var(--white);
   font-size: 48px;
@@ -120,12 +128,13 @@ img {
   margin: 24px 0 60px 0;
 }
 
+/* first section __ content top section __ left side __ btn register */
 .first-section__content-top-section__left-side__btn-register {
+  background-color: var(--lueberry);
   display: flex;
   text-decoration: none;
   align-items: center;
   width: fit-content;
-  background-color: var(--lueberry);
   padding: 16px 24px;
   gap: 10px;
   border-radius: 10px;
@@ -139,8 +148,8 @@ img {
 /* first section __ content top section __ right side */
 .first-section__content-top-section__right-side__image-container {
   background-color: var(--lavender-blue);
-  width: 824px;
-  height: 549px;
+  width: 750px;
+  height: 500px;
 }
 
 /* second section */
@@ -155,17 +164,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 11vh 10vw;
-  gap: 10px;
+  padding: 8vh 8vw;
 }
 
 /* second section __ first content __ left side*/
-.second-section__first-content__left-side {
-  display: inline;
-}
-
 .second-section__first-content__left-side h6 {
-  font-size: 48px;
+  font-size: 72px;
 }
 
 .second-section__first-content__left-side h5 {
@@ -193,7 +197,7 @@ img {
 .second-section__first-content__right-side__image-container {
   background-color: var(--lavender-blue);
   width: 700px;
-  height: 547px;
+  height: 500px;
 }
 
 /* second section __ second content */
@@ -201,23 +205,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 11vh 10vw;
-  gap: 20px;
+  padding: 8vh 8vw;
 }
 
 /* second section __ second content __ left side */
-.second-section__second-content__left-side {
-  display: flex;
-  align-items: center;
-}
 
 /* second section __ second content __ right side */
-.second-section__second-content__right-side {
-  display: inline;
-}
-
 .second-section__second-content__right-side h6 {
-  font-size: 48px;
+  font-size: 72px;
 }
 
 .second-section__second-content__right-side h5 {
@@ -226,6 +221,7 @@ img {
   margin: 24px 0 60px 0;
 }
 
+/* second section __ second content __ right side __ btn get started */
 .second-section__second-content__right-side__btn-get-started {
   background-color: var(--lueberry);
   display: flex;
@@ -252,18 +248,17 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 11vh 10vw;
-  gap: 10px;
+  padding: 8vh 8vw;
 }
 
 /* thirt section __ first-content __ left-side*/
 .thirt-section__first-content__left-side {
   color: var(--white);
-  display: inline;
+  margin: 0 20px 0 0;
 }
 
 .thirt-section__first-content__left-side h6 {
-  font-size: 48px;
+  font-size: 64px;
 }
 
 .thirt-section__first-content__left-side h5 {
@@ -291,8 +286,8 @@ img {
 /* thirt section __ first-content __ right-side*/
 .thirt-section__first-content__right-side__image-container {
   background-color: var(--lavender-blue);
-  width: 686px;
-  height: 479px;
+  width: 650px;
+  height: 450px;
 }
 
 /* four section */
@@ -305,24 +300,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 11vh 10vw;
-  gap: 10px;
+  padding: 8vh 8vw;
 }
 
 /* four section __ first content __ left side */
 .four-section__first-content__left-side__image-container {
   background-color: var(--lavender-blue);
-  width: 714px;
-  height: 532.09px;
+  width: 700px;
+  height: 550px;
 }
 
 /* four section __ first content __ right side */
-.four-section__first-content__right-side {
-  display: inline;
-}
-
 .four-section__first-content__right-side h6 {
-  font-size: 48px;
+  font-size: 64px;
 }
 
 .four-section__first-content__right-side h5 {
@@ -331,6 +321,7 @@ img {
   margin: 24px 0 60px 0;
 }
 
+/* four section __ first content __ right side __ btn get started */
 .four-section__first-content__right-side__btn-get-started {
   background-color: var(--lueberry);
   color: var(--white);
@@ -351,13 +342,10 @@ img {
 /* four section __ second content */
 .four-section__second-content {
   text-align: center;
-  padding: 11vh 10vw;
+  padding: 8vh 8vw;
 }
 
-.four-section__second-content__heading {
-  display: inline;
-}
-
+/* four section __ second content __ heading */
 .four-section__second-content__heading h6 {
   font-size: 48px;
 }
@@ -366,4 +354,198 @@ img {
   font-weight: normal;
   font-size: 16px;
   margin: 24px 0 60px 0;
+}
+
+/* four section __ second content __ board list*/
+.four-section__second-content__board-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* four section __ second content __ board list __ child board 1*/
+.four-section__second-content__board-list__child-board-1 {
+  border: 1px solid var(--flavescent);
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 40px 44px;
+}
+
+.four-section__second-content__board-list__child-board-1 h6 {
+  font-size: 24px;
+}
+
+.four-section__second-content__board-list__child-board-1 h5 {
+  font-size: 32px;
+  margin: 24px 0;
+}
+
+.four-section__second-content__board-list__child-board-1 h4 {
+  font-size: 16px;
+}
+
+/* four section __ second content __ board list __ child board 1 __ child list*/
+.four-section__second-content__price-list__child-board-1__child-list {
+  list-style: none;
+  font-weight: normal;
+  margin: 40px 0;
+}
+
+.four-section__second-content__price-list__child-board-1__child-list li {
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+  gap: 10px;
+}
+
+.four-section__second-content__price-list__child-board-1__child-list li h6 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* four section __ second content __ board list __ child board 1 __ btn get started*/
+.four-section__second-content__price-list__child-board-1__btn-get-started {
+  border: 1px solid var(--flavescent);
+  color: var(--black);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 22px;
+  border-radius: 10px;
+}
+
+/* four section __ second content __ board list __ child board 2 */
+.four-section__second-content__board-list__child-board-2 {
+  background-color: var(--ateneo-blue);
+  color: var(--white);
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 80px 44px;
+}
+
+.four-section__second-content__board-list__child-board-2 h6 {
+  font-size: 24px;
+}
+
+.four-section__second-content__board-list__child-board-2 h5 {
+  font-size: 36px;
+  margin: 24px 0;
+}
+
+.four-section__second-content__board-list__child-board-2 h4 {
+  font-size: 16px;
+}
+
+/* four section __ second content __ board list __ child board 2 __ child list*/
+.four-section__second-content__price-list__child-board-2__child-list {
+  margin: 40px 0;
+}
+
+.four-section__second-content__price-list__child-board-2__child-list li {
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+  gap: 10px;
+}
+
+.four-section__second-content__price-list__child-board-2__child-list li h6 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* four section __ second content __ board list __ child board 2 __ btn get started*/
+.four-section__second-content__price-list__child-board-2__btn-get-started {
+  background-color: var(--lueberry);
+  color: var(--white);
+  text-decoration: none;
+  padding: 16px 24px;
+  border-radius: 10px;
+}
+
+/* four section __ second content __ board list __ child board 3 */
+.four-section__second-content__board-list__child-board-3 {
+  border: 1px solid var(--flavescent);
+  text-align: left;
+  padding: 40px 44px;
+  border-radius: 10px;
+}
+
+.four-section__second-content__board-list__child-board-3 h6 {
+  font-size: 24px;
+}
+
+.four-section__second-content__board-list__child-board-3 h5 {
+  font-size: 36px;
+  margin: 24px 0;
+}
+
+.four-section__second-content__board-list__child-board-3 h4 {
+  font-size: 16px;
+}
+
+/* four section __ second content __ board list __ child board 3 __ child list */
+.four-section__second-content__price-list__child-board-3__child-list {
+  margin: 40px 0;
+}
+
+.four-section__second-content__price-list__child-board-3__child-list li {
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+  gap: 10px;
+}
+
+.four-section__second-content__price-list__child-board-3__child-list li h6 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* four section __ second content __ board list __ child board 3 __ btn get started*/
+.four-section__second-content__price-list__child-board-3__btn-get-started {
+  border: 1px solid var(--flavescent);
+  color: var(--black);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 22px;
+  border-radius: 10px;
+}
+
+/* five section */
+#five-section {
+  background-color: var(--ateneo-blue);
+}
+
+/* five section __ first content */
+.five-section__first-content {
+  color: var(--white);
+  text-align: center;
+  justify-content: center;
+  padding: 8vh 8vw;
+}
+
+.five-section__first-content h6 {
+  font-size: 64px;
+}
+
+.five-section__first-content h5 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* five section __ first content __ btn-try */
+.five-section__first-content__btn-try {
+  background-color: var(--lueberry);
+  color: var(--white);
+  width: fit-content;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.five-section__first-content__btn-try h6 {
+  font-size: 16px;
 }
