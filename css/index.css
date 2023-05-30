@@ -147,6 +147,14 @@ html {
     color: var(--yellow);
 }
 
+.margin__4 {
+    margin-bottom: 4px;
+}
+
+.margin__15 {
+    margin-bottom: 15px;
+}
+
 .margin__24 {
     margin-bottom: 24px;
 }
@@ -157,6 +165,14 @@ html {
 
 .margin__28 {
     margin-bottom: 28px;
+}
+
+.margin__32 {
+    margin-bottom: 32px;
+}
+
+.margin__40 {
+    margin-bottom: 40px;
 }
 
 .margin__60 {
@@ -388,13 +404,13 @@ html {
 }
 
 .section-fourth__Choose-Your-Plan--block {
-    width: 1481px;
+    width: 979px;
     margin-bottom: 60px;
 }
 
 .section-fourth__Choose-Your-Plan--highlight-image {
     top: 59px;
-    left: 735px;
+    left: 484px;
 }
 
 .section-fourth__Choose-Your-Plan--Free-Personal-Organization {
@@ -527,4 +543,45 @@ html {
     height: 71px;
 }
 
+.section-seventh__Work-with-Your-Favorite-Apps-Using-whitepace {
+    padding: 140px 220px 140px 220px;
+}
+
+.section-seventh__Work-with-Your-Favorite-Apps-Using-whitepace--background-image {
+    width: 100%;
+    top: 10px;
+    left: 0px;
+}
+
+.section-seventh__Work-with-Your-Favorite-Apps-Using-whitepace--container {
+    width: 582px;
+    height: 470.8px;
+}
+
+.section-seventh__Work-with-Your-Favorite-Apps-Using-whitepace--block {
+    width: 798px;
+    margin-left: 100px;
+}
+
 /* OK */
+
+.avatar {
+    margin-right: 42px;
+}
+
+.section-eighth__What-Our-Clients-Says--left {
+    padding: 60px 40px 60px 40px;
+    background-color: var(--white);
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.section-eighth__What-Our-Clients-Says--left-first {
+    border-bottom: 1px solid var(--black);
+    width: 391.67px;
+    /* background-color: yellow; */
+}
+
+.section-eighth__What-Our-Clients-Says--left-second {
+    width: 383px;
+    /* background-color: red; */
+}
