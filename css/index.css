@@ -563,7 +563,23 @@ html {
     margin-left: 100px;
 }
 
-/* OK */
+.section-eighth__What-Our-Clients-Says {
+    padding: 140px 220px 140px 220px;
+}
+
+.section-eighth__What-Our-Clients-Says--block {
+    width: 1479px;
+    margin-bottom: 60px;
+}
+
+.section-eighth__What-Our-Clients-Says--highlight-image {
+    top: 33px;
+    left: 930px;
+}
+
+.section-eighth__What-Our-Clients-Says--container {
+    width: 1479px;
+}
 
 .avatar {
     margin-right: 42px;
@@ -573,15 +589,48 @@ html {
     padding: 60px 40px 60px 40px;
     background-color: var(--white);
     box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .section-eighth__What-Our-Clients-Says--left-first {
-    border-bottom: 1px solid var(--black);
     width: 391.67px;
-    /* background-color: yellow; */
+    border-bottom: 1px solid var(--black);
 }
 
 .section-eighth__What-Our-Clients-Says--left-second {
     width: 383px;
-    /* background-color: red; */
 }
+
+.section-eighth__What-Our-Clients-Says--center {
+    padding: 60px 40px 60px 40px;
+    background-color: var(--blue2);
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.section-eighth__What-Our-Clients-Says--center-first {
+    width: 391.67px;
+    border-bottom: 1px solid var(--white);
+}
+
+.section-eighth__What-Our-Clients-Says--center-second {
+    width: 383px;
+}
+
+.section-eighth__What-Our-Clients-Says--right {
+    padding: 60px 40px 60px 40px;
+    background-color: var(--blue2);
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.section-eighth__What-Our-Clients-Says--right-first {
+    width: 391.67px;
+    border-bottom: 1px solid var(--white);
+}
+
+.section-eighth__What-Our-Clients-Says--right-second {
+    width: 383px;
+}
+
+/* OK */
