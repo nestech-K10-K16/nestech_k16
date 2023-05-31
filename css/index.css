@@ -148,8 +148,8 @@ header {
 
 .btn:hover {
   background: orangered;
-  width: 240px;
-  height: 76px;
+  width: 260px;
+  height: 86px;
   color: var(--text-about);
 }
 
@@ -566,40 +566,21 @@ header {
 }
 
 .plan-price_board1 img {
-  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 40px 44px;
-  gap: 25px;
-  width: 472.33px;
-  height: 634px;
-  border-radius: 10px;
 }
 
 .plan-price_board2 img {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 80px 44px;
   gap: 25px;
-  width: 472.33px;
-  height: 761px;
+  width: 600.33px;
+  height: 710px;
   border-radius: 10px;
 }
 
 .plan-price_board3 img {
-  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 40px 44px;
-  gap: 25px;
-  width: 472.33px;
-  height: 634px;
 }
 
 .section6 {
@@ -937,7 +918,6 @@ header {
   background: var(--bg-about);
   width: 550px;
   height: 550px;
-  border: 2px solid black;
 }
 
 .comment {
@@ -1002,7 +982,6 @@ header {
   background: var(--bg-about);
   width: 550px;
   height: 550px;
-  border: 2px solid black;
 }
 
 .free_trial {
@@ -1071,7 +1050,7 @@ header {
   align-items: center;
   padding: 20px 40px;
   gap: 10px;
-  width: 218px;
+  width: 228px;
   height: 59px;
   border-radius: 10px;
 }
@@ -1147,11 +1126,12 @@ header {
 }
 
 .content .btm {
+  /* padding bottom 16px*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding-bottom: 16px;
   gap: 60px;
   width: 1480px;
   height: 20px;
