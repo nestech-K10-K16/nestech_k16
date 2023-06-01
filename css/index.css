@@ -27,6 +27,11 @@ html {
     background-color: var(--blue3);
 }
 
+.display__center {
+    display: flex;
+    align-items: center;
+}
+
 .display__space-between {
     display: flex;
     justify-content: space-between;
@@ -413,27 +418,37 @@ html {
     left: 484px;
 }
 
-.section-fourth__Choose-Your-Plan--Free-Personal-Organization {
+.section-fourth__Choose-Your-Plan--container {
     width: 1481px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.circle-check {
+.section-fourth__Choose-Your-Plan--container-part {
+    padding: 40px 44px 40px 44px;
+    border-radius: 10px;
+    width: 472.33px;
+    background-color: var(--white);
+    border-color: var(--yellow);
+    border-style: solid;
+    transition: 0.3s linear;
+}
+
+.section-fourth__Choose-Your-Plan--container-mark {
+    background-image: url("/assets/images/section-fourth__Choose-Your-Plan--circle-check-image.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 18.01px;
+    height: 18.01px;
     margin-right: 19px;
 }
 
-.section-fourth__Choose-Your-Plan--Free {
-    padding: 40px 44px 40px 44px;
-    border-radius: 10px;
-    width: 472.33px;
-    background-color: var(--white);
-    border-color: var(--yellow);
-    border-style: solid;
+.section-fourth__Choose-Your-Plan--container-content {
+    width: 347.33px;
 }
 
-.section-fourth__Choose-Your-Plan--Free-button {
+.section-fourth__Choose-Your-Plan--container-button {
     padding: 16px 40px 16px 40px;
     border-radius: 8px;
     color: var(--black);
@@ -446,46 +461,39 @@ html {
     cursor: pointer;
 }
 
-.section-fourth__Choose-Your-Plan--Personal {
+.section-fourth__Choose-Your-Plan--container-part:hover {
     padding: 80px 44px 80px 44px;
-    border-radius: 10px;
-    width: 472.33px;
     background-color: var(--blue1);
     border: none;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
 }
 
-.section-fourth__Choose-Your-Plan--Personal-button {
-    padding: 16px 40px 16px 40px;
-    border-radius: 8px;
+.section-fourth__Choose-Your-Plan--container-part:hover .section-fourth__Choose-Your-Plan--container-title:nth-child(1) {
+    color: var(--white);
+}
+
+.section-fourth__Choose-Your-Plan--container-part:hover .section-fourth__Choose-Your-Plan--container-title:nth-child(2) {
+    color: var(--yellow);
+}
+
+.section-fourth__Choose-Your-Plan--container-part:hover .section-fourth__Choose-Your-Plan--container-title:nth-child(3) {
+    color: var(--white);
+}
+
+.section-fourth__Choose-Your-Plan--container-part:hover .section-fourth__Choose-Your-Plan--container-mark {
+    background-image: url("/assets/images/section-fourth__Choose-Your-Plan--circle-check-hover-image.png");
+}
+
+.section-fourth__Choose-Your-Plan--container-part:hover .section-fourth__Choose-Your-Plan--container-content {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.section-fourth__Choose-Your-Plan--container-part:hover .section-fourth__Choose-Your-Plan--container-button {
     color: var(--white);
     background-color: var(--blue2);
     border: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.section-fourth__Choose-Your-Plan--Organization {
-    padding: 40px 44px 40px 44px;
-    border-radius: 10px;
-    width: 472.33px;
-    background-color: var(--white);
-    border-color: var(--yellow);
-    border-style: solid;
-}
-
-.section-fourth__Choose-Your-Plan--Organization-button {
-    padding: 16px 40px 16px 40px;
-    border-radius: 8px;
-    color: var(--black);
-    background-color: var(--white);
-    border-color: var(--yellow);
-    border-style: solid;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    cursor: pointer;
 }
 
 .section-fifth__Your-work-everywhere-you-are {
@@ -581,56 +589,50 @@ html {
     width: 1479px;
 }
 
-.avatar {
+.section-eighth__What-Our-Clients-Says--container-part {
+    padding: 60px 40px 60px 40px;
+    border-radius: 10px;
+    background-color: var(--blue2);
+}
+
+.section-eighth__What-Our-Clients-Says--container-part-first {
+    width: 391.67px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--white);
+}
+
+.section-eighth__What-Our-Clients-Says--container-part-second {
+    width: 383px;
+}
+
+.section-eighth__What-Our-Clients-Says--container-mark {
+    background-image: url("/assets/images/section-eighth__What-Our-Clients-Says--quotes-image.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 61.46px;
+}
+
+.section-eighth__What-Our-Clients-Says--container-avatar {
     margin-right: 42px;
 }
 
-.section-eighth__What-Our-Clients-Says--left {
-    padding: 60px 40px 60px 40px;
+.section-eighth__What-Our-Clients-Says--container-part:hover {
     background-color: var(--white);
     box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
 }
 
-.section-eighth__What-Our-Clients-Says--left-first {
-    width: 391.67px;
-    border-bottom: 1px solid var(--black);
+.section-eighth__What-Our-Clients-Says--container-part:hover .section-eighth__What-Our-Clients-Says--container-part-first {
+    border-bottom-color: var(--black);
 }
 
-.section-eighth__What-Our-Clients-Says--left-second {
-    width: 383px;
+.section-eighth__What-Our-Clients-Says--container-part:hover .section-eighth__What-Our-Clients-Says--container-mark {
+    background-image: url("/assets/images/section-eighth__What-Our-Clients-Says--quotes-hover-image.png");
 }
 
-.section-eighth__What-Our-Clients-Says--center {
-    padding: 60px 40px 60px 40px;
-    background-color: var(--blue2);
-    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.section-eighth__What-Our-Clients-Says--center-first {
-    width: 391.67px;
-    border-bottom: 1px solid var(--white);
-}
-
-.section-eighth__What-Our-Clients-Says--center-second {
-    width: 383px;
-}
-
-.section-eighth__What-Our-Clients-Says--right {
-    padding: 60px 40px 60px 40px;
-    background-color: var(--blue2);
-    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.section-eighth__What-Our-Clients-Says--right-first {
-    width: 391.67px;
-    border-bottom: 1px solid var(--white);
-}
-
-.section-eighth__What-Our-Clients-Says--right-second {
-    width: 383px;
+.section-eighth__What-Our-Clients-Says--container-part:hover .section-eighth__What-Our-Clients-Says--container-content {
+    color: var(--black);
 }
 
 /* OK */
