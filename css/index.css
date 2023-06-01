@@ -593,6 +593,7 @@ html {
     padding: 60px 40px 60px 40px;
     border-radius: 10px;
     background-color: var(--blue2);
+    transition: 0.3s linear;
 }
 
 .section-eighth__What-Our-Clients-Says--container-part-first {
