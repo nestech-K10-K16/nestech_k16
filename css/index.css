@@ -83,7 +83,7 @@ header {
 
 /* section 1 */
 
-#home {
+.home {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -173,9 +173,9 @@ header {
   height: 549px;
 }
 
-/* section 2  */
+/* section 2 */
 
-#about {
+.about {
   background: var(--bg-about);
   display: flex;
   flex-direction: column;
@@ -476,9 +476,7 @@ header {
   height: 288px;
 }
 
-.customise__text h1 {
-  width: 550px;
-  height: 174px;
+.customise-text h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -1060,9 +1058,9 @@ header {
   letter-spacing: -0.02em;
 }
 
-.free__trial--text p {
-  width: 700px;
-  height: 100px;
+.free_trial-text p {
+  width: 550px;
+  height: 64px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
