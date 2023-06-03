@@ -638,28 +638,10 @@ html {
 
 /* OK */
 
-.section-eighth__What-Our-Clients-Says--dotbar {
-    width: 60px;
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.dot {
+.section-eighth__What-Our-Clients-Says--container-dot {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: var(--blue2);
 }
 
-.section-eighth__What-Our-Clients-Says--container-part-left:hover .dot-left {
-    background-color: var(--blue1);
-}
-
-.section-eighth__What-Our-Clients-Says--container-part-center:hover .dot-center {
-    background-color: var(--blue1);
-}
-
-.section-eighth__What-Our-Clients-Says--container-part-right:hover .dot-right {
-    background-color: var(--blue1);
-}
