@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="slider-wrapper">
+        <div class="slider">
+          <img
+            id="image-01"
+            src="https://hanoispiritofplace.com/wp-content/uploads/2017/12/hinh-anh-hoa-anh-dao-47.jpg"
+            alt="image-01"
+          />
+          <img
+            id="image-02"
+            src="https://thuthuatnhanh.com/wp-content/uploads/2022/08/hinh-nen-may-tinh-4k.jpg"
+            alt="image-02"
+          />
+          <img
+            id="image-03"
+            src="https://scr.vn/wp-content/uploads/2020/07/Galaxy-Anime-Wallpaper.jpg"
+            alt="image-03"
+          />
+        </div>
+        <div class="slider-nav">
+          <a href="#image-01"></a>
+          <a href="#image-02"></a>
+          <a href="#image-03"></a>
+        </div>
+        <button onclick="callApi()">Call api</button>
+      </div>
+    </section>
+    <script type="text/javascript">
+      // fetch('https://dummyjson.com/auth/RESOURCE', {
+      //   method: 'GET' /* or POST/PUT/PATCH/DELETE */,
+      //   headers: {
+      //     Authorization: 'Bearer /* YOUR_TOKEN_HERE */',
+      //     'Content-Type': 'application/json',
+      //   },
+      // })
+      //   .then((response) => {
+      //     return response.json();
+      //   })
+      //   .then((data) => {
+      //     console.log(data);
+      //   })
+      //   .catch((err) => {})
+      //   .finally(() => {});
+
+      function callApi() {
+        const data = fetch('https://dummyjson.com/products');
+
+        console.log('data >>>', data);
+      }
+
+      // function changeHtml(children) {
+      //   // console.log('children', children);
+      //   // // const template = document.createElement('template');
+      //   // // template.innerHTML = children;
+      //   // document.body.appendChild(children);
+
+      //   // document.body.appendChild(children);
+      //   // console.log('111', children);
+      //   var d = document.createElement(children);
+      //   document.appendChild(d);
+      // }
+    </script>
+  </body>
+</html>
