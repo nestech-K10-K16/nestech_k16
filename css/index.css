@@ -587,11 +587,24 @@ html {
 
 .section-eighth__What-Our-Clients-Says--container {
     width: 1479px;
+    display: grid;
+    grid-template-columns: 471.67px 471.67px 471.67px;
+    column-gap: 32px;
+    row-gap: 60px;
 }
 
 .section-eighth__What-Our-Clients-Says--container-part {
+    width: 471.67px;
     padding: 60px 40px 60px 40px;
     border-radius: 10px;
+    background-color: var(--blue2);
+    transition: 0.3s linear;
+}
+
+.section-eighth__What-Our-Clients-Says--container-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
     background-color: var(--blue2);
     transition: 0.3s linear;
 }
@@ -619,6 +632,42 @@ html {
     margin-right: 42px;
 }
 
+.section-eighth__What-Our-Clients-Says--container-part-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.section-eighth__What-Our-Clients-Says--container-part-center {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.section-eighth__What-Our-Clients-Says--container-part-right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.section-eighth__What-Our-Clients-Says--container-dot-left {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    position: relative;
+    left: 205.84px;
+}
+
+.section-eighth__What-Our-Clients-Says--container-dot-center {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    position: relative;
+    left: 229.84px;
+}
+
+.section-eighth__What-Our-Clients-Says--container-dot-right {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    position: relative;
+    left: 253.84px;
+}
+
 .section-eighth__What-Our-Clients-Says--container-part:hover {
     background-color: var(--white);
     box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
@@ -636,12 +685,8 @@ html {
     color: var(--black);
 }
 
-/* OK */
-
-.section-eighth__What-Our-Clients-Says--container-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: var(--blue2);
+.section-eighth__What-Our-Clients-Says--container-part:hover + .section-eighth__What-Our-Clients-Says--container-dot {
+    background-color: var(--blue1);
 }
 
+/* OK */
