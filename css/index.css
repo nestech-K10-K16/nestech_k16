@@ -420,6 +420,7 @@ html {
 
 .section-fourth__Choose-Your-Plan--container {
     width: 1481px;
+    height: 738px;
     display: flex;
     justify-content: space-between;
     align-items: center;
