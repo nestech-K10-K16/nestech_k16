@@ -61,9 +61,16 @@ header {
   height: 1588px;
   padding: 16px 40px;
   gap: 10px;
+  transition-property: background;
+  transition-duration: 0.7s;
+  transition-delay: 0.1s;
   background: var(--bg-login);
-  border-radius: 8px;
+  border-radius: 10px;
   margin-right: 24px;
+}
+
+.navbar .login:hover {
+  background: rgb(173, 34, 228);
 }
 
 .navbar .whitespace {
@@ -71,8 +78,15 @@ header {
   height: 60px;
   padding: 16px 24px;
   gap: 10px;
+  transition-property: background;
+  transition-delay: 0.1s;
+  transition-duration: 0.7s;
   background: var(--bg-whitespace);
-  border-radius: 8px;
+  border-radius: 10px;
+}
+
+.navbar .whitespace:hover {
+  background: rgb(173, 34, 228);
 }
 
 #down-icon {
@@ -83,7 +97,7 @@ header {
 
 /* section 1 */
 
-.home {
+#home {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -119,7 +133,7 @@ header {
 }
 
 .home__content p {
-  width: 656px;
+  width: 550px;
   height: 60px;
   font-family: "Inter";
   font-style: normal;
@@ -149,8 +163,8 @@ header {
 }
 
 .btn:hover {
-  background: orangered;
-  width: 260px;
+  background: rgb(173, 34, 228);
+  width: 230px;
   height: 86px;
   color: var(--text-about);
 }
@@ -169,13 +183,13 @@ header {
   align-items: flex-start;
   padding: 0px;
   gap: 4px;
-  width: 724px;
+  width: 740px;
   height: 549px;
 }
 
 /* section 2 */
 
-.about {
+#about {
   background: var(--bg-about);
   display: flex;
   flex-direction: column;
@@ -223,7 +237,7 @@ header {
 }
 
 .about__text--block h1 {
-  width: 672px;
+  width: 600px;
   height: 174px;
   color: var(--text-about);
   font-family: "Inter";
@@ -236,7 +250,7 @@ header {
 
 .about__text--block p {
   color: var(--text-about);
-  width: 672px;
+  width: 560px;
   height: 90px;
   font-family: "Inter";
   font-style: normal;
@@ -273,9 +287,132 @@ header {
   height: 661px;
 }
 
-.about__container img {
+.about__container--img {
   width: 710px;
   height: 661px;
+}
+
+@keyframes circle {
+}
+
+.about__container--ellipse-5 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 661px;
+  height: 661px;
+  left: 257px;
+  top: 786px;
+  border: 2px dashed #a7cefc;
+  border-radius: 50%;
+}
+
+.about__container--ellipse-5 img {
+  position: absolute;
+  width: 57px;
+  height: 44px;
+  left: 300px;
+  top: 309px;
+}
+
+.about__container--ellipse-6 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 387px;
+  height: 387px;
+  left: 394px;
+  top: 925px;
+  border: 2px dashed #a7cefc;
+  border-radius: 50%;
+}
+
+.about__container--group-291 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 532px;
+  top: 71px;
+  background: #37a3ff;
+  border-radius: 50%;
+}
+
+.about__container--group-292 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 139px;
+  top: 0px;
+  background: #ffdc4d;
+  border-radius: 50%;
+}
+
+.about__container--group-293 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: -35px;
+  top: 44.78%;
+  background: #ff5758;
+  border-radius: 50%;
+}
+
+.about__container--group-294 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 137px;
+  top: 580px;
+  background: #37a3ff;
+  border-radius: 50%;
+}
+
+.about__container--group-295 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 604px;
+  top: 401px;
+  background: #4bd20c;
+  border-radius: 50%;
+}
+
+.about__container--group-296 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 160px;
+  top: -35px;
+  background: #c04909;
+  border-radius: 50%;
+}
+
+.about__container--group-297 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: -35px;
+  top: 150px;
+  background: #b00d7a;
+  border-radius: 50%;
+}
+
+.about__container--group-298 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 160px;
+  top: 350px;
+  background: #3e14a9;
+  border-radius: 50%;
+}
+
+.about__container--group-299 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 342px;
+  top: 150px;
+  background: #37a3ff;
+  border-radius: 50%;
 }
 
 .about__work {
@@ -312,7 +449,7 @@ header {
 }
 
 .about__work--together p {
-  width: 670px;
+  width: 580px;
   height: 60px;
   font-family: "Inter";
   font-style: normal;
@@ -476,7 +613,7 @@ header {
   height: 288px;
 }
 
-.customise-text h1 {
+.customise__text h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -1168,19 +1305,21 @@ header {
 
 @media (max-width: 1440px) {
   html {
-    font-size: 55%;
+    font-size: 70%;
   }
 
   .header {
-    padding: 2rem 3%;
+    padding: 16px 0px;
     width: 1440px;
     height: 92px;
+    left: 0px;
+    top: 0px;
   }
 
   .navbar {
     width: 928.5px;
     height: 60px;
-    padding: 17px;
+    padding: 17px 0px;
   }
 
   .navbar a {
@@ -1215,7 +1354,7 @@ header {
     height: 361px;
   }
 
-  .home__img {
+  .home__img img {
     gap: 3.33px;
     width: 670px;
     height: 456.39px;
@@ -1231,6 +1370,76 @@ header {
   .about__content img {
     width: 630px;
     height: 448px;
+  }
+
+  .about__container {
+    padding: 0px;
+    gap: 160px;
+    width: 1376px;
+    height: 542.76px;
+  }
+
+  .about__container--img {
+    width: 583px;
+    height: 542.76px;
+  }
+
+  .about__container--ellipse-5 {
+    width: 542.76px;
+    height: 542.76px;
+    left: 60.74px;
+    top: 700px;
+  }
+
+  .about__container--ellipse-5 img {
+    left: 240px;
+    top: 251px;
+  }
+
+  .about__container--group-291 {
+    left: 440px;
+    top: 58.3px;
+  }
+
+  .about__container--group-292 {
+    left: 80.96px;
+    top: 12px;
+  }
+
+  .about__container--group-294 {
+    left: 105.49px;
+    top: 469.4px;
+  }
+
+  .about__container--group-295 {
+    left: 488.52px;
+    top: 329.27px;
+  }
+
+  .about__container--ellipse-6 {
+    width: 317.78px;
+    height: 317.78px;
+    left: 173.23px;
+    top: 820.49px;
+  }
+
+  .about__container--group-296 {
+    left: 122.61px;
+  }
+
+  .about__container--group-297 {
+    top: 120.05px;
+    left: -30px;
+  }
+
+  .about__container--group-298 {
+    top: 280px;
+    left: 120px;
+  }
+
+  .about__container--group-299 {
+    left: 279px;
+    top: 120px;
   }
 
   #extension {
