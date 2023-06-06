@@ -48,7 +48,14 @@ header {
   z-index: 100;
 }
 
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--bg-about);
+  display: none;
+}
+
 /* navbar */
+
 .navbar a {
   position: relative;
   font-size: 1.4rem;
@@ -292,7 +299,10 @@ header {
   height: 661px;
 }
 
-@keyframes circle {
+@keyframes ellipse1 {
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 .about__container--ellipse-5 {
@@ -304,14 +314,24 @@ header {
   top: 786px;
   border: 2px dashed #a7cefc;
   border-radius: 50%;
+  animation-name: ellipse1;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-.about__container--ellipse-5 img {
+.about__container--img img {
   position: absolute;
   width: 57px;
   height: 44px;
-  left: 300px;
-  top: 309px;
+  left: 555px;
+  top: 1100px;
+}
+
+@keyframes ellipse2 {
+  to {
+    transform: rotate(-2turn);
+  }
 }
 
 .about__container--ellipse-6 {
@@ -323,6 +343,10 @@ header {
   top: 925px;
   border: 2px dashed #a7cefc;
   border-radius: 50%;
+  animation-name: ellipse2;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .about__container--group-291 {
@@ -1533,6 +1557,27 @@ header {
 
 @media (max-width: 1152px) {
   html {
-    font-size: 47%;
+    font-size: 55%;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
   }
 }
