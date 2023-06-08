@@ -53,6 +53,7 @@ height: 100px;
     justify-content: center;
     align-items: center;
     padding: 16px 40px;
+    margin-left: 140px;
     gap: 10px; 
     background: #FFE492;
     border-radius: 9px;
@@ -139,7 +140,17 @@ font-size: 18px;
     
 }
 .section_2_text h1{
-    font-size: 50px;
+    width: 500px;
+    font-weight: 900;
+    font-size: 60px;
+    position: absolute;
+}
+.section_2_text .img-underlined{
+    position: absolute;
+    top: 1220px;
+}
+.section_2_text h4{
+    padding-top: 150px;
 }
 .section_2_img{
     padding-left: 114x;
@@ -221,6 +232,7 @@ background: #043873;
 position: absolute;
 width: 1921px;
 height: 759px;
+position: absolute;
 }
 .section_3_text{
    width: 40%;
@@ -234,12 +246,13 @@ height: 759px;
  color: #FFFFFF;
 }
 .section_3_text ul li h1{ 
-    
+    position: absolute;
     font-weight: 700;
     
     
 }
 .section_3_text ul li h4{ 
+    padding-top: 24px;
     width: 400px;
     font-weight: 400;
     
@@ -263,6 +276,10 @@ height: 759px;
     background: #4F9CF9;
     border-radius: 6px;
     text-decoration: none;
+}
+.section_3_text .img-underlined-2{
+    position: absolute;
+    top: 1000px;
 }
 .section_4{
     display: flex;
@@ -306,13 +323,13 @@ height: 759px;
     font-weight: 700;
     font-size: 72px;
     line-height: 87px;
-    text-align: center;
+    padding-left: 600px;
 }
 .section_5 h4{
     padding-top: 94px;
-    width: 979px;
+    width: 1500px;
     height: 60px;
-    padding-left: 500px;
+    padding-left: 400px;
     text-align: center;
     font-weight: 400;
     line-height: 30px;
@@ -335,7 +352,7 @@ display: flex;
 }
 .section_5_card .card-1{
     padding: 44px;
-    margin-left:35px;
+    margin-left:220px;
     width: 472.33px;
     height: 634px;
     border: 3px solid #111;
@@ -372,23 +389,24 @@ display: flex;
     height: 574px;
 }
 .section_6 h1{
-    font-weight: 700;
+    font-weight: 900;
     color: #fff;
     padding-top: 140px;
-    padding-left: 528px;
+    padding-left: 500px;
+    font-size: 60px;
     
 }
 .section_6 p{
-    width: 1064px;
-    padding-left: 428px;
+    width: 1400px;
+    padding-left: 500px;
     text-align: center;
-    font-size: 11px;
+    font-size: 13px;
     padding-top: 24px;
     color: #fff;
 }
 .section_6_btn {
-    margin-top: 80px;
-margin-left: 650px;    
+    margin-top: 60px;
+margin-left: 840px;    
 text-align: center;  
 flex-direction: row;
 justify-content: center;
@@ -440,7 +458,7 @@ border-radius: 8px;
 .section_7 .section_7-text{
     padding-top: 308px;
     width: 1482px;
-    padding-left: 380px;
+    padding-left: 580px;
     font-size: 30px;
     font-weight: 800;
 }
@@ -449,9 +467,87 @@ border-radius: 8px;
 }
 .section_7-img ul{
  display: flex;
- padding-left: 190px;
+ padding-left: 220px;
 }
 .section_7-img ul li{
-    padding-right: 190px;
+    padding-right: 230px;
     list-style: none;
    }
+   @media only screen and (max-width: 1440px) {
+    .nav .logo{
+        padding-left: 32px;
+    }
+    .nav ul{
+        padding-left: 160px;
+     
+    }
+    .login{
+        margin-left: 50px;
+    }
+    .nav li{
+        padding-left: 20px;
+    }
+    .text_header{
+        padding-left: 32px;
+       
+    }
+    .img_header a img {
+        width: 685px;
+        height: 456px;
+    }
+    .section_2_text{
+        padding-left: 32px;      
+    }
+    .section_2 .img-underlined{
+        top: 1130px;
+    }
+    .section_3{
+        padding-left: 32px;
+    }
+    .section_4_img{
+        padding-left: 32px;
+        
+    }
+    .section_4_img a img{
+        width: 686px;
+        height: 480px;
+    }
+    .section_5 h1{   
+        width: 1481px; 
+        padding-left: 350px;
+    }
+    .section_5 h4{
+        width: 1200px;
+        padding-left: 150px;
+    }
+    .section_5_card .card-1{
+        margin-left: 32px;
+    }
+    .section_6 h1{
+        padding-left: 270px;       
+    }
+    .section_6 p{
+        width: 1100px;
+        padding-left: 270px;
+       
+    }
+    .section_6_btn {
+    margin-left: 600px;    
+    }
+    .section_7 h1{
+        padding-left: 32px;
+        
+    }
+    .section_7 h4{
+        padding-left:32px;
+        
+    }
+   
+    .section_7_btn {
+    margin-left: 32px;    
+    }
+    .section_7-img ul{
+        
+        padding-left: 32px;
+       }
+  }
