@@ -105,8 +105,9 @@ img {
 .first-section__content-top-section {
   background-image: url(../Image/img_element.png);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10vh 8vw;
@@ -115,8 +116,7 @@ img {
 /* first section __ content top section __ left side */
 .first-section__content-top-section__left-side {
   color: var(--white);
-  display: inline;
-  width: 41rem;
+  width: 40rem;
 }
 
 .first-section__content-top-section__left-side > h1 {
@@ -174,7 +174,8 @@ img {
   background-image: url(../Image/img_backgroud.png);
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   padding: 10vh 8vw;
 }
@@ -233,15 +234,16 @@ img {
 /* second section __ second content */
 .second-section__second-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  padding: 10vh 8vw;
+  justify-content: center;
+  padding: 10vh 11vw;
 }
 
 /* second section __ second content __ left side */
 .second-section__second-content__left-side img {
   transition: 8s ease-out;
-  width: 38rem;
+  width: 35rem;
 }
 
 .second-section__second-content__left-side img:hover {
@@ -250,8 +252,7 @@ img {
 
 /* second section __ second content __ right side */
 .second-section__second-content__right-side {
-  display: inline;
-  width: 41rem;
+  width: 40rem;
 }
 
 .second-section__second-content__right-side h1 {
@@ -293,8 +294,9 @@ img {
 /* thirt section __ first-content */
 .thirt-section__first-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10vh 8vw;
 }
 
@@ -356,8 +358,9 @@ img {
 /* fourth section __ first content */
 .fourth-section__first-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10vh 8vw;
 }
 
@@ -1119,12 +1122,13 @@ img {
   border-radius: 10px;
   gap: 10px;
 
-  background: linear-gradient(to left, var(--gray) 50%, var(--lueberry) 50%) right;
+  background: linear-gradient(to left, var(--gray) 50%, var(--lueberry) 50%)
+    right;
   background-size: 200%;
   transition: 0.3s ease-out;
 }
 
-.tenth-section__first-content__info-list__fiveth-info__btn-try:hover{
+.tenth-section__first-content__info-list__fiveth-info__btn-try:hover {
   background-position: left;
 }
 
