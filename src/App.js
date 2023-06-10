@@ -1,3 +1,6 @@
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react';
 import './App.css';
 import {
@@ -6,6 +9,9 @@ import {
   IMG_ThingsDecorateLeft,
   IMG_ThingsDecorateRight,
 } from './assets';
+import Header from './components/header';
+
+library.add(fab);
 
 const App = () => {
   useEffect(() => {
@@ -31,38 +37,9 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <div>
       <section id="overlay"></section>
-
-      <header>
-        <div class="container">
-          <nav class="navbar">
-            <div class="navbar__logo">
-              <img src={IMG_Logo} alt="my logo" />
-            </div>
-
-            <ul class="navbar__links">
-              <li class="navbar__link">
-                <a href="#works">Work</a>
-              </li>
-              <li class="navbar__link">
-                <a href="#things">About</a>
-              </li>
-              <li class="navbar__link">
-                <a href="#works">Resume</a>
-              </li>
-              <a href="#footer">
-                <button class="navbar__btn">Contact</button>
-              </a>
-            </ul>
-
-            <div class="navbar__icons">
-              <div class="navbar__icon"></div>
-            </div>
-          </nav>
-        </div>
-      </header>
-
+      <Header />
       <section id="banner">
         <div class="container">
           <div class="banner__img">
@@ -201,25 +178,13 @@ const App = () => {
             </a>
           </div>
           <div class="banner__socials">
-            <a href="#">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-github"></i>
-            </a>
+            <FontAwesomeIcon icon="fab fa-facebook" />
+            <FontAwesomeIcon icon="fab fa-linkedin" />
+            <FontAwesomeIcon icon="fab fa-github" />
           </div>
         </div>
       </footer>
-
-      <script
-        src="https://kit.fontawesome.com/1c39565260.js"
-        crossorigin="anonymous"
-      ></script>
-      <script src="./js/main.js"></script>
-    </>
+    </div>
   );
 };
 
