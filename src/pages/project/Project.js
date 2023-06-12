@@ -1,5 +1,6 @@
-import "./App.css";
-function Project() {
+import '../../App.css';
+
+const Project = () => {
   return (
     <>
       <main>
@@ -21,5 +22,5 @@ function Project() {
       </main>
     </>
   );
-}
+};
 export default Project;

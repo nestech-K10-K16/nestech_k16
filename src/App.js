@@ -1,35 +1,24 @@
-import React from "react";
-import "./App.css";
-import { IMG_anh, IMG_facebook, IMG_tiktok, IMG_youtube } from "./img/img";
-import { Routes, Route } from "react-router-dom";
-import HomePage from "";
-import ProjectPage from "./project";
-import FuturePage from "./future";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import { HeaderNavbar } from './components';
+import { ROUTE_PATH } from './constants/route';
+import Future from './pages/future/Future';
+import Home from './pages/home/Home';
+import Project from './pages/project/Project';
+
 const App = () => {
   return (
-    <>
-      <div>
-        <div class="nav">
-          <ul>
-            <li>
-              <a href="/">Profile</a>
-            </li>
-            <li>
-              <a href="/Project">Project</a>
-            </li>
-            <li>
-              <a href="/Future">Future</a>
-            </li>
-          </ul>
-        </div>
-
-        <Routes>
-          <Route path="/" element={<>HomePage</>} />
-          <Route path="/Project" element={<>ProjectPage</>} />
-          <Route path="/Future" element={<>FuturePage</>} />
-        </Routes>
+    <div>
+      <div class="nav">
+        <HeaderNavbar />
       </div>
-    </>
+      <Routes>
+        <Route path={ROUTE_PATH.HOME} element={<Home />} />
+        <Route path={ROUTE_PATH.PROJECT} element={<Project />} />
+        <Route path={ROUTE_PATH.FUTURE} element={<Future />} />
+      </Routes>
+    </div>
   );
 };
 
