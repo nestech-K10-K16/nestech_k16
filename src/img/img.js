@@ -1,0 +1,5 @@
+export {default as IMG_anh} from "./anh.jpg"
+export {default as IMG_tiktok} from "./tiktok.png"
+export {default as IMG_facebook} from "./facebook.png"
+export {default as IMG_youtube} from "./youtube.png"
+export {default as IMG_anh_1} from "./anh1.jpg"

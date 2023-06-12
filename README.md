@@ -1,2 +1,5 @@
-# nestech_k16
-nestech_k16
+<<<<<<< HEAD
+init develop
+=======
+init src front end
+>>>>>>> dev/react-js
