@@ -1,32 +1,33 @@
 import React from "react";
 import "./App.css";
-import { IMG_anh, IMG_facebook, IMG_tiktok, IMG_youtube } from "./img/img";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "";
-import ProjectPage from "./project";
-import FuturePage from "./future";
+import Home from "./pages/home/Home";
+import Project from "./pages/project/Project";
+import Future from "./pages/furure/Future";
 const App = () => {
   return (
     <>
       <div>
         <div class="nav">
-          <ul>
-            <li>
-              <a href="/">Profile</a>
-            </li>
-            <li>
-              <a href="/Project">Project</a>
-            </li>
-            <li>
-              <a href="/Future">Future</a>
-            </li>
-          </ul>
+          <div>
+            <ul>
+              <li>
+                <a href="/">Profile</a>
+              </li>
+              <li>
+                <a href="/Project">Project</a>
+              </li>
+              <li>
+                <a href="/Future">Future</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <Routes>
-          <Route path="/" element={<>HomePage</>} />
-          <Route path="/Project" element={<>ProjectPage</>} />
-          <Route path="/Future" element={<>FuturePage</>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Project" element={<Project />} />
+          <Route path="/Future" element={<Future />} />
         </Routes>
       </div>
     </>
