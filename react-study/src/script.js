@@ -36,20 +36,3 @@ window.onscroll = () => {
   menuIcon.classList.remove("bx-x");
   navbar.classList.remove("active");
 };
-
-//scroll reveal
-ScrollReveal({
-  reset: true, //đặt lại trạng thái ban đầu của phần tử sau khi hiển thị
-  distance: "80px", //khoảng cách di chuyển từ trên xuống của phần tử để hiển thị
-  duration: 2000, //thời gian để hoàn thành hiệu ứng chuyển động
-  delay: 200, // thời gian chờ trước khi bắt đầu hiệu ứng chuyển động
-});
-
-ScrollReveal().reveal(".home-content, .heading", { origin: "top" }); // vị trí bắt đầu của phần tử khi hiển thị, ở đây là từ trên xuống dưới.
-//các phần tử cần áp dụng hiệu ứng chuyển động, ở đây là các phần tử có class là "home-content" và "heading"
-ScrollReveal().reveal(
-  ".home-img, .services-container, .portfolio-box, .contact form, .about",
-  { origin: "bottom" }
-);
-ScrollReveal().reveal(".home-content h1, .about-img ", { origin: "left" });
-ScrollReveal().reveal(".home-content p, .about-content ", { origin: "right" });
