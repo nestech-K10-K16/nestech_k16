@@ -49,7 +49,20 @@ function App() {
             seriousness and responsibility and most importantly ability to
             learn.
           </p>
-          <div className="social-media"></div>
+          <div className="social-media">
+            <a href="#facebook">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#envelope">
+              <i class="bx bx-envelope"></i>
+            </a>
+            <a href="#instagram">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="#linkedin">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
           <a href="#btn" className="btn">
             Download CV
           </a>
