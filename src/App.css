@@ -1,118 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.nav {
-  max-height: 80px;
-  display: flex;
-  justify-content: space-between;
-  color: #ffff;
-  background: rgba(0, 0, 0, 0.2);
+* {
+  margin: 0px;
   padding: 0px;
-  font-size: 12px;
+  box-sizing: border-box;
 }
-
-.nav ul {
+body {
+  background-color: #092144;
+}
+.container {
+  border-radius: 8px;
+  width: 300px;
+  margin: 50px auto;
+}
+.screen {
+  background-color: white;
+  width: 100%;
+  height: 100px;
   position: relative;
-  padding-top: 10px;
-  text-align: none;
-  display: flex;
-  list-style-type: none;
-  padding-left: 10px;
 }
 
-.nav ul li {
-  margin: 0 5px;
-  padding: 0 10px;
+.keyboard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-.nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-  transition: all ease 0.4s;
+.item {
+  height: 70px;
+  outline: none;
+  border: 0.1px solid rgb(212, 212, 212);
 }
-
-.nav ul li a:hover {
-  color: #111111;
+.item:hover {
+  background-color: rgb(182, 182, 182);
+  cursor: pointer;
 }
-
-.project .card .img1 {
-  display: flex;
+.item-1 {
+  grid-column: 1 / span 2;
+  background-color: #00b2bf;
 }
-
-.card {
-  margin: 1rem 1rem;
-  padding: 1rem 1rem;
-  font-size: 20px;
-  position: relative;
-  width: 90%;
-  height: auto;
-  border-radius: 30px;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 50px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
-}
-
-.img--mid {
-  border-radius: 30px;
-}
-.img--mid img {
-  width: 60%;
-  height: 60%;
-  border-radius: 30px;
-}
-.mid {
-  padding: 1rem 1rem;
-  display: block;
-}
-
-.clickhere {
-  text-align: center;
-}
-.clickhere :hover {
-  color: red;
-}
-.mid {
-  padding-top: 300px;
-}
-.info .img {
-  width: 30px;
-  height: 30px;
-  padding-bottom: 10px;
+.item-1:hover {
+  background-color: #068185;
 }
