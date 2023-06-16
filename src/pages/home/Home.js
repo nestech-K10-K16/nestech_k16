@@ -5,6 +5,7 @@ import {
   IMG_tiktok,
   IMG_youtube,
 } from "../../assets/images";
+
 function Home() {
   return (
     <div>

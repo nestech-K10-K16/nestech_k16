@@ -15,27 +15,27 @@
     rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
 
-.img--mid {
+.img-content {
   padding-left: 250px;
   border-radius: 30px;
 }
-.img--mid img {
+.img-content img {
   width: 60%;
   height: 60%;
   border-radius: 30px;
 }
-.mid {
+.container {
   padding: 1rem 1rem;
   display: block;
 }
 
-.clickhere {
+.click-here {
   text-align: center;
 }
-.clickhere :hover {
+.click-here :hover {
   color: red;
 }
-.mid {
+.container {
   width: 1150px;
   padding-left: 220px;
   padding-top: 80px;
