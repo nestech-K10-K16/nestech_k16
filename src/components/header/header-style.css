@@ -1,0 +1,89 @@
+:root {
+  --polishedPine: #54b192;
+  --jacarta: #3f3d56;
+  --jet: #363636;
+  --opal: #a4cec0;
+  --white-smoke: whitesmoke;
+  --black: black;
+  --white: white;
+  --smooth: all 0.3s ease-in;
+}
+
+/* first section */
+#first-section {
+  background-color: var(--white-smoke);
+}
+
+/* first section __ header */
+.first-section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6vh 8vw;
+}
+
+/* first section __ header __ logo */
+
+/* first section __ header __ menu */
+.first-section__header__menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 30rem;
+}
+
+.first-section__header__menu a {
+  color: var(--black);
+  text-decoration: none;
+  padding: 16px 24px;
+}
+
+.first-section__header__menu a:hover {
+  background-color: var(--jacarta);
+  color: var(--white);
+  border-radius: 30px;
+}
+
+/* first section __ content header */
+.first-section__content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 8vh 10vw;
+}
+
+/* first section __ content header __ left side */
+.first-section__content-header__left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 25rem;
+}
+
+.first-section__content-header__left-side h1 {
+  font-size: 2rem;
+}
+
+.first-section__content-header__left-side > p {
+  line-height: 2rem;
+  margin: 1.5rem 0;
+}
+
+/* first section __ content header__ left side__ banner socials */
+.first-section__content-header__left-side__banner-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 12rem;
+  margin-top: 5rem;
+}
+
+/* first section __ content header __ left side  __ btn view */
+.first-section__content-header__left-side__btn-view {
+  background-color: var(--jacarta);
+  color: var(--white);
+  padding: 8px 24px;
+  border-radius: 1.875rem;
+}
+
+/* first section __ content header __ right side */

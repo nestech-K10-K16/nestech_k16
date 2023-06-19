@@ -1,0 +1,127 @@
+:root {
+  --polishedPine: #54b192;
+  --jacarta: #3f3d56;
+  --jet: #363636;
+  --opal: #a4cec0;
+  --white-smoke: whitesmoke;
+  --black: black;
+  --white: white;
+  --smooth: all 0.3s ease-in;
+}
+
+/* second section */
+#second-section {
+  background-color: var(--white-smoke);
+}
+
+/* second section __ about */
+.second-section__about {
+  padding: 8vh 20vw;
+}
+
+.second-section__about > h1 {
+  text-align: center;
+}
+
+/* second section __ about __ about 1 */
+.second-section__about__about-1 {
+  background-image: url();
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* second section __ about __ about 1 __ heading */
+.second-section__about__about-1__heading {
+  width: 25rem;
+}
+
+.second-section__about__about-1__heading > p {
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* second section __ about __ about 2 */
+.second-section__about__about-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* second section __ about __ about 2 __ heading */
+.second-section__about__about-2__heading {
+  width: 25rem;
+}
+
+.second-section__about__about-2__heading > p {
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* second section __ about __ about 3 */
+.second-section__about__about-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* second section __ about __ about 3 __ heading */
+.second-section__about__about-3__heading {
+  width: 25rem;
+}
+
+.second-section__about__about-3__heading > p {
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* thirt section */
+#thirt-section {
+  background-color: var(--white-smoke);
+}
+
+/* thirt section  __ work */
+.thirt-section__work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vh 10vw;
+}
+
+/* thirt section  __ work __ image container */
+.thirt-section__work__image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.thirt-section__work__image-container img:nth-child(1) {
+  padding-top: 5rem;
+}
+
+.thirt-section__work__image-container img:nth-child(2) {
+  padding-bottom: 5rem;
+}
+
+.thirt-section__work__image-container img:nth-child(3) {
+  padding-top: 5rem;
+}
+
+.thirt-section__work__image-container img:nth-child(4) {
+  padding-bottom: 5rem;
+}
+
+/* thirt section  __ work __ btn view */
+.thirt-section__work__btn-view {
+  background-color: var(--jacarta);
+  color: var(--white);
+  padding: 12px 32px;
+  margin-top: 5rem;
+  border-radius: 30px;
+}
+
+.thirt-section__work__btn-view > h3 {
+  font-weight: normal;
+}

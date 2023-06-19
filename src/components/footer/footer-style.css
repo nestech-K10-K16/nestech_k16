@@ -1,0 +1,67 @@
+:root {
+  --polishedPine: #54b192;
+  --jacarta: #3f3d56;
+  --jet: #363636;
+  --opal: #a4cec0;
+  --white-smoke: whitesmoke;
+  --black: black;
+  --white: white;
+  --smooth: all 0.3s ease-in;
+}
+
+/* fourth section */
+#fourth-section {
+  background-color: var(--white-smoke);
+}
+
+/* fourth section __ footer */
+.fourth-section__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 8vh 30vh;
+}
+
+/* fourth section __ footer __ left side */
+.fourth-section__footer__left-side {
+  width: 26rem;
+}
+
+.fourth-section__footer__left-side h1 {
+  font-size: 2rem;
+}
+
+/* fourth section __ footer __ left side __ contact */
+.fourth-section__footer__left-side__contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* fourth section __ footer __ left side __ contact __ phone */
+.fourth-section__footer__left-side__contact__phone {
+  display: flex;
+  margin-top: 2rem;
+  gap: 10px;
+}
+
+/* fourth section __ footer __ left side __ contact __ email */
+.fourth-section__footer__left-side__contact__email {
+  display: flex;
+  margin-top: 2rem;
+  gap: 10px;
+}
+
+/* fourth section __ footer __ left side __ socials */
+.fourth-section__footer__left-side__socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 15rem;
+  margin-top: 4rem;
+}
+
+/* fourth section __ footer __ right side */
+.fourth-section__footer__right-side img {
+  width: 40rem;
+}
