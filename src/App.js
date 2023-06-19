@@ -29,7 +29,7 @@ function App() {
           className="calculator-screen"
           type="text"
           value={value}
-        ></input>
+        />
 
         <form className="calculator-function">
           <div>

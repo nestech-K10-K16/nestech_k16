@@ -16,17 +16,21 @@
 }
 
 .calculator-screen {
-  background-color: gray;
+  background-color: green;
   color: white;
   box-sizing: border-box;
   border: none;
+  font-size: 1.2rem;
   border-radius: 10px;
-  padding: 35px;
   width: 100%;
+  padding: 40px;
 }
 
 .calculator-function {
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .calculator-function input {
@@ -34,11 +38,17 @@
   color: white;
   border-radius: 10px;
   border: none;
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 70px;
   margin: 2px;
 }
 
-.calculator-function div .calculator-function-equal{
-  width: 125px;
+.calculator-function input:hover{
+  background-color: gray;
 }
+
+
+.calculator-function div .calculator-function-equal{
+  width: 155px;
+}
+
