@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import "./style";
 
 const App = () => {
   return (
     <div>
-      {/* <div className="container">
+      <div className="container">
         <div className="screen">
           <span className="overlay"></span>
           <span className="input"></span>
@@ -30,9 +31,9 @@ const App = () => {
           <button className="item item-18">.</button>
           <button className="item item-19">=</button>
         </div>
-      </div> */}
+      </div>
 
-      <div class="calculator">
+      {/* <div class="calculator">
         <form action="#" name="form">
           <div class="result">
             <input type="text" name="disp" id="disp" />
@@ -165,7 +166,7 @@ const App = () => {
             form.disp.value = "";
         })
 
-      </script>
+      </script> */}
     </div>
   );
 };
